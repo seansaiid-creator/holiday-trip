@@ -1,7 +1,7 @@
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 
-export const revalidate = 3600; // 1시간마다 재생성
+export const revalidate = 3600;
 
 async function getCountries() {
   const { data } = await supabase
@@ -29,7 +29,6 @@ export default async function HomePage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 pt-20 pb-16 text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
           Holiday<span className="text-blue-600">Trip</span>
@@ -46,7 +45,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Countries Grid */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">
           Explore Countries
@@ -76,7 +74,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Upcoming Holidays */}
       <section className="max-w-6xl mx-auto px-6 py-12 pb-20">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">
           Upcoming Holidays
@@ -116,7 +113,6 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="text-white text-lg font-bold mb-2">HolidayTrip</div>
