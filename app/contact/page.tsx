@@ -86,7 +86,7 @@ export default function ContactPage() {
 
           <div className="bg-blue-50 border-l-4 border-blue-400 p-6 rounded-r-lg mt-8">
             <p className="text-sm">
-              <strong>Note:</strong> HolidayTrip is an independent information platform. We are not affiliated with any government agency, tourism board, or travel company unless explicitly stated. All holiday information is provided for reference purposes only.
+              <strong>Note:</strong> HolidayTrip, operated by SE Company, is an independent information platform. We are not affiliated with any government agency, tourism board, or travel company unless explicitly stated. All holiday information is provided for reference purposes only.
             </p>
           </div>
         </div>

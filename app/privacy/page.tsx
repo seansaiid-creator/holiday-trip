@@ -189,8 +189,9 @@ export default function PrivacyPage() {
             If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mt-4">
-            <p className="font-semibold text-gray-900">HolidayTrip</p>
-            <p className="mt-2">Email: <a href="mailto:seansaiid@gmail.com" className="text-blue-600 hover:underline">seansaiid@gmail.com</a></p>
+            <p className="font-semibold text-gray-900">SE Company</p>
+            <p className="text-sm text-gray-600 mt-1">Operator of HolidayTrip (holiday-trip.com)</p>
+            <p className="mt-3">Email: <a href="mailto:seansaiid@gmail.com" className="text-blue-600 hover:underline">seansaiid@gmail.com</a></p>
             <p>Website: <Link href="/" className="text-blue-600 hover:underline">holiday-trip.com</Link></p>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function TermsPage() {
 
         <div className="prose prose-lg max-w-none space-y-6 text-gray-700">
           <p className="text-lg leading-relaxed">
-            Welcome to HolidayTrip. These Terms of Service ("Terms") govern your access to and use of the website located at holiday-trip.com (the "Service"), operated by HolidayTrip ("we," "us," or "our").
+            Welcome to HolidayTrip. These Terms of Service ("Terms") govern your access to and use of the website located at holiday-trip.com (the "Service"), operated by SE Company ("we," "us," or "our").
           </p>
 
           <div className="bg-red-50 border-l-4 border-red-400 p-6 rounded-r-lg">
@@ -229,8 +229,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mt-4">
-            <p className="font-semibold text-gray-900">HolidayTrip</p>
-            <p className="mt-2">Email: <a href="mailto:seansaiid@gmail.com" className="text-blue-600 hover:underline">seansaiid@gmail.com</a></p>
+            <p className="font-semibold text-gray-900">SE Company</p>
+            <p className="text-sm text-gray-600 mt-1">Operator of HolidayTrip (holiday-trip.com)</p>
+            <p className="mt-3">Email: <a href="mailto:seansaiid@gmail.com" className="text-blue-600 hover:underline">seansaiid@gmail.com</a></p>
             <p>Website: <Link href="/" className="text-blue-600 hover:underline">holiday-trip.com</Link></p>
           </div>
 

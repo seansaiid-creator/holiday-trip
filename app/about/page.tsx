@@ -17,7 +17,7 @@ export default function AboutPage() {
 
         <div className="prose prose-lg max-w-none space-y-6 text-gray-700">
           <p className="text-xl leading-relaxed">
-            HolidayTrip is your comprehensive global guide to public holidays, cultural celebrations, and essential travel information for countries around the world.
+            HolidayTrip, operated by <strong>SE Company</strong>, is your comprehensive global guide to public holidays, cultural celebrations, and essential travel information for countries around the world.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mt-12 mb-4">Our Mission</h2>
