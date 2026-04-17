@@ -114,9 +114,17 @@ export default async function HomePage() {
       </section>
 
       <footer className="bg-gray-900 text-gray-400 py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="text-white text-lg font-bold mb-2">HolidayTrip</div>
-          <div className="text-sm">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-white text-lg font-bold">HolidayTrip</div>
+            <div className="flex gap-6 text-sm">
+              <Link href="/about" className="hover:text-white">About</Link>
+              <Link href="/contact" className="hover:text-white">Contact</Link>
+              <Link href="/privacy" className="hover:text-white">Privacy</Link>
+              <Link href="/terms" className="hover:text-white">Terms</Link>
+            </div>
+          </div>
+          <div className="text-center text-sm mt-6">
             © 2026 HolidayTrip. All rights reserved.
           </div>
         </div>

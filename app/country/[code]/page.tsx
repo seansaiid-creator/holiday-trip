@@ -38,7 +38,6 @@ export default async function CountryPage({
 
   const holidays = await getHolidays(country.id);
 
-  // 연도별 그룹화
   const holidaysByYear = holidays.reduce((acc: any, h: any) => {
     if (!acc[h.year]) acc[h.year] = [];
     acc[h.year].push(h);
@@ -47,7 +46,6 @@ export default async function CountryPage({
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      {/* Back Link */}
       <div className="max-w-4xl mx-auto px-6 pt-8">
         <Link
           href="/"
@@ -57,7 +55,6 @@ export default async function CountryPage({
         </Link>
       </div>
 
-      {/* Country Header */}
       <section className="max-w-4xl mx-auto px-6 pt-8 pb-12">
         <div className="flex items-center gap-6 mb-6">
           <div className="text-7xl">{country.emoji_flag}</div>
@@ -71,7 +68,6 @@ export default async function CountryPage({
 
         <p className="text-lg text-gray-700 mb-8">{country.description}</p>
 
-        {/* Quick Info Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
             <div className="text-xs text-gray-500 mb-1">Currency</div>
@@ -98,14 +94,12 @@ export default async function CountryPage({
         </div>
       </section>
 
-      {/* Ad Placeholder 1 */}
       <div className="max-w-4xl mx-auto px-6 mb-12">
         <div className="bg-gray-100 rounded-xl p-8 text-center text-gray-400 text-sm">
           [ Advertisement ]
         </div>
       </div>
 
-      {/* Holidays by Year */}
       <section className="max-w-4xl mx-auto px-6 pb-20">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">
           Upcoming Holidays
@@ -156,18 +150,24 @@ export default async function CountryPage({
           ))}
       </section>
 
-      {/* Ad Placeholder 2 */}
       <div className="max-w-4xl mx-auto px-6 mb-12">
         <div className="bg-gray-100 rounded-xl p-8 text-center text-gray-400 text-sm">
           [ Advertisement ]
         </div>
       </div>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="text-white text-lg font-bold mb-2">HolidayTrip</div>
-          <div className="text-sm">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-white text-lg font-bold">HolidayTrip</div>
+            <div className="flex gap-6 text-sm">
+              <Link href="/about" className="hover:text-white">About</Link>
+              <Link href="/contact" className="hover:text-white">Contact</Link>
+              <Link href="/privacy" className="hover:text-white">Privacy</Link>
+              <Link href="/terms" className="hover:text-white">Terms</Link>
+            </div>
+          </div>
+          <div className="text-center text-sm mt-6">
             © 2026 HolidayTrip. All rights reserved.
           </div>
         </div>
