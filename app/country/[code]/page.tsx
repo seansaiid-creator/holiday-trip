@@ -113,9 +113,10 @@ async function getTravelTips(countryId: number): Promise<TravelTip[]> {
 export default async function CountryPage({
   params,
 }: {
-  params: { code: string };
+  params: Promise<{ code: string }>;
 }) {
-  const code = params.code.toUpperCase();
+  const { code: rawCode } = await params;
+  const code = rawCode.toUpperCase();
   const country = await getCountry(code);
 
   if (!country) {
