@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "HolidayTrip - Global Holiday & Travel Guide",
-  description: "Your global guide to holidays, travel information, and local insights from around the world.",
+  description:
+    "Your global guide to holidays, travel information, and local insights from around the world.",
 };
 
 export default function RootLayout({
@@ -14,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-78KBHOBB35" />
     </html>
   );
 }
