@@ -1,3 +1,4 @@
+// updated: exchange rate UI
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -59,6 +60,11 @@ type TravelTip = {
   moderation_status: string | null;
 };
 
+type ExchangeRate = {
+  rate: number;
+  fetched_at: string;
+};
+
 // Country metadata: ISO codes, calling codes, and capital city for time display.
 // Add a row here when you onboard a new country page.
 type CountryMeta = {
@@ -115,6 +121,26 @@ async function getTravelTips(countryId: number): Promise<TravelTip[]> {
   return (data as TravelTip[]) || [];
 }
 
+// Fetch USD → target currency rate from exchange_rates table.
+// Returns null if the currency isn't in the table yet (first deploy before
+// the cron has run) or if the country has no currency_code.
+async function getExchangeRate(
+  currencyCode: string | null
+): Promise<ExchangeRate | null> {
+  if (!currencyCode) return null;
+  // USD itself needs no conversion
+  if (currencyCode === 'USD') return { rate: 1, fetched_at: new Date().toISOString() };
+
+  const { data } = await supabase
+    .from('exchange_rates')
+    .select('rate, fetched_at')
+    .eq('base_currency', 'USD')
+    .eq('target_currency', currencyCode)
+    .maybeSingle();
+
+  return data as ExchangeRate | null;
+}
+
 export default async function CountryPage({
   params,
 }: {
@@ -128,9 +154,10 @@ export default async function CountryPage({
     notFound();
   }
 
-  const [holidays, travelTips] = await Promise.all([
+  const [holidays, travelTips, exchangeRate] = await Promise.all([
     getHolidays(country.id),
     getTravelTips(country.id),
+    getExchangeRate(country.currency_code),
   ]);
 
   const meta: CountryMeta = COUNTRY_META[code] || {
@@ -186,13 +213,10 @@ export default async function CountryPage({
 
           {/* Quick info cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <InfoCard
-              label="Currency"
-              value={
-                country.currency_code
-                  ? `${country.currency_code}${country.currency_symbol ? ' ' + country.currency_symbol : ''}`
-                  : '—'
-              }
+            <CurrencyCard
+              currencyCode={country.currency_code}
+              currencySymbol={country.currency_symbol}
+              exchangeRate={exchangeRate}
             />
             <InfoCard label="Voltage" value={country.voltage || '—'} />
             <InfoCard label="Plug type" value={country.plug_types || '—'} />
@@ -228,6 +252,63 @@ function InfoCard({ label, value }: { label: string; value: string }) {
     <div className="bg-white border border-gray-200 rounded-xl px-4 py-3">
       <div className="text-xs text-gray-500 mb-1">{label}</div>
       <div className="text-base font-semibold text-gray-900">{value}</div>
+    </div>
+  );
+}
+
+function CurrencyCard({
+  currencyCode,
+  currencySymbol,
+  exchangeRate,
+}: {
+  currencyCode: string | null;
+  currencySymbol: string | null;
+  exchangeRate: ExchangeRate | null;
+}) {
+  const codeStr = currencyCode
+    ? `${currencyCode}${currencySymbol ? ' ' + currencySymbol : ''}`
+    : '—';
+
+  // Format the rate line: "USD 1 = ₩ 1,384"
+  let rateLine: string | null = null;
+  let updatedLine: string | null = null;
+
+  if (exchangeRate && currencyCode && currencyCode !== 'USD') {
+    const formatted = new Intl.NumberFormat('en-US', {
+      maximumFractionDigits: exchangeRate.rate >= 10 ? 0 : 4,
+      minimumFractionDigits: 0,
+    }).format(exchangeRate.rate);
+
+    const sym = currencySymbol ? ` ${currencySymbol}` : ` ${currencyCode}`;
+    rateLine = `$1 =${sym} ${formatted}`;
+
+    // Format date: "Apr 28, 2026"
+    try {
+      updatedLine = new Intl.DateTimeFormat('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      }).format(new Date(exchangeRate.fetched_at));
+    } catch {
+      updatedLine = null;
+    }
+  } else if (currencyCode === 'USD') {
+    rateLine = 'Base currency';
+  }
+
+  return (
+    <div className="bg-white border border-gray-200 rounded-xl px-4 py-3">
+      <div className="text-xs text-gray-500 mb-1">Currency</div>
+      <div className="text-base font-semibold text-gray-900">{codeStr}</div>
+      {rateLine && (
+        <div className="text-xs text-gray-600 mt-1 font-medium">{rateLine}</div>
+      )}
+      {updatedLine && (
+        <div className="text-[10px] text-gray-400 mt-0.5">{updatedLine}</div>
+      )}
+      {!rateLine && currencyCode && currencyCode !== 'USD' && (
+        <div className="text-[10px] text-gray-400 mt-1">Rate unavailable</div>
+      )}
     </div>
   );
 }
