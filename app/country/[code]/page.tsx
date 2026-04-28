@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import CountryHolidayView from './CountryHolidayView';
 
-export const revalidate = 3600;
+export const revalidate = 0;
 
 type Country = {
   id: number;
