@@ -26,6 +26,11 @@ type Holiday = {
   related_holiday_id: number | null;
   note: string | null;
   data_source: string | null;
+  verification_status: string | null;
+  verification_sources: { db?: boolean; wikipedia?: boolean; nager?: boolean } | null;
+  verification_note: string | null;
+  manual_locked: boolean | null;
+  verified_at: string | null;
 };
 
 type TravelTip = {
@@ -599,6 +604,11 @@ export default function CountryHolidayView({
                             )}
                           </>
                         )}
+
+                        {/* Verification details — always show at the bottom
+                            of the expanded body so users can audit how the
+                            date was sourced. */}
+                        <VerificationDetails holiday={h} />
                       </div>
                     )}
                   </div>
@@ -660,7 +670,7 @@ function CategoryBadges({
   const cat = holiday.holiday_category;
   const isSub = holiday.is_substitute || cat === 'substitute';
 
-  const badges: Array<{ label: string; color: string }> = [];
+  const badges: Array<{ label: string; color: string; title?: string }> = [];
 
   if (cat === 'eve') {
     badges.push({ label: 'Holiday eve', color: 'bg-amber-50 text-amber-700 border-amber-200' });
@@ -674,22 +684,78 @@ function CategoryBadges({
     badges.push({ label: 'Public holiday', color: 'bg-red-50 text-red-700 border-red-200' });
   }
 
+  // Verification badge — added based on verification_status column.
+  // Maps four DB states to four user-facing accuracy levels.
+  const vBadge = getVerificationBadge(holiday.verification_status);
+  if (vBadge) {
+    badges.push(vBadge);
+  }
+
   if (hasTip) {
     badges.push({ label: 'Travel tip', color: 'bg-blue-50 text-blue-700 border-blue-200' });
   }
 
   return (
-    <div className="flex flex-wrap gap-1 justify-end">
+    <div className="flex flex-wrap gap-1 justify-end items-center">
       {badges.map((b) => (
         <span
           key={b.label}
+          title={b.title}
           className={`px-2 py-0.5 text-[10px] font-medium border rounded-full whitespace-nowrap ${b.color}`}
         >
           {b.label}
         </span>
       ))}
+      {holiday.manual_locked && (
+        <span
+          title="Manually locked — protected from automated overwrites"
+          className="text-[11px] text-gray-400"
+        >
+          🔒
+        </span>
+      )}
     </div>
   );
+}
+
+// Map DB verification_status to a UI badge.
+// - verified_high: all available sources agree → "Confirmed" (green)
+// - verified_mid:  two sources agree → "Verified" (blue)
+// - single_source: only one source → "Tentative" (amber)
+// - pending:       not yet cross-checked → "Unverified" (gray)
+// - null/other:    no badge
+function getVerificationBadge(
+  status: string | null
+): { label: string; color: string; title: string } | null {
+  if (!status) return null;
+  switch (status) {
+    case 'verified_high':
+      return {
+        label: 'Confirmed',
+        color: 'bg-green-50 text-green-700 border-green-200',
+        title: 'Confirmed — multiple authoritative sources agree on this date',
+      };
+    case 'verified_mid':
+      return {
+        label: 'Verified',
+        color: 'bg-blue-50 text-blue-700 border-blue-200',
+        title: 'Verified — two sources agree on this date',
+      };
+    case 'single_source':
+      return {
+        label: 'Tentative',
+        color: 'bg-amber-50 text-amber-700 border-amber-200',
+        title: 'Tentative — based on a single source. Confirm with an official source before booking.',
+      };
+    case 'pending':
+      return {
+        label: 'Unverified',
+        color: 'bg-gray-50 text-gray-600 border-gray-200',
+        title: 'Unverified — not yet cross-checked against multiple sources. Verify with an official source before booking.',
+      };
+    default:
+      return null;
+  }
 }
 
 function TravelTipBody({ tip }: { tip: TravelTip }) {
@@ -766,4 +832,81 @@ function TravelTipBody({ tip }: { tip: TravelTip }) {
       )}
     </div>
   );
+}
+
+// VerificationDetails — small footer block in each expanded card explaining
+// how the date was verified. Appears below travel tip / explanation content.
+//
+// Reads from holiday.verification_status, verification_sources (jsonb),
+// data_source, and verified_at. Stays silent if there's nothing useful to
+// show (e.g., legacy rows with no metadata).
+function VerificationDetails({ holiday }: { holiday: Holiday }) {
+  const status = holiday.verification_status;
+  const sources = holiday.verification_sources;
+  const dataSource = holiday.data_source;
+  const verifiedAt = holiday.verified_at;
+
+  // If we have absolutely nothing to show, render nothing.
+  if (!status && !sources && !dataSource) return null;
+
+  const sourceLabel = formatDataSource(dataSource);
+  const checkedSources: string[] = [];
+  if (sources?.db) checkedSources.push('Database');
+  if (sources?.wikipedia) checkedSources.push('Wikipedia');
+  if (sources?.nager) checkedSources.push('Nager.Date');
+
+  const verifiedDate = verifiedAt ? formatVerifiedDate(verifiedAt) : null;
+
+  return (
+    <div className="mt-3 pt-3 border-t border-gray-100">
+      <div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1.5">
+        Data verification
+      </div>
+      <dl className="text-[12px] text-gray-600 space-y-1">
+        {sourceLabel && (
+          <div className="flex gap-2">
+            <dt className="text-gray-400 w-20 flex-shrink-0">Source</dt>
+            <dd>{sourceLabel}</dd>
+          </div>
+        )}
+        {checkedSources.length > 0 && (
+          <div className="flex gap-2">
+            <dt className="text-gray-400 w-20 flex-shrink-0">Verified by</dt>
+            <dd>{checkedSources.join(', ')}</dd>
+          </div>
+        )}
+        {verifiedDate && (
+          <div className="flex gap-2">
+            <dt className="text-gray-400 w-20 flex-shrink-0">Last checked</dt>
+            <dd>{verifiedDate}</dd>
+          </div>
+        )}
+      </dl>
+    </div>
+  );
+}
+
+function formatDataSource(src: string | null): string | null {
+  if (!src) return null;
+  // Map raw DB values to user-friendly labels
+  const map: Record<string, string> = {
+    korea_official: 'Korean government (Astronomical Research Institute)',
+    'nager.date': 'Nager.Date public holiday API',
+    nager_date: 'Nager.Date public holiday API',
+    wikipedia_classified: 'Wikipedia (cross-checked & classified)',
+    wikipedia: 'Wikipedia',
+  };
+  return map[src] || src;
+}
+
+function formatVerifiedDate(iso: string): string {
+  try {
+    return new Intl.DateTimeFormat('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    }).format(new Date(iso));
+  } catch {
+    return iso.slice(0, 10);
+  }
 }

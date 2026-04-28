@@ -35,6 +35,11 @@ type Holiday = {
   related_holiday_id: number | null;
   note: string | null;
   data_source: string | null;
+  verification_status: string | null;
+  verification_sources: { db?: boolean; wikipedia?: boolean; nager?: boolean } | null;
+  verification_note: string | null;
+  manual_locked: boolean | null;
+  verified_at: string | null;
 };
 
 type TravelTip = {
