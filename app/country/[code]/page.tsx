@@ -1,10 +1,9 @@
-// updated: exchange rate UI
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import CountryHolidayView from './CountryHolidayView';
 
-export const revalidate = 0;
+export const revalidate = 3600;
 
 type Country = {
   id: number;
@@ -63,6 +62,27 @@ type TravelTip = {
 type ExchangeRate = {
   rate: number;
   fetched_at: string;
+};
+
+type PriceItem = {
+  id: number;
+  key: string;
+  category: string;
+  name_en: string;
+  sort_order: number;
+};
+
+type CountryPrice = {
+  id: number;
+  price_item_id: number | null;
+  price_usd_min: number | null;
+  price_usd_max: number | null;
+  price_local_min: number | null;
+  price_local_max: number | null;
+  currency_code: string | null;
+  local_brand: string | null;
+  transport_tips: string | null;
+  notes: string | null;
 };
 
 // Country metadata: ISO codes, calling codes, and capital city for time display.
@@ -141,6 +161,23 @@ async function getExchangeRate(
   return data as ExchangeRate | null;
 }
 
+async function getPriceData(countryId: number): Promise<{
+  items: PriceItem[];
+  prices: CountryPrice[];
+}> {
+  const [itemsRes, pricesRes] = await Promise.all([
+    supabase.from('price_items').select('*').order('sort_order'),
+    supabase
+      .from('country_prices')
+      .select('*')
+      .eq('country_id', countryId),
+  ]);
+  return {
+    items: (itemsRes.data as PriceItem[]) || [],
+    prices: (pricesRes.data as CountryPrice[]) || [],
+  };
+}
+
 export default async function CountryPage({
   params,
 }: {
@@ -154,10 +191,11 @@ export default async function CountryPage({
     notFound();
   }
 
-  const [holidays, travelTips, exchangeRate] = await Promise.all([
+  const [holidays, travelTips, exchangeRate, priceData] = await Promise.all([
     getHolidays(country.id),
     getTravelTips(country.id),
     getExchangeRate(country.currency_code),
+    getPriceData(country.id),
   ]);
 
   const meta: CountryMeta = COUNTRY_META[code] || {
@@ -230,6 +268,10 @@ export default async function CountryPage({
           holidays={holidays}
           travelTips={travelTips}
           meta={meta}
+          priceItems={priceData.items}
+          countryPrices={priceData.prices}
+          currencyCode={country.currency_code}
+          currencySymbol={country.currency_symbol}
         />
 
         {/* Data source note */}

@@ -55,11 +55,36 @@ type CountryMeta = {
   singleTimezone: boolean;
 };
 
+type PriceItem = {
+  id: number;
+  key: string;
+  category: string;
+  name_en: string;
+  sort_order: number;
+};
+
+type CountryPrice = {
+  id: number;
+  price_item_id: number | null;
+  price_usd_min: number | null;
+  price_usd_max: number | null;
+  price_local_min: number | null;
+  price_local_max: number | null;
+  currency_code: string | null;
+  local_brand: string | null;
+  transport_tips: string | null;
+  notes: string | null;
+};
+
 type Props = {
   country: Country;
   holidays: Holiday[];
   travelTips: TravelTip[];
   meta: CountryMeta;
+  priceItems: PriceItem[];
+  countryPrices: CountryPrice[];
+  currencyCode: string | null;
+  currencySymbol: string | null;
 };
 
 const MONTHS_SHORT = [
@@ -224,6 +249,10 @@ export default function CountryHolidayView({
   holidays,
   travelTips,
   meta,
+  priceItems,
+  countryPrices,
+  currencyCode,
+  currencySymbol,
 }: Props) {
   // Build holidays-by-id lookup once
   const holidayById = useMemo(() => {
@@ -379,6 +408,16 @@ export default function CountryHolidayView({
             )}
           </div>
         </div>
+      )}
+
+      {/* Price guide section */}
+      {priceItems.length > 0 && countryPrices.length > 0 && (
+        <PriceGuide
+          priceItems={priceItems}
+          countryPrices={countryPrices}
+          currencyCode={currencyCode}
+          currencySymbol={currencySymbol}
+        />
       )}
 
       {/* Section heading */}
@@ -909,4 +948,209 @@ function formatVerifiedDate(iso: string): string {
   } catch {
     return iso.slice(0, 10);
   }
+}
+
+// ============================================================
+// PriceGuide — tabbed price comparison section
+// ============================================================
+
+// Emoji icons per price item key. Same-category items share one emoji.
+const PRICE_ICONS: Record<string, string> = {
+  meal_local:        '🍜',
+  bigmac:           '🍔',
+  starbucks_latte:  '☕',
+  beer_bar:         '🍺',
+  beer_convenience: '🍺',   // same as bar
+  transit_single:   '🚇',
+  taxi_start:       '🚕',
+  airport_city:     '✈️',
+  water_convenience:'💧',
+  water_supermarket:'💧',   // same as convenience
+  coke_convenience: '🥤',
+  coke_supermarket: '🥤',   // same as convenience
+  sim_7day:         '📱',
+  attraction:       '🎟️',
+};
+
+const CATEGORIES = [
+  { key: 'food',      label: '🍽 Food & drink',   keys: ['meal_local','bigmac','starbucks_latte','beer_bar','beer_convenience'] },
+  { key: 'transport', label: '🚇 Transport',       keys: ['transit_single','taxi_start','airport_city'] },
+  { key: 'grocery',   label: '🛒 Grocery & SIM',   keys: ['water_convenience','water_supermarket','coke_convenience','coke_supermarket','sim_7day','attraction'] },
+  { key: 'stay',      label: '🏨 Where to stay',   keys: [] },
+];
+
+function fmtUSD(min: number | null, max: number | null): string {
+  if (min === null && max === null) return '—';
+  const fmt = (n: number) =>
+    n < 10 ? `$${n.toFixed(2)}` : `$${Math.round(n)}`;
+  if (min === null) return fmt(max!);
+  if (max === null || min === max) return fmt(min);
+  return `${fmt(min)} – ${fmt(max)}`;
+}
+
+function fmtLocal(
+  min: number | null,
+  max: number | null,
+  symbol: string | null,
+  code: string | null
+): string {
+  if (min === null && max === null) return '';
+  const prefix = symbol || code || '';
+  const fmt = (n: number) =>
+    `${prefix} ${n >= 100 ? Math.round(n).toLocaleString() : n.toFixed(2)}`;
+  if (min === null) return fmt(max!);
+  if (max === null || min === max) return fmt(min);
+  return `${fmt(min)} – ${fmt(max)}`;
+}
+
+function PriceGuide({
+  priceItems,
+  countryPrices,
+  currencyCode,
+  currencySymbol,
+}: {
+  priceItems: PriceItem[];
+  countryPrices: CountryPrice[];
+  currencyCode: string | null;
+  currencySymbol: string | null;
+}) {
+  const [activeTab, setActiveTab] = useState<string>('food');
+
+  // Build lookup: key → price row
+  const itemById = useMemo(
+    () => new Map(priceItems.map((i) => [i.id, i])),
+    [priceItems]
+  );
+  const priceByKey = useMemo(() => {
+    const m = new Map<string, CountryPrice>();
+    for (const p of countryPrices) {
+      if (p.price_item_id == null) continue;
+      const item = itemById.get(p.price_item_id);
+      if (item) m.set(item.key, p);
+    }
+    return m;
+  }, [countryPrices, itemById]);
+
+  // Transport tips row
+  const transportTips = useMemo(
+    () => countryPrices.find((p) => p.price_item_id === null)?.transport_tips || null,
+    [countryPrices]
+  );
+
+  // Build lookup: key → item name
+  const nameByKey = useMemo(
+    () => new Map(priceItems.map((i) => [i.key, i.name_en])),
+    [priceItems]
+  );
+
+  const sym = currencySymbol || currencyCode || '';
+
+  return (
+    <div className="mb-8">
+      <h2 className="text-xl font-semibold text-gray-900 mb-4">Price guide</h2>
+
+      {/* Tabs */}
+      <div className="flex gap-2 flex-wrap mb-4">
+        {CATEGORIES.map((cat) => (
+          <button
+            key={cat.key}
+            onClick={() => setActiveTab(cat.key)}
+            className={`text-xs font-medium px-4 py-1.5 rounded-full border transition-colors ${
+              activeTab === cat.key
+                ? 'bg-gray-900 text-white border-gray-900'
+                : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
+            }`}
+          >
+            {cat.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Food / Transport / Grocery panels */}
+      {CATEGORIES.filter((c) => c.key !== 'stay').map((cat) => (
+        <div key={cat.key} className={activeTab === cat.key ? '' : 'hidden'}>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            {cat.keys.map((key) => {
+              const p = priceByKey.get(key);
+              const name = nameByKey.get(key) || key;
+              return (
+                <div
+                  key={key}
+                  className="bg-white border border-gray-200 rounded-xl p-4"
+                >
+                  <div className="text-xl mb-2">{PRICE_ICONS[key] || '•'}</div>
+                  <div className="text-[11px] text-gray-500 mb-1 leading-tight">{name}</div>
+                  {p?.local_brand && (
+                    <div className="text-[10px] text-gray-400 mb-1">{p.local_brand}</div>
+                  )}
+                  <div className="text-base font-semibold text-gray-900">
+                    {fmtUSD(p?.price_usd_min ?? null, p?.price_usd_max ?? null)}
+                  </div>
+                  <div className="text-xs text-gray-500 mt-0.5">
+                    {fmtLocal(
+                      p?.price_local_min ?? null,
+                      p?.price_local_max ?? null,
+                      sym,
+                      currencyCode
+                    )}
+                  </div>
+                  {p?.notes && (
+                    <div className="text-[10px] text-gray-400 mt-2 pt-2 border-t border-gray-100 leading-snug">
+                      {p.notes}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Transport tips block */}
+          {cat.key === 'transport' && transportTips && (
+            <div className="mt-3 bg-white border border-gray-200 rounded-xl px-4 py-3">
+              <div className="text-[11px] text-gray-500 font-medium mb-1.5">
+                🗺 Getting around
+              </div>
+              <p className="text-sm text-gray-700 leading-relaxed">{transportTips}</p>
+            </div>
+          )}
+        </div>
+      ))}
+
+      {/* Where to stay */}
+      {activeTab === 'stay' && (
+        <div className="space-y-3">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-center justify-between gap-4">
+            <p className="text-sm text-gray-700">
+              🏨 Hotel prices vary widely — from budget guesthouses to luxury city hotels.
+            </p>
+            <a
+              href={`https://www.booking.com/country/${(currencyCode || 'us').toLowerCase().slice(0,2)}.html`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors text-gray-900 whitespace-nowrap"
+            >
+              Browse hotels →
+            </a>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-xl px-4 py-4 flex items-center justify-between gap-4">
+            <p className="text-sm text-gray-700">
+              🛏 Traveling on a budget? Hostels and guesthouses from around $15/night.
+            </p>
+            <a
+              href="https://www.hostelworld.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-300 bg-white hover:bg-gray-50 transition-colors text-gray-900 whitespace-nowrap"
+            >
+              Browse hostels →
+            </a>
+          </div>
+        </div>
+      )}
+
+      <p className="text-[10px] text-gray-400 mt-3">
+        Prices are approximate reference values and may vary by location, season, and provider.
+      </p>
+    </div>
+  );
 }
