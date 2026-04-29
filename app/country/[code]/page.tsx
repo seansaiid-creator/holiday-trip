@@ -1,3 +1,4 @@
+import React from 'react';
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -257,7 +258,7 @@ export default async function CountryPage({
               exchangeRate={exchangeRate}
             />
             <InfoCard label="Voltage" value={country.voltage || '—'} />
-            <InfoCard label="Plug type" value={country.plug_types || '—'} />
+            <PlugTypeCard plugTypes={country.plug_types} />
             <InfoCard label="Timezone" value={shortTimezone(country.timezone)} />
           </div>
         </div>
@@ -294,6 +295,178 @@ function InfoCard({ label, value }: { label: string; value: string }) {
     <div className="bg-white border border-gray-200 rounded-xl px-4 py-3">
       <div className="text-xs text-gray-500 mb-1">{label}</div>
       <div className="text-base font-semibold text-gray-900">{value}</div>
+    </div>
+  );
+}
+
+// Compatibility groups — plug types that fit the same socket.
+// When a country lists multiple types that are in the same group,
+// we show a note: "Both fit the same socket."
+const PLUG_COMPAT_GROUPS: string[][] = [
+  ['C', 'E', 'F'],   // Continental European round-pin family
+  ['A', 'B'],         // North American flat-pin family (B socket accepts A)
+  ['D', 'M'],         // Indian round-pin family (some sockets accept both)
+];
+
+function getCompatNote(types: string[]): string | null {
+  if (types.length < 2) return null;
+  for (const group of PLUG_COMPAT_GROUPS) {
+    const matched = types.filter((t) => group.includes(t));
+    if (matched.length >= 2) {
+      return 'Both fit the same socket — one adapter works for both.';
+    }
+  }
+  return null;
+}
+
+// SVG plug socket illustrations for each IEC type (A–N).
+// Design principle: show pin shape only, no grounding clips.
+// Travelers only need to know "what shape adapter do I need?" —
+// grounding details are irrelevant for adapter selection.
+const PLUG_SVG: Record<string, React.ReactElement> = {
+  A: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <rect x="18" y="14" width="7" height="18" rx="3" fill="currentColor"/>
+      <rect x="31" y="14" width="7" height="18" rx="3" fill="currentColor"/>
+    </svg>
+  ),
+  B: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <rect x="18" y="11" width="7" height="17" rx="3" fill="currentColor"/>
+      <rect x="31" y="11" width="7" height="17" rx="3" fill="currentColor"/>
+      <circle cx="28" cy="40" r="4" fill="currentColor"/>
+    </svg>
+  ),
+  C: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  D: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="22" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="22" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="28" cy="38" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  E: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  F: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="27" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  G: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <rect x="17" y="11" width="8" height="17" rx="2" fill="currentColor"/>
+      <rect x="31" y="11" width="8" height="17" rx="2" fill="currentColor"/>
+      <rect x="22" y="34" width="12" height="7" rx="2" fill="currentColor"/>
+    </svg>
+  ),
+  H: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="20" cy="19" rx="3" ry="5" transform="rotate(-30 20 19)" fill="currentColor"/>
+      <ellipse cx="36" cy="19" rx="3" ry="5" transform="rotate(30 36 19)" fill="currentColor"/>
+      <ellipse cx="28" cy="38" rx="3" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  I: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="22" rx="3" ry="5" transform="rotate(-30 21 22)" fill="currentColor"/>
+      <ellipse cx="35" cy="22" rx="3" ry="5" transform="rotate(30 35 22)" fill="currentColor"/>
+      <ellipse cx="28" cy="38" rx="3" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  J: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="22" cy="22" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="34" cy="22" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="28" cy="37" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  K: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="28" cy="38" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+  L: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="22" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="34" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <circle cx="28" cy="38" r="4" fill="currentColor"/>
+    </svg>
+  ),
+  M: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="20" cy="21" rx="4" ry="4" fill="currentColor"/>
+      <ellipse cx="36" cy="21" rx="4" ry="4" fill="currentColor"/>
+      <ellipse cx="28" cy="37" rx="4" ry="4" fill="currentColor"/>
+    </svg>
+  ),
+  N: (
+    <svg width="40" height="40" viewBox="0 0 56 56">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="currentColor" strokeWidth="2"/>
+      <ellipse cx="21" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="35" cy="23" rx="3.5" ry="5" fill="currentColor"/>
+      <ellipse cx="28" cy="37" rx="3.5" ry="5" fill="currentColor"/>
+    </svg>
+  ),
+};
+
+function PlugTypeCard({ plugTypes }: { plugTypes: string | null }) {
+  const types = plugTypes
+    ? plugTypes.split(/[\s,/]+/).map((t) => t.trim().toUpperCase()).filter(Boolean)
+    : [];
+
+  const compatNote = getCompatNote(types);
+
+  return (
+    <div className="bg-white border border-gray-200 rounded-xl px-4 py-3">
+      <div className="text-xs text-gray-500 mb-2">Plug type</div>
+      {types.length === 0 ? (
+        <div className="text-base font-semibold text-gray-900">—</div>
+      ) : (
+        <>
+          <div className="flex flex-wrap gap-3 items-center">
+            {types.map((t) => (
+              <div key={t} className="flex flex-col items-center gap-1">
+                <div className="text-gray-700">
+                  {PLUG_SVG[t] ?? (
+                    <div className="w-10 h-10 flex items-center justify-center text-sm font-semibold text-gray-500 border border-gray-200 rounded-lg">
+                      {t}
+                    </div>
+                  )}
+                </div>
+                <span className="text-xs font-semibold text-gray-700">{t}</span>
+              </div>
+            ))}
+          </div>
+          {compatNote && (
+            <p className="text-[10px] text-gray-400 mt-2 leading-snug">{compatNote}</p>
+          )}
+        </>
+      )}
     </div>
   );
 }
