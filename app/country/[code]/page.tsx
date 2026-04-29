@@ -2,6 +2,7 @@ import React from 'react';
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 import CountryHolidayView from './CountryHolidayView';
 
 export const revalidate = 3600;
@@ -179,6 +180,69 @@ async function getPriceData(countryId: number): Promise<{
   };
 }
 
+// ---------------------------------------------------------------
+// Dynamic metadata for SEO — title, description, Open Graph
+// Each country page gets a unique, keyword-rich title and description
+// that reflects both the holiday calendar and the practical travel info.
+// ---------------------------------------------------------------
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ code: string }>;
+}): Promise<Metadata> {
+  const { code: rawCode } = await params;
+  const code = rawCode.toUpperCase();
+
+  const { data: country } = await supabase
+    .from('countries')
+    .select('name, name_local, currency_code, plug_types, timezone, emoji_flag')
+    .eq('code', code)
+    .maybeSingle();
+
+  if (!country) {
+    return { title: 'Country not found | HolidayTrip' };
+  }
+
+  const currentYear = new Date().getFullYear();
+  const nextYear = currentYear + 1;
+
+  const title = `${country.name} Public Holidays ${currentYear}–${nextYear} | Travel Guide & Tips`;
+
+  const description = [
+    `Check official public holidays in ${country.name} for ${currentYear} and ${nextYear}.`,
+    `Includes travel tips, what to expect during major holidays,`,
+    country.currency_code ? `currency (${country.currency_code}),` : '',
+    country.plug_types ? `plug type ${country.plug_types},` : '',
+    `local prices, exchange rate, and transport costs.`,
+    `Plan your trip to ${country.name} with confidence.`,
+  ].filter(Boolean).join(' ');
+
+  const url = `https://www.holiday-trip.com/country/${code.toLowerCase()}`;
+  const ogImage = `https://www.holiday-trip.com/og-country.png`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'HolidayTrip',
+      type: 'website',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${country.name} travel guide` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [ogImage],
+    },
+    alternates: {
+      canonical: url,
+    },
+  };
+}
+
 export default async function CountryPage({
   params,
 }: {
@@ -207,7 +271,70 @@ export default async function CountryPage({
     singleTimezone: false,
   };
 
+  // --- JSON-LD Structured Data ---
+  // BreadcrumbList: helps Google show "Home > South Korea" in search results.
+  // ItemList: lists upcoming public holidays so Google can surface them
+  // directly in search results (e.g., "Korea holidays 2026").
+  const siteUrl = 'https://www.holiday-trip.com';
+  const currentYear = new Date().getFullYear();
+
+  const upcomingHolidays = holidays
+    .filter((h) => h.date >= new Date().toISOString().slice(0, 10))
+    .filter((h) => h.holiday_category === 'regular')
+    .slice(0, 10);
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: `${country.name} Public Holidays`,
+        item: `${siteUrl}/country/${code.toLowerCase()}`,
+      },
+    ],
+  };
+
+  const holidayListJsonLd = upcomingHolidays.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${country.name} Public Holidays ${currentYear}`,
+    description: `Official public holidays in ${country.name} for ${currentYear}.`,
+    itemListElement: upcomingHolidays.map((h, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Event',
+        name: h.name,
+        startDate: h.date,
+        endDate: h.date,
+        eventStatus: 'https://schema.org/EventScheduled',
+        location: {
+          '@type': 'Country',
+          name: country.name,
+          address: { '@type': 'PostalAddress', addressCountry: code },
+        },
+        description: h.name_local ? `${h.name} (${h.name_local})` : h.name,
+      },
+    })),
+  } : null;
+
   return (
+    <>
+      {/* JSON-LD structured data for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      {holidayListJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(holidayListJsonLd) }}
+        />
+      )}
+
     <div className="min-h-screen bg-[#faf8f5]">
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Breadcrumb */}
@@ -287,6 +414,7 @@ export default async function CountryPage({
         </div>
       </div>
     </div>
+    </>
   );
 }
 
