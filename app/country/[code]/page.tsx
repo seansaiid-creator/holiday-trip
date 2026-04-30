@@ -87,6 +87,14 @@ type CountryPrice = {
   notes: string | null;
 };
 
+type TravelAdvisory = {
+  alarm_level: number;
+  alarm_level_name: string;
+  alarm_message: string | null;
+  issued_at: string | null;
+  source: string;
+};
+
 // Country metadata: ISO codes, calling codes, and capital city for time display.
 // Add a row here when you onboard a new country page.
 type CountryMeta = {
@@ -180,6 +188,17 @@ async function getPriceData(countryId: number): Promise<{
   };
 }
 
+async function getSafetyAdvisory(
+  countryCode: string
+): Promise<TravelAdvisory | null> {
+  const { data } = await supabase
+    .from('travel_advisories')
+    .select('alarm_level, alarm_level_name, alarm_message, issued_at, source')
+    .eq('country_code', countryCode)
+    .maybeSingle();
+  return data as TravelAdvisory | null;
+}
+
 // ---------------------------------------------------------------
 // Dynamic metadata for SEO — title, description, Open Graph
 // Each country page gets a unique, keyword-rich title and description
@@ -256,11 +275,12 @@ export default async function CountryPage({
     notFound();
   }
 
-  const [holidays, travelTips, exchangeRate, priceData] = await Promise.all([
+  const [holidays, travelTips, exchangeRate, priceData, safetyAdvisory] = await Promise.all([
     getHolidays(country.id),
     getTravelTips(country.id),
     getExchangeRate(country.currency_code),
     getPriceData(country.id),
+    getSafetyAdvisory(code),
   ]);
 
   const meta: CountryMeta = COUNTRY_META[code] || {
@@ -387,6 +407,11 @@ export default async function CountryPage({
             <InfoCard label="Voltage" value={country.voltage || '—'} />
             <PlugTypeCard plugTypes={country.plug_types} />
             <InfoCard label="Timezone" value={shortTimezone(country.timezone)} />
+          </div>
+
+          {/* Safety advisory card — full width */}
+          <div className="mt-3">
+            <SafetyCard advisory={safetyAdvisory} />
           </div>
         </div>
 
@@ -678,4 +703,85 @@ function shortTimezone(tz: string | null): string {
     'Australia/Sydney': 'AEST (UTC+10/+11)',
   };
   return map[tz] || tz;
+}
+
+// ── SafetyCard ──────────────────────────────────────────────────────────────
+// Displays Korean Ministry of Foreign Affairs travel advisory level.
+// Level 0 = no advisory (safe), 1-4 = increasing risk.
+
+const ADVISORY_CONFIG: Record<number, {
+  color: string; bg: string; border: string; icon: string; label: string;
+}> = {
+  0: { color: 'text-green-700',  bg: 'bg-green-50',  border: 'border-green-200', icon: '✅', label: 'Safe to Travel' },
+  1: { color: 'text-blue-700',   bg: 'bg-blue-50',   border: 'border-blue-200',  icon: '🔵', label: 'Exercise Caution' },
+  2: { color: 'text-yellow-700', bg: 'bg-yellow-50', border: 'border-yellow-200',icon: '⚠️', label: 'Restrict Travel' },
+  3: { color: 'text-orange-700', bg: 'bg-orange-50', border: 'border-orange-200',icon: '🔴', label: 'Advise Departure' },
+  4: { color: 'text-red-700',    bg: 'bg-red-50',    border: 'border-red-200',   icon: '🚫', label: 'Do Not Travel' },
+};
+
+function SafetyCard({ advisory }: { advisory: TravelAdvisory | null }) {
+  // No data yet (cron hasn't run) — show neutral state
+  if (!advisory) {
+    return (
+      <div className="bg-white border border-gray-200 rounded-xl px-4 py-3 flex items-center gap-3">
+        <span className="text-lg">🛡️</span>
+        <div>
+          <div className="text-xs text-gray-500">Travel Advisory</div>
+          <div className="text-sm font-medium text-gray-400">Data loading…</div>
+        </div>
+      </div>
+    );
+  }
+
+  const level = advisory.alarm_level ?? 0;
+  const cfg = ADVISORY_CONFIG[level] || ADVISORY_CONFIG[0];
+
+  const issuedLabel = advisory.issued_at
+    ? new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+        .format(new Date(advisory.issued_at))
+    : null;
+
+  return (
+    <div className={`${cfg.bg} border ${cfg.border} rounded-xl px-4 py-3`}>
+      <div className="flex items-start justify-between gap-4">
+        <div className="flex items-center gap-2.5">
+          <span className="text-lg flex-shrink-0">{cfg.icon}</span>
+          <div>
+            <div className="text-[11px] text-gray-500 mb-0.5">
+              Travel Advisory
+              {advisory.alarm_level_name && level > 0 && (
+                <span className="ml-1 text-gray-400">· {advisory.alarm_level_name}</span>
+              )}
+            </div>
+            <div className={`text-sm font-semibold ${cfg.color}`}>
+              {level === 0 ? 'No Advisory' : `Level ${level} — ${cfg.label}`}
+            </div>
+            {advisory.alarm_message && level > 0 && (
+              <div className="text-[11px] text-gray-600 mt-1 leading-snug line-clamp-2">
+                {advisory.alarm_message}
+              </div>
+            )}
+          </div>
+        </div>
+        {issuedLabel && level > 0 && (
+          <div className="text-[10px] text-gray-400 flex-shrink-0 text-right">
+            {issuedLabel}
+          </div>
+        )}
+      </div>
+      <div className="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between">
+        <span className="text-[10px] text-gray-400">
+          Source: {advisory.source}
+        </span>
+        <a
+          href="https://0404.go.kr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] text-blue-500 hover:text-blue-700 transition-colors"
+        >
+          0404.go.kr →
+        </a>
+      </div>
+    </div>
+  );
 }
