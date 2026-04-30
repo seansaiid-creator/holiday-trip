@@ -145,9 +145,21 @@ export async function GET(request: Request) {
 
     const allRows = [...rows, ...defaultRows];
 
+    // Deduplicate by country_code — keep the row with the highest alarm_level
+    // (some countries have multiple entries for different regions)
+    const deduped = Object.values(
+      allRows.reduce((acc, row) => {
+        const existing = acc[row.country_code];
+        if (!existing || row.alarm_level > existing.alarm_level) {
+          acc[row.country_code] = row;
+        }
+        return acc;
+      }, {} as Record<string, typeof allRows[0]>)
+    );
+
     const { error } = await supabase
       .from('travel_advisories')
-      .upsert(allRows, { onConflict: 'country_code' });
+      .upsert(deduped, { onConflict: 'country_code' });
 
     if (error) {
       console.error('[cron/travel-advisories] Supabase error:', JSON.stringify(error));
@@ -157,7 +169,7 @@ export async function GET(request: Request) {
     return NextResponse.json({
       ok: true,
       fetched: items.length,
-      upserted: allRows.length,
+      upserted: deduped.length,
       with_advisory: rows.length,
       no_advisory: defaultRows.length,
       skipped: skipped.length,
