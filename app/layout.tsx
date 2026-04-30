@@ -5,48 +5,26 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "HolidayTrip - Global Holiday & Travel Guide",
-  description:
-    "Check public holidays, travel tips, local prices, exchange rates, plug types, and transport costs for 50+ countries. Plan smarter trips with HolidayTrip.",
+  description: "Check public holidays, travel tips, local prices, exchange rates, plug types, and transport costs for 50+ countries. Plan smarter trips with HolidayTrip.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className="bg-[#faf8f5] min-h-screen flex flex-col">
-
-        {/* Header */}
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-            <Link
-              href="/"
-              className="text-base font-semibold text-gray-900 hover:text-gray-700 transition-colors"
-            >
+            <Link href="/" className="text-base font-semibold text-gray-900 hover:text-gray-700 transition-colors">
               🌍 HolidayTrip
             </Link>
             <nav className="flex items-center gap-5 text-sm text-gray-600">
-              <Link href="/" className="hover:text-gray-900 transition-colors hidden sm:block">
-                Countries
-              </Link>
-              <Link href="/about" className="hover:text-gray-900 transition-colors">
-                About
-              </Link>
-              <Link href="/contact" className="hover:text-gray-900 transition-colors">
-                Contact
-              </Link>
+              <Link href="/" className="hover:text-gray-900 transition-colors hidden sm:block">Countries</Link>
+              <Link href="/about" className="hover:text-gray-900 transition-colors">About</Link>
+              <Link href="/contact" className="hover:text-gray-900 transition-colors">Contact</Link>
             </nav>
           </div>
         </header>
-
-        {/* Main */}
-        <main className="flex-1">
-          {children}
-        </main>
-
-        {/* Footer */}
+        <main className="flex-1">{children}</main>
         <footer className="bg-white border-t border-gray-200 mt-12">
           <div className="max-w-6xl mx-auto px-4 py-8">
             <div className="flex flex-col sm:flex-row justify-between gap-6">
@@ -69,12 +47,11 @@ export default function RootLayout({
               </div>
             </div>
             <div className="mt-8 pt-6 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-400">
-              <span>© {new Date().getFullYear()} HolidayTrip. All rights reserved.</span>
+              <span>© 2026 HolidayTrip. All rights reserved.</span>
               <span>Holiday data is for reference only. Verify with official sources before travel.</span>
             </div>
           </div>
         </footer>
-
       </body>
       <GoogleAnalytics gaId="G-78KBHOBB35" />
     </html>
