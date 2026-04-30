@@ -6,10 +6,9 @@
  * Public Data Portal API, then upserts into Supabase travel_advisories table.
  *
  * Source: 외교부 해외안전여행 (https://0404.go.kr)
- * API: 공공데이터포털 - 외교부_국가·지역별 여행경보
  *
  * Travel advisory levels:
- *   0 = 경보없음 (No advisory)
+ *   0 = No advisory
  *   1 = 여행유의 (Exercise caution)
  *   2 = 여행자제 (Restrict travel)
  *   3 = 출국권고 (Advise departure)
@@ -18,7 +17,6 @@
 
 import { NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -26,36 +24,7 @@ const supabase = createClient(
 );
 
 const MOFA_API_KEY  = process.env.MOFA_API_KEY!;
-const GEMINI_KEY    = process.env.GEMINI_API_KEY!;
 const MOFA_BASE_URL = 'http://apis.data.go.kr/1262000/TravelAlarmService2/getTravelAlarmList2';
-
-const genAI = new GoogleGenerativeAI(GEMINI_KEY);
-const model = genAI.getGenerativeModel({
-  model: 'gemini-2.5-flash',
-  generationConfig: {
-    temperature: 0.1,
-    maxOutputTokens: 512,
-    // @ts-ignore — thinkingConfig is supported but not yet in type definitions
-    thinkingConfig: { thinkingBudget: 0 },
-  } as object,
-});
-
-// Translate Korean regional advisory text to concise English.
-// Returns null if input is null/empty.
-async function translateRemark(ko: string | null | undefined): Promise<string | null> {
-  if (!ko || ko.trim() === '') return null;
-  try {
-    const result = await model.generateContent(
-      `Translate this Korean travel advisory regional description to concise English. Keep place names. Output only the English translation, no explanation:\n\n${ko}`
-    );
-    const text = result.response.text().trim();
-    return text || null;
-  } catch {
-    return null;
-  }
-}
-
-// API returns country_iso_alp2 directly — no mapping needed
 
 const LEVEL_NAMES_KO: Record<number, string> = {
   0: 'No Advisory',
@@ -64,6 +33,13 @@ const LEVEL_NAMES_KO: Record<number, string> = {
   3: '출국권고',
   4: '여행금지',
 };
+
+// Whether a remark indicates partial-region advisory (not whole country)
+function hasRegionalScope(remark: string | null | undefined): boolean {
+  if (!remark) return false;
+  const partialKeywords = ['일부', '지역', '접경', '주변', '구간', '이북', '이남', '이동'];
+  return partialKeywords.some(k => remark.includes(k));
+}
 
 type MofaItem = {
   country_nm?: string;
@@ -100,7 +76,6 @@ async function fetchAllAdvisories(): Promise<MofaItem[]> {
 }
 
 export async function GET(request: Request) {
-  // Verify Vercel Cron secret
   const authHeader = request.headers.get('authorization');
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -109,7 +84,8 @@ export async function GET(request: Request) {
   try {
     const items = await fetchAllAdvisories();
     const now = new Date().toISOString();
-    const rows: {
+
+    type AdvisoryRow = {
       country_code: string;
       country_name_ko: string | null;
       country_name_en: string | null;
@@ -120,64 +96,63 @@ export async function GET(request: Request) {
       source: string;
       fetched_at: string;
       updated_at: string;
-    }[] = [];
+    };
+
+    const rows: AdvisoryRow[] = [];
     const skipped: (string | undefined)[] = [];
 
     for (const item of items) {
-      // Use ISO code directly from API (country_iso_alp2)
       const isoCode = item.country_iso_alp2?.toUpperCase();
-
-      if (!isoCode) {
-        skipped.push(item.country_nm);
-        continue;
-      }
+      if (!isoCode) { skipped.push(item.country_nm); continue; }
 
       const level = parseInt(String(item.alarm_lvl || '0'), 10);
 
-      // Translate Korean regional description to English (only if remark exists)
-      const remarkEn = await translateRemark(item.remark);
+      // Build English message:
+      // If remark indicates partial region, show "Affects specific regions. See 0404.go.kr for details."
+      // This avoids misleading users into thinking the whole country is affected.
+      let alarmMessage: string | null = null;
+      if (item.remark && item.remark.trim()) {
+        if (hasRegionalScope(item.remark)) {
+          alarmMessage = 'Advisory applies to specific regions only. Visit 0404.go.kr for regional details.';
+        } else {
+          alarmMessage = 'Entire country. Visit 0404.go.kr for details.';
+        }
+      }
 
       rows.push({
-        country_code:    isoCode,
-        country_name_ko: item.country_nm || null,
-        country_name_en: item.country_eng_nm || null,
-        alarm_level:     level,
-        alarm_level_name: LEVEL_NAMES_KO[level] || '경보없음',
-        alarm_message:   remarkEn,
-        issued_at:       item.written_dt || null,
-        source:          'Korean Ministry of Foreign Affairs (0404.go.kr)',
-        fetched_at:      now,
-        updated_at:      now,
+        country_code:     isoCode,
+        country_name_ko:  item.country_nm || null,
+        country_name_en:  item.country_eng_nm || null,
+        alarm_level:      level,
+        alarm_level_name: LEVEL_NAMES_KO[level] || 'No Advisory',
+        alarm_message:    alarmMessage,
+        issued_at:        item.written_dt || null,
+        source:           'Korean Ministry of Foreign Affairs (0404.go.kr)',
+        fetched_at:       now,
+        updated_at:       now,
       });
     }
 
-    // First: set all countries to level 0 (no advisory) as default
-    // Then upsert actual advisories on top
-    const { data: countries } = await supabase
-      .from('countries')
-      .select('code, name');
+    const { data: countries } = await supabase.from('countries').select('code, name');
 
-    const defaultRows = (countries || [])
-      .filter((c: { code: string; name: string }) =>
-        !rows.find((r) => r.country_code === c.code)
-      )
-      .map((c: { code: string; name: string }) => ({
-        country_code:    c.code,
-        country_name_en: c.name,
-        country_name_ko: null,
-        alarm_level:     0,
+    const defaultRows: AdvisoryRow[] = ((countries || []) as { code: string; name: string }[])
+      .filter(c => !rows.find(r => r.country_code === c.code))
+      .map(c => ({
+        country_code:     c.code,
+        country_name_en:  c.name,
+        country_name_ko:  null,
+        alarm_level:      0,
         alarm_level_name: 'No Advisory',
-        alarm_message:   null,
-        issued_at:       null,
-        source:          'Korean Ministry of Foreign Affairs (0404.go.kr)',
-        fetched_at:      now,
-        updated_at:      now,
+        alarm_message:    null,
+        issued_at:        null,
+        source:           'Korean Ministry of Foreign Affairs (0404.go.kr)',
+        fetched_at:       now,
+        updated_at:       now,
       }));
 
     const allRows = [...rows, ...defaultRows];
 
-    // Deduplicate by country_code — keep the row with the highest alarm_level
-    // (some countries have multiple entries for different regions)
+    // Deduplicate by country_code — keep highest alarm_level
     const deduped = Object.values(
       allRows.reduce((acc, row) => {
         const existing = acc[row.country_code];
@@ -185,7 +160,7 @@ export async function GET(request: Request) {
           acc[row.country_code] = row;
         }
         return acc;
-      }, {} as Record<string, typeof allRows[0]>)
+      }, {} as Record<string, AdvisoryRow>)
     );
 
     const { error } = await supabase
