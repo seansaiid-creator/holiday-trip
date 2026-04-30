@@ -58,15 +58,6 @@ export default function RootLayout({
               </div>
               <div className="flex gap-10 text-sm">
                 <div>
-                  <div className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-2">Explore</div>
-                  <div className="flex flex-col gap-1.5">
-                    <Link href="/" className="text-gray-500 hover:text-gray-900 transition-colors">All Countries</Link>
-                    <Link href="/country/kr" className="text-gray-500 hover:text-gray-900 transition-colors">South Korea</Link>
-                    <Link href="/country/jp" className="text-gray-500 hover:text-gray-900 transition-colors">Japan</Link>
-                    <Link href="/country/th" className="text-gray-500 hover:text-gray-900 transition-colors">Thailand</Link>
-                  </div>
-                </div>
-                <div>
                   <div className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-2">Company</div>
                   <div className="flex flex-col gap-1.5">
                     <Link href="/about" className="text-gray-500 hover:text-gray-900 transition-colors">About</Link>
