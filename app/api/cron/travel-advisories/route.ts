@@ -149,7 +149,10 @@ export async function GET(request: Request) {
       .from('travel_advisories')
       .upsert(allRows, { onConflict: 'country_code' });
 
-    if (error) throw error;
+    if (error) {
+      console.error('[cron/travel-advisories] Supabase error:', JSON.stringify(error));
+      throw new Error(JSON.stringify(error));
+    }
 
     return NextResponse.json({
       ok: true,
@@ -160,7 +163,7 @@ export async function GET(request: Request) {
       skipped: skipped.length,
     });
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err);
+    const message = err instanceof Error ? err.message : JSON.stringify(err);
     console.error('[cron/travel-advisories]', message);
     return NextResponse.json({ ok: false, error: message }, { status: 500 });
   }
