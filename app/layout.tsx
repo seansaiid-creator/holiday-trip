@@ -60,6 +60,7 @@ export default function RootLayout({
                 <div>
                   <div className="text-xs font-semibold text-gray-900 uppercase tracking-wide mb-2">Company</div>
                   <div className="flex flex-col gap-1.5">
+                    <Link href="/public-holidays-today" className="text-gray-500 hover:text-gray-900 transition-colors">Holidays Today</Link>
                     <Link href="/about" className="text-gray-500 hover:text-gray-900 transition-colors">About</Link>
                     <Link href="/contact" className="text-gray-500 hover:text-gray-900 transition-colors">Contact</Link>
                     <Link href="/privacy" className="text-gray-500 hover:text-gray-900 transition-colors">Privacy Policy</Link>
