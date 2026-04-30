@@ -1,6 +1,7 @@
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import CountrySearch from './CountrySearch';
 
 export const revalidate = 3600;
 
@@ -301,30 +302,11 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* ── All countries ── */}
-        <section className="max-w-5xl mx-auto px-4 pb-16">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">All countries</h2>
-          <p className="text-sm text-gray-500 mb-5">
-            HolidayTrip covers {countries.length} countries with public holiday data, travel tips, and local information.
-          </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-            {otherCountries.map((c) => (
-              <Link
-                key={c.code}
-                href={`/country/${c.code.toLowerCase()}`}
-                className="bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-gray-400 transition-colors flex items-center gap-3"
-              >
-                <span className="text-2xl flex-shrink-0">{c.emoji_flag}</span>
-                <div className="min-w-0">
-                  <div className="text-sm font-medium text-gray-900 truncate">{c.name}</div>
-                  {c.currency_code && (
-                    <div className="text-[10px] text-gray-400">{c.currency_code} · {c.plug_types ? `Plug ${c.plug_types}` : ''}</div>
-                  )}
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
+        {/* ── All countries (with search) ── */}
+        <CountrySearch
+          countries={[...featuredCountries, ...otherCountries]}
+          totalCount={countries.length}
+        />
 
         {/* ── About / SEO text ── */}
         <section className="bg-white border-t border-gray-200 py-12">
