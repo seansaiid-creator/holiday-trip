@@ -104,8 +104,19 @@ export async function GET(request: Request) {
   try {
     const items = await fetchAllAdvisories();
     const now = new Date().toISOString();
-    const rows = [];
-    const skipped = [];
+    const rows: {
+      country_code: string;
+      country_name_ko: string | null;
+      country_name_en: string | null;
+      alarm_level: number;
+      alarm_level_name: string;
+      alarm_message: string | null;
+      issued_at: string | null;
+      source: string;
+      fetched_at: string;
+      updated_at: string;
+    }[] = [];
+    const skipped: (string | undefined)[] = [];
 
     for (const item of items) {
       // Try ISO code from API first, then from our name map
