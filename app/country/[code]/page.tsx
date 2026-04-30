@@ -710,13 +710,33 @@ function shortTimezone(tz: string | null): string {
 // Level 0 = no advisory (safe), 1-4 = increasing risk.
 
 const ADVISORY_CONFIG: Record<number, {
-  color: string; bg: string; border: string; icon: string; label: string;
+  color: string; bg: string; border: string; icon: string; label: string; desc: string;
 }> = {
-  0: { color: 'text-green-700',  bg: 'bg-green-50',  border: 'border-green-200', icon: '✅', label: 'Safe to Travel' },
-  1: { color: 'text-blue-700',   bg: 'bg-blue-50',   border: 'border-blue-200',  icon: '🔵', label: 'Exercise Caution' },
-  2: { color: 'text-yellow-700', bg: 'bg-yellow-50', border: 'border-yellow-200',icon: '⚠️', label: 'Restrict Travel' },
-  3: { color: 'text-orange-700', bg: 'bg-orange-50', border: 'border-orange-200',icon: '🔴', label: 'Advise Departure' },
-  4: { color: 'text-red-700',    bg: 'bg-red-50',    border: 'border-red-200',   icon: '🚫', label: 'Do Not Travel' },
+  0: {
+    color: 'text-gray-700', bg: 'bg-gray-50', border: 'border-gray-200',
+    icon: '✅', label: 'No Advisory',
+    desc: 'No travel advisory issued. Normal travel precautions apply.',
+  },
+  1: {
+    color: 'text-blue-800', bg: 'bg-blue-50', border: 'border-blue-300',
+    icon: '🔵', label: 'Level 1 — Exercise Caution',
+    desc: 'Be aware of potential risks. Stay informed and take basic safety precautions.',
+  },
+  2: {
+    color: 'text-yellow-800', bg: 'bg-yellow-50', border: 'border-yellow-400',
+    icon: '⚠️', label: 'Level 2 — Restrict Travel',
+    desc: 'Avoid non-essential travel. Residents should take special care of personal safety.',
+  },
+  3: {
+    color: 'text-orange-800', bg: 'bg-orange-50', border: 'border-orange-400',
+    icon: '🔴', label: 'Level 3 — Advise Departure',
+    desc: 'Cancel or postpone travel. Residents should consider departing unless there is urgent need.',
+  },
+  4: {
+    color: 'text-red-800', bg: 'bg-red-50', border: 'border-red-500',
+    icon: '🚫', label: 'Level 4 — Do Not Travel',
+    desc: 'Travel prohibited by law. Residents must evacuate immediately.',
+  },
 };
 
 function SafetyCard({ advisory }: { advisory: TravelAdvisory | null }) {
@@ -744,20 +764,25 @@ function SafetyCard({ advisory }: { advisory: TravelAdvisory | null }) {
   return (
     <div className={`${cfg.bg} border ${cfg.border} rounded-xl px-4 py-3`}>
       <div className="flex items-start justify-between gap-4">
-        <div className="flex items-center gap-2.5">
-          <span className="text-lg flex-shrink-0">{cfg.icon}</span>
-          <div>
-            <div className="text-[11px] text-gray-500 mb-0.5">
+        <div className="flex items-start gap-2.5 flex-1">
+          <span className="text-lg flex-shrink-0 mt-0.5">{cfg.icon}</span>
+          <div className="flex-1">
+            <div className="text-[11px] text-gray-500 mb-0.5 font-medium uppercase tracking-wide">
               Travel Advisory
               {advisory.alarm_level_name && level > 0 && (
-                <span className="ml-1 text-gray-400">· {advisory.alarm_level_name}</span>
+                <span className="ml-1.5 normal-case font-normal text-gray-400">
+                  · {advisory.alarm_level_name}
+                </span>
               )}
             </div>
-            <div className={`text-sm font-semibold ${cfg.color}`}>
-              {level === 0 ? 'No Advisory' : `Level ${level} — ${cfg.label}`}
+            <div className={`text-sm font-bold ${cfg.color}`}>
+              {cfg.label}
+            </div>
+            <div className="text-xs text-gray-600 mt-1 leading-snug">
+              {cfg.desc}
             </div>
             {advisory.alarm_message && level > 0 && (
-              <div className="text-[11px] text-gray-600 mt-1 leading-snug line-clamp-2">
+              <div className="text-[11px] text-gray-500 mt-1.5 leading-snug border-l-2 border-gray-300 pl-2">
                 {advisory.alarm_message}
               </div>
             )}
@@ -769,9 +794,9 @@ function SafetyCard({ advisory }: { advisory: TravelAdvisory | null }) {
           </div>
         )}
       </div>
-      <div className="mt-2 pt-2 border-t border-gray-100 flex items-center justify-between">
+      <div className="mt-2.5 pt-2 border-t border-gray-200 flex items-center justify-between">
         <span className="text-[10px] text-gray-400">
-          Source: {advisory.source}
+          Source: Korean Ministry of Foreign Affairs
         </span>
         <a
           href="https://0404.go.kr"
