@@ -1,0 +1,2581 @@
+{
+  "validation_run_id": "JP-2026-04-24",
+  "country": "Japan",
+  "country_code": "JP",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-24T08:18:16.482Z",
+  "duration_ms": 134407,
+  "summary": {
+    "verified_high": 41,
+    "verified_mid": 6,
+    "single_source": 0,
+    "conflict": 0,
+    "missing_in_db": 9
+  },
+  "source_counts": {
+    "db": 48,
+    "db_locked": 0,
+    "db_total": 48,
+    "wikipedia": 53,
+    "nager": 48
+  },
+  "health_score": 84,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 187,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "元日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-13",
+      "group": {
+        "date": "2025-01-13",
+        "db": [
+          {
+            "db_id": 188,
+            "date": "2025-01-13",
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-13",
+            "year": 2025,
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-13",
+            "name": "Coming of Age Day",
+            "localName": "成人の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Coming of Age Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-02-11",
+      "group": {
+        "date": "2025-02-11",
+        "db": [
+          {
+            "db_id": 189,
+            "date": "2025-02-11",
+            "name_en": "Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-02-11",
+            "year": 2025,
+            "name_en": "National Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-02-11",
+            "name": "Foundation Day",
+            "localName": "建国記念の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-02-24",
+      "group": {
+        "date": "2025-02-24",
+        "db": [
+          {
+            "db_id": 190,
+            "date": "2025-02-24",
+            "name_en": "The Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-02-24",
+            "year": 2025,
+            "name_en": "Substitute Holiday (for Emperor's Birthday)",
+            "name_local": "振替休日",
+            "category": "substitute",
+            "is_substitute_for": "Emperor's Birthday",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-02-24",
+            "name": "The Emperor's Birthday",
+            "localName": "天皇誕生日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "The Emperor's Birthday",
+      "issue": "Nager.Date and DB list the regular holiday, Wikipedia lists a substitute holiday for the same date. This is expected behavior.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-20",
+      "group": {
+        "date": "2025-03-20",
+        "db": [
+          {
+            "db_id": 191,
+            "date": "2025-03-20",
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-03-20",
+            "year": 2025,
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-03-20",
+            "name": "Vernal Equinox Day",
+            "localName": "春分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Vernal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-29",
+      "group": {
+        "date": "2025-04-29",
+        "db": [
+          {
+            "db_id": 192,
+            "date": "2025-04-29",
+            "name_en": "Shōwa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-29",
+            "year": 2025,
+            "name_en": "Showa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-29",
+            "name": "Shōwa Day",
+            "localName": "昭和の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Shōwa Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-03",
+      "group": {
+        "date": "2025-05-03",
+        "db": [
+          {
+            "db_id": 193,
+            "date": "2025-05-03",
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-03",
+            "year": 2025,
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-03",
+            "name": "Constitution Memorial Day",
+            "localName": "憲法記念日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Constitution Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-05",
+      "group": {
+        "date": "2025-05-05",
+        "db": [
+          {
+            "db_id": 195,
+            "date": "2025-05-05",
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-05",
+            "year": 2025,
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-05",
+            "name": "Children's Day",
+            "localName": "こどもの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-06",
+      "group": {
+        "date": "2025-05-06",
+        "db": [
+          {
+            "db_id": 194,
+            "date": "2025-05-06",
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-06",
+            "year": 2025,
+            "name_en": "Substitute Holiday (for Greenery Day)",
+            "name_local": "振替休日",
+            "category": "substitute",
+            "is_substitute_for": "Greenery Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-06",
+            "name": "Greenery Day",
+            "localName": "みどりの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Greenery Day",
+      "issue": "Nager.Date and DB list the regular holiday, Wikipedia lists a substitute holiday for the same date. This is expected behavior.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-07-21",
+      "group": {
+        "date": "2025-07-21",
+        "db": [
+          {
+            "db_id": 196,
+            "date": "2025-07-21",
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-07-21",
+            "year": 2025,
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-07-21",
+            "name": "Marine Day",
+            "localName": "海の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Marine Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-08-11",
+      "group": {
+        "date": "2025-08-11",
+        "db": [
+          {
+            "db_id": 197,
+            "date": "2025-08-11",
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-11",
+            "year": 2025,
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-11",
+            "name": "Mountain Day",
+            "localName": "山の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mountain Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-09-15",
+      "group": {
+        "date": "2025-09-15",
+        "db": [
+          {
+            "db_id": 198,
+            "date": "2025-09-15",
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-09-15",
+            "year": 2025,
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-09-15",
+            "name": "Respect for the Aged Day",
+            "localName": "敬老の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Respect for the Aged Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-09-23",
+      "group": {
+        "date": "2025-09-23",
+        "db": [
+          {
+            "db_id": 199,
+            "date": "2025-09-23",
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-09-23",
+            "year": 2025,
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-09-23",
+            "name": "Autumnal Equinox Day",
+            "localName": "秋分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Autumnal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-13",
+      "group": {
+        "date": "2025-10-13",
+        "db": [
+          {
+            "db_id": 200,
+            "date": "2025-10-13",
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-13",
+            "year": 2025,
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-13",
+            "name": "Sports Day",
+            "localName": "スポーツの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Sports Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-03",
+      "group": {
+        "date": "2025-11-03",
+        "db": [
+          {
+            "db_id": 201,
+            "date": "2025-11-03",
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-03",
+            "year": 2025,
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-03",
+            "name": "Culture Day",
+            "localName": "文化の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Culture Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-24",
+      "group": {
+        "date": "2025-11-24",
+        "db": [
+          {
+            "db_id": 202,
+            "date": "2025-11-24",
+            "name_en": "Labour Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-24",
+            "year": 2025,
+            "name_en": "Substitute Holiday (for Labor Thanksgiving Day)",
+            "name_local": "振替休日",
+            "category": "substitute",
+            "is_substitute_for": "Labor Thanksgiving Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-24",
+            "name": "Labour Thanksgiving Day",
+            "localName": "勤労感謝の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Labour Thanksgiving Day",
+      "issue": "Nager.Date and DB list the regular holiday, Wikipedia lists a substitute holiday for the same date. This is expected behavior.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 203,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "元日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-12",
+      "group": {
+        "date": "2026-01-12",
+        "db": [
+          {
+            "db_id": 204,
+            "date": "2026-01-12",
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-12",
+            "year": 2026,
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-12",
+            "name": "Coming of Age Day",
+            "localName": "成人の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Coming of Age Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-02-11",
+      "group": {
+        "date": "2026-02-11",
+        "db": [
+          {
+            "db_id": 205,
+            "date": "2026-02-11",
+            "name_en": "Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-11",
+            "year": 2026,
+            "name_en": "National Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-11",
+            "name": "Foundation Day",
+            "localName": "建国記念の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-23",
+      "group": {
+        "date": "2026-02-23",
+        "db": [
+          {
+            "db_id": 206,
+            "date": "2026-02-23",
+            "name_en": "The Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-23",
+            "year": 2026,
+            "name_en": "Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-23",
+            "name": "The Emperor's Birthday",
+            "localName": "天皇誕生日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Emperor's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-03-20",
+      "group": {
+        "date": "2026-03-20",
+        "db": [
+          {
+            "db_id": 207,
+            "date": "2026-03-20",
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-03-20",
+            "year": 2026,
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-03-20",
+            "name": "Vernal Equinox Day",
+            "localName": "春分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Vernal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-29",
+      "group": {
+        "date": "2026-04-29",
+        "db": [
+          {
+            "db_id": 208,
+            "date": "2026-04-29",
+            "name_en": "Shōwa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-29",
+            "year": 2026,
+            "name_en": "Showa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-29",
+            "name": "Shōwa Day",
+            "localName": "昭和の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Shōwa Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-04",
+      "group": {
+        "date": "2026-05-04",
+        "db": [
+          {
+            "db_id": 209,
+            "date": "2026-05-04",
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 210,
+            "date": "2026-05-04",
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-04",
+            "year": 2026,
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-04",
+            "name": "Constitution Memorial Day",
+            "localName": "憲法記念日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2026-05-04",
+            "name": "Greenery Day",
+            "localName": "みどりの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Greenery Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-05",
+      "group": {
+        "date": "2026-05-05",
+        "db": [
+          {
+            "db_id": 211,
+            "date": "2026-05-05",
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-05",
+            "year": 2026,
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-05",
+            "name": "Children's Day",
+            "localName": "こどもの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-07-20",
+      "group": {
+        "date": "2026-07-20",
+        "db": [
+          {
+            "db_id": 212,
+            "date": "2026-07-20",
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-07-20",
+            "year": 2026,
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-07-20",
+            "name": "Marine Day",
+            "localName": "海の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Marine Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-08-11",
+      "group": {
+        "date": "2026-08-11",
+        "db": [
+          {
+            "db_id": 213,
+            "date": "2026-08-11",
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-11",
+            "year": 2026,
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-11",
+            "name": "Mountain Day",
+            "localName": "山の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mountain Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-21",
+      "group": {
+        "date": "2026-09-21",
+        "db": [
+          {
+            "db_id": 214,
+            "date": "2026-09-21",
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-09-21",
+            "name": "Respect for the Aged Day",
+            "localName": "敬老の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Respect for the Aged Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-23",
+      "group": {
+        "date": "2026-09-23",
+        "db": [
+          {
+            "db_id": 215,
+            "date": "2026-09-23",
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-23",
+            "year": 2026,
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-23",
+            "name": "Autumnal Equinox Day",
+            "localName": "秋分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Autumnal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-12",
+      "group": {
+        "date": "2026-10-12",
+        "db": [
+          {
+            "db_id": 216,
+            "date": "2026-10-12",
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-10-12",
+            "name": "Sports Day",
+            "localName": "スポーツの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Sports Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-03",
+      "group": {
+        "date": "2026-11-03",
+        "db": [
+          {
+            "db_id": 217,
+            "date": "2026-11-03",
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-03",
+            "year": 2026,
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-03",
+            "name": "Culture Day",
+            "localName": "文化の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Culture Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-23",
+      "group": {
+        "date": "2026-11-23",
+        "db": [
+          {
+            "db_id": 218,
+            "date": "2026-11-23",
+            "name_en": "Labour Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-23",
+            "year": 2026,
+            "name_en": "Labor Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-23",
+            "name": "Labour Thanksgiving Day",
+            "localName": "勤労感謝の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labor Thanksgiving Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 0.91)."
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 219,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": "元日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "元日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-11",
+      "group": {
+        "date": "2027-01-11",
+        "db": [
+          {
+            "db_id": 220,
+            "date": "2027-01-11",
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-11",
+            "year": 2027,
+            "name_en": "Coming of Age Day",
+            "name_local": "成人の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-11",
+            "name": "Coming of Age Day",
+            "localName": "成人の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Coming of Age Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-02-11",
+      "group": {
+        "date": "2027-02-11",
+        "db": [
+          {
+            "db_id": 221,
+            "date": "2027-02-11",
+            "name_en": "Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-11",
+            "year": 2027,
+            "name_en": "National Foundation Day",
+            "name_local": "建国記念の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-11",
+            "name": "Foundation Day",
+            "localName": "建国記念の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-23",
+      "group": {
+        "date": "2027-02-23",
+        "db": [
+          {
+            "db_id": 222,
+            "date": "2027-02-23",
+            "name_en": "The Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-23",
+            "year": 2027,
+            "name_en": "Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-23",
+            "name": "The Emperor's Birthday",
+            "localName": "天皇誕生日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Emperor's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-21",
+      "group": {
+        "date": "2027-03-21",
+        "db": [
+          {
+            "db_id": 223,
+            "date": "2027-03-21",
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-03-21",
+            "name": "Vernal Equinox Day",
+            "localName": "春分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Vernal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-04-29",
+      "group": {
+        "date": "2027-04-29",
+        "db": [
+          {
+            "db_id": 224,
+            "date": "2027-04-29",
+            "name_en": "Shōwa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-04-29",
+            "year": 2027,
+            "name_en": "Showa Day",
+            "name_local": "昭和の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-04-29",
+            "name": "Shōwa Day",
+            "localName": "昭和の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Shōwa Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-03",
+      "group": {
+        "date": "2027-05-03",
+        "db": [
+          {
+            "db_id": 225,
+            "date": "2027-05-03",
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-03",
+            "year": 2027,
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-03",
+            "name": "Constitution Memorial Day",
+            "localName": "憲法記念日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Constitution Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-04",
+      "group": {
+        "date": "2027-05-04",
+        "db": [
+          {
+            "db_id": 226,
+            "date": "2027-05-04",
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-04",
+            "year": 2027,
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-04",
+            "name": "Greenery Day",
+            "localName": "みどりの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Greenery Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-05",
+      "group": {
+        "date": "2027-05-05",
+        "db": [
+          {
+            "db_id": 227,
+            "date": "2027-05-05",
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-05",
+            "year": 2027,
+            "name_en": "Children's Day",
+            "name_local": "こどもの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-05",
+            "name": "Children's Day",
+            "localName": "こどもの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-07-19",
+      "group": {
+        "date": "2027-07-19",
+        "db": [
+          {
+            "db_id": 228,
+            "date": "2027-07-19",
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-07-19",
+            "year": 2027,
+            "name_en": "Marine Day",
+            "name_local": "海の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-07-19",
+            "name": "Marine Day",
+            "localName": "海の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Marine Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-08-11",
+      "group": {
+        "date": "2027-08-11",
+        "db": [
+          {
+            "db_id": 229,
+            "date": "2027-08-11",
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-11",
+            "year": 2027,
+            "name_en": "Mountain Day",
+            "name_local": "山の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-11",
+            "name": "Mountain Day",
+            "localName": "山の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mountain Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-20",
+      "group": {
+        "date": "2027-09-20",
+        "db": [
+          {
+            "db_id": 230,
+            "date": "2027-09-20",
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-20",
+            "year": 2027,
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-20",
+            "name": "Respect for the Aged Day",
+            "localName": "敬老の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Respect for the Aged Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-23",
+      "group": {
+        "date": "2027-09-23",
+        "db": [
+          {
+            "db_id": 231,
+            "date": "2027-09-23",
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-23",
+            "year": 2027,
+            "name_en": "Autumnal Equinox Day",
+            "name_local": "秋分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-23",
+            "name": "Autumnal Equinox Day",
+            "localName": "秋分の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Autumnal Equinox Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-11",
+      "group": {
+        "date": "2027-10-11",
+        "db": [
+          {
+            "db_id": 232,
+            "date": "2027-10-11",
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-11",
+            "year": 2027,
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-11",
+            "name": "Sports Day",
+            "localName": "スポーツの日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Sports Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-03",
+      "group": {
+        "date": "2027-11-03",
+        "db": [
+          {
+            "db_id": 233,
+            "date": "2027-11-03",
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-03",
+            "year": 2027,
+            "name_en": "Culture Day",
+            "name_local": "文化の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-03",
+            "name": "Culture Day",
+            "localName": "文化の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Culture Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-23",
+      "group": {
+        "date": "2027-11-23",
+        "db": [
+          {
+            "db_id": 234,
+            "date": "2027-11-23",
+            "name_en": "Labour Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-23",
+            "year": 2027,
+            "name_en": "Labor Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-23",
+            "name": "Labour Thanksgiving Day",
+            "localName": "勤労感謝の日",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labor Thanksgiving Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 0.91)."
+    },
+    {
+      "date": "2025-02-23",
+      "group": {
+        "date": "2025-02-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-02-23",
+            "year": 2025,
+            "name_en": "Emperor's Birthday",
+            "name_local": "天皇誕生日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Emperor's Birthday",
+      "issue": "DB is missing 'Emperor's Birthday' listed on Wikipedia for 2025-02-23.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-04",
+      "group": {
+        "date": "2025-05-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-04",
+            "year": 2025,
+            "name_en": "Greenery Day",
+            "name_local": "みどりの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Greenery Day",
+      "issue": "DB is missing 'Greenery Day' listed on Wikipedia for 2025-05-04.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-11-23",
+      "group": {
+        "date": "2025-11-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-11-23",
+            "year": 2025,
+            "name_en": "Labor Thanksgiving Day",
+            "name_local": "勤労感謝の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Labor Thanksgiving Day",
+      "issue": "DB is missing 'Labor Thanksgiving Day' listed on Wikipedia for 2025-11-23.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-03",
+      "group": {
+        "date": "2026-05-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-03",
+            "year": 2026,
+            "name_en": "Constitution Memorial Day",
+            "name_local": "憲法記念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Constitution Memorial Day",
+      "issue": "DB is missing 'Constitution Memorial Day' listed on Wikipedia for 2026-05-03.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-06",
+      "group": {
+        "date": "2026-05-06",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-06",
+            "year": 2026,
+            "name_en": "Citizens' Holiday",
+            "name_local": "国民の休日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Citizens' Holiday",
+      "issue": "DB is missing 'Citizens' Holiday' listed on Wikipedia for 2026-05-06.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-07",
+      "group": {
+        "date": "2026-05-07",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-07",
+            "year": 2026,
+            "name_en": "Substitute Holiday (for Constitution Memorial Day)",
+            "name_local": "振替休日",
+            "category": "substitute",
+            "is_substitute_for": "Constitution Memorial Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Substitute Holiday (for Constitution Memorial Day)",
+      "issue": "DB is missing 'Substitute Holiday (for Constitution Memorial Day)' listed on Wikipedia for 2026-05-07.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-15",
+      "group": {
+        "date": "2026-09-15",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-09-15",
+            "year": 2026,
+            "name_en": "Respect for the Aged Day",
+            "name_local": "敬老の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Respect for the Aged Day",
+      "issue": "DB is missing 'Respect for the Aged Day' listed on Wikipedia for 2026-09-15.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-10-13",
+      "group": {
+        "date": "2026-10-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-10-13",
+            "year": 2026,
+            "name_en": "Sports Day",
+            "name_local": "スポーツの日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Sports Day",
+      "issue": "DB is missing 'Sports Day' listed on Wikipedia for 2026-10-13.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-20",
+      "group": {
+        "date": "2027-03-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-20",
+            "year": 2027,
+            "name_en": "Vernal Equinox Day",
+            "name_local": "春分の日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Vernal Equinox Day",
+      "issue": "DB is missing 'Vernal Equinox Day' listed on Wikipedia for 2027-03-20.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

@@ -1,0 +1,1252 @@
+{
+  "generated_at": "2026-04-19T07:36:21.374Z",
+  "target_years": [
+    2025,
+    2026,
+    2027
+  ],
+  "summary": {
+    "official_total": 62,
+    "to_add": 17,
+    "to_remove": 0,
+    "to_enhance": 45
+  },
+  "official_data": [
+    {
+      "date": "2025-01-01",
+      "name": "1월1일",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-01-27",
+      "name": "임시공휴일",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-01-28",
+      "name": "설날",
+      "year": 2025,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2024,
+        "lunMonth": 12,
+        "lunDay": 29
+      }
+    },
+    {
+      "date": "2025-01-29",
+      "name": "설날",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 1,
+        "lunDay": 1
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "name": "설날",
+      "year": 2025,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 1,
+        "lunDay": 2
+      }
+    },
+    {
+      "date": "2025-03-01",
+      "name": "삼일절",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-03-03",
+      "name": "대체공휴일",
+      "year": 2025,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": null,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-05-05",
+      "name": "어린이날",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-05-05",
+      "name": "부처님오신날",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-05-06",
+      "name": "대체공휴일",
+      "year": 2025,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": null,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-06-03",
+      "name": "임시공휴일(제21대 대통령 선거)",
+      "year": 2025,
+      "category": "temporary",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-06-06",
+      "name": "현충일",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-08-15",
+      "name": "광복절",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-10-03",
+      "name": "개천절",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-10-05",
+      "name": "추석",
+      "year": 2025,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 8,
+        "lunDay": 14
+      }
+    },
+    {
+      "date": "2025-10-06",
+      "name": "추석",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 8,
+        "lunDay": 15
+      }
+    },
+    {
+      "date": "2025-10-07",
+      "name": "추석",
+      "year": 2025,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 8,
+        "lunDay": 16
+      }
+    },
+    {
+      "date": "2025-10-08",
+      "name": "대체공휴일",
+      "year": 2025,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": null,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-10-09",
+      "name": "한글날",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2025-12-25",
+      "name": "기독탄신일",
+      "year": 2025,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-01-01",
+      "name": "1월1일",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-02-16",
+      "name": "설날",
+      "year": 2026,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2025,
+        "lunMonth": 12,
+        "lunDay": 29
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "name": "설날",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 1,
+        "lunDay": 1
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "name": "설날",
+      "year": 2026,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 1,
+        "lunDay": 2
+      }
+    },
+    {
+      "date": "2026-03-01",
+      "name": "삼일절",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-03-02",
+      "name": "대체공휴일(삼일절)",
+      "year": 2026,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "삼일절",
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-05-01",
+      "name": "노동절",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-05-05",
+      "name": "어린이날",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-05-24",
+      "name": "부처님오신날",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-05-25",
+      "name": "대체공휴일(부처님오신날)",
+      "year": 2026,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "부처님오신날",
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-06-03",
+      "name": "전국동시지방선거",
+      "year": 2026,
+      "category": "temporary",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-06-06",
+      "name": "현충일",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-08-15",
+      "name": "광복절",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-08-17",
+      "name": "대체공휴일(광복절)",
+      "year": 2026,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "광복절",
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-09-24",
+      "name": "추석",
+      "year": 2026,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 8,
+        "lunDay": 14
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "name": "추석",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 8,
+        "lunDay": 15
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "name": "추석",
+      "year": 2026,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 8,
+        "lunDay": 16
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "name": "개천절",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-10-05",
+      "name": "대체공휴일(개천절)",
+      "year": 2026,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "개천절",
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-10-09",
+      "name": "한글날",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2026-12-25",
+      "name": "기독탄신일",
+      "year": 2026,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-01-01",
+      "name": "1월1일",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-02-06",
+      "name": "설날",
+      "year": 2027,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2026,
+        "lunMonth": 12,
+        "lunDay": 30
+      }
+    },
+    {
+      "date": "2027-02-07",
+      "name": "설날",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2027,
+        "lunMonth": 1,
+        "lunDay": 1
+      }
+    },
+    {
+      "date": "2027-02-08",
+      "name": "설날",
+      "year": 2027,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2027,
+        "lunMonth": 1,
+        "lunDay": 2
+      }
+    },
+    {
+      "date": "2027-02-09",
+      "name": "대체공휴일(설날)",
+      "year": 2027,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "설날",
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-03-01",
+      "name": "삼일절",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-05-01",
+      "name": "노동절",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-05-05",
+      "name": "어린이날",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-05-13",
+      "name": "부처님오신날",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-06-06",
+      "name": "현충일",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-08-15",
+      "name": "광복절",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-08-16",
+      "name": "대체공휴일(광복절)",
+      "year": 2027,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "광복절",
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-09-14",
+      "name": "추석",
+      "year": 2027,
+      "category": "eve",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2027,
+        "lunMonth": 8,
+        "lunDay": 14
+      }
+    },
+    {
+      "date": "2027-09-15",
+      "name": "추석",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2027,
+        "lunMonth": 8,
+        "lunDay": 15
+      }
+    },
+    {
+      "date": "2027-09-16",
+      "name": "추석",
+      "year": 2027,
+      "category": "day_after",
+      "isSubstitute": false,
+      "lunarInfo": {
+        "lunYear": 2027,
+        "lunMonth": 8,
+        "lunDay": 16
+      }
+    },
+    {
+      "date": "2027-10-03",
+      "name": "개천절",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-10-04",
+      "name": "대체공휴일(개천절)",
+      "year": 2027,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "개천절",
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-10-09",
+      "name": "한글날",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-10-11",
+      "name": "대체공휴일(한글날)",
+      "year": 2027,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "한글날",
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-12-25",
+      "name": "기독탄신일",
+      "year": 2027,
+      "category": "regular",
+      "isSubstitute": false,
+      "lunarInfo": null
+    },
+    {
+      "date": "2027-12-27",
+      "name": "대체공휴일(기독탄신일)",
+      "year": 2027,
+      "category": "substitute",
+      "isSubstitute": true,
+      "substituteForName": "기독탄신일",
+      "lunarInfo": null
+    }
+  ],
+  "diff": {
+    "toAdd": [
+      {
+        "date": "2025-01-27",
+        "name": "임시공휴일",
+        "year": 2025,
+        "category": "regular",
+        "isSubstitute": false,
+        "lunarInfo": null
+      },
+      {
+        "date": "2025-03-03",
+        "name": "대체공휴일",
+        "year": 2025,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": null,
+        "lunarInfo": null
+      },
+      {
+        "date": "2025-05-06",
+        "name": "대체공휴일",
+        "year": 2025,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": null,
+        "lunarInfo": null
+      },
+      {
+        "date": "2025-06-03",
+        "name": "임시공휴일(제21대 대통령 선거)",
+        "year": 2025,
+        "category": "temporary",
+        "isSubstitute": false,
+        "lunarInfo": null
+      },
+      {
+        "date": "2025-10-05",
+        "name": "추석",
+        "year": 2025,
+        "category": "eve",
+        "isSubstitute": false,
+        "lunarInfo": {
+          "lunYear": 2025,
+          "lunMonth": 8,
+          "lunDay": 14
+        }
+      },
+      {
+        "date": "2026-03-02",
+        "name": "대체공휴일(삼일절)",
+        "year": 2026,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "삼일절",
+        "lunarInfo": null
+      },
+      {
+        "date": "2026-05-01",
+        "name": "노동절",
+        "year": 2026,
+        "category": "regular",
+        "isSubstitute": false,
+        "lunarInfo": null
+      },
+      {
+        "date": "2026-05-25",
+        "name": "대체공휴일(부처님오신날)",
+        "year": 2026,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "부처님오신날",
+        "lunarInfo": null
+      },
+      {
+        "date": "2026-06-03",
+        "name": "전국동시지방선거",
+        "year": 2026,
+        "category": "temporary",
+        "isSubstitute": false,
+        "lunarInfo": null
+      },
+      {
+        "date": "2026-08-17",
+        "name": "대체공휴일(광복절)",
+        "year": 2026,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "광복절",
+        "lunarInfo": null
+      },
+      {
+        "date": "2026-10-05",
+        "name": "대체공휴일(개천절)",
+        "year": 2026,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "개천절",
+        "lunarInfo": null
+      },
+      {
+        "date": "2027-02-07",
+        "name": "설날",
+        "year": 2027,
+        "category": "regular",
+        "isSubstitute": false,
+        "lunarInfo": {
+          "lunYear": 2027,
+          "lunMonth": 1,
+          "lunDay": 1
+        }
+      },
+      {
+        "date": "2027-05-01",
+        "name": "노동절",
+        "year": 2027,
+        "category": "regular",
+        "isSubstitute": false,
+        "lunarInfo": null
+      },
+      {
+        "date": "2027-08-16",
+        "name": "대체공휴일(광복절)",
+        "year": 2027,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "광복절",
+        "lunarInfo": null
+      },
+      {
+        "date": "2027-10-04",
+        "name": "대체공휴일(개천절)",
+        "year": 2027,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "개천절",
+        "lunarInfo": null
+      },
+      {
+        "date": "2027-10-11",
+        "name": "대체공휴일(한글날)",
+        "year": 2027,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "한글날",
+        "lunarInfo": null
+      },
+      {
+        "date": "2027-12-27",
+        "name": "대체공휴일(기독탄신일)",
+        "year": 2027,
+        "category": "substitute",
+        "isSubstitute": true,
+        "substituteForName": "기독탄신일",
+        "lunarInfo": null
+      }
+    ],
+    "toRemove": [],
+    "toEnhance": [
+      {
+        "dbId": 142,
+        "date": "2025-01-01",
+        "currentName": "New Year's Day",
+        "officialName": "1월1일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 143,
+        "date": "2025-01-28",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "eve",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 144,
+        "date": "2025-01-29",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 145,
+        "date": "2025-01-30",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 146,
+        "date": "2025-03-01",
+        "currentName": "Independence Movement Day",
+        "officialName": "삼일절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 148,
+        "date": "2025-05-05",
+        "currentName": "Buddha's Birthday",
+        "officialName": "어린이날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 148,
+        "date": "2025-05-05",
+        "currentName": "Buddha's Birthday",
+        "officialName": "부처님오신날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 149,
+        "date": "2025-06-06",
+        "currentName": "Memorial Day",
+        "officialName": "현충일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 150,
+        "date": "2025-08-15",
+        "currentName": "Liberation Day",
+        "officialName": "광복절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 151,
+        "date": "2025-10-03",
+        "currentName": "National Foundation Day",
+        "officialName": "개천절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 152,
+        "date": "2025-10-06",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 153,
+        "date": "2025-10-07",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 154,
+        "date": "2025-10-08",
+        "currentName": "Chuseok",
+        "officialName": "대체공휴일",
+        "currentCategory": "regular",
+        "newCategory": "substitute",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": true,
+        "substituteForName": null
+      },
+      {
+        "dbId": 155,
+        "date": "2025-10-09",
+        "currentName": "Hangul Day",
+        "officialName": "한글날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 156,
+        "date": "2025-12-25",
+        "currentName": "Christmas Day",
+        "officialName": "기독탄신일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 157,
+        "date": "2026-01-01",
+        "currentName": "New Year's Day",
+        "officialName": "1월1일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 158,
+        "date": "2026-02-16",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "eve",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 159,
+        "date": "2026-02-17",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 160,
+        "date": "2026-02-18",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 161,
+        "date": "2026-03-01",
+        "currentName": "Independence Movement Day",
+        "officialName": "삼일절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 162,
+        "date": "2026-05-05",
+        "currentName": "Children's Day",
+        "officialName": "어린이날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 163,
+        "date": "2026-05-24",
+        "currentName": "Buddha's Birthday",
+        "officialName": "부처님오신날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 164,
+        "date": "2026-06-06",
+        "currentName": "Memorial Day",
+        "officialName": "현충일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 165,
+        "date": "2026-08-15",
+        "currentName": "Liberation Day",
+        "officialName": "광복절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 166,
+        "date": "2026-09-24",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "eve",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 167,
+        "date": "2026-09-25",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 168,
+        "date": "2026-09-26",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 169,
+        "date": "2026-10-03",
+        "currentName": "National Foundation Day",
+        "officialName": "개천절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 170,
+        "date": "2026-10-09",
+        "currentName": "Hangul Day",
+        "officialName": "한글날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 171,
+        "date": "2026-12-25",
+        "currentName": "Christmas Day",
+        "officialName": "기독탄신일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 172,
+        "date": "2027-01-01",
+        "currentName": "New Year's Day",
+        "officialName": "1월1일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 173,
+        "date": "2027-02-06",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "eve",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 174,
+        "date": "2027-02-08",
+        "currentName": "Lunar New Year",
+        "officialName": "설날",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 175,
+        "date": "2027-02-09",
+        "currentName": "Lunar New Year",
+        "officialName": "대체공휴일(설날)",
+        "currentCategory": "regular",
+        "newCategory": "substitute",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": true,
+        "substituteForName": "설날"
+      },
+      {
+        "dbId": 176,
+        "date": "2027-03-01",
+        "currentName": "Independence Movement Day",
+        "officialName": "삼일절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 177,
+        "date": "2027-05-05",
+        "currentName": "Children's Day",
+        "officialName": "어린이날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 178,
+        "date": "2027-05-13",
+        "currentName": "Buddha's Birthday",
+        "officialName": "부처님오신날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 179,
+        "date": "2027-06-06",
+        "currentName": "Memorial Day",
+        "officialName": "현충일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 180,
+        "date": "2027-08-15",
+        "currentName": "Liberation Day",
+        "officialName": "광복절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 181,
+        "date": "2027-09-14",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "eve",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 182,
+        "date": "2027-09-15",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 183,
+        "date": "2027-09-16",
+        "currentName": "Chuseok",
+        "officialName": "추석",
+        "currentCategory": "regular",
+        "newCategory": "day_after",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 184,
+        "date": "2027-10-03",
+        "currentName": "National Foundation Day",
+        "officialName": "개천절",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 185,
+        "date": "2027-10-09",
+        "currentName": "Hangul Day",
+        "officialName": "한글날",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      },
+      {
+        "dbId": 186,
+        "date": "2027-12-25",
+        "currentName": "Christmas Day",
+        "officialName": "기독탄신일",
+        "currentCategory": "regular",
+        "newCategory": "regular",
+        "currentIsSubstitute": false,
+        "newIsSubstitute": false,
+        "substituteForName": null
+      }
+    ]
+  }
+}

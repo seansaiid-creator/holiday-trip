@@ -1,0 +1,2888 @@
+{
+  "validation_run_id": "DE-2026-04-24",
+  "country": "Germany",
+  "country_code": "DE",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-24T08:27:18.694Z",
+  "duration_ms": 67196,
+  "summary": {
+    "verified_high": 51,
+    "verified_mid": 7,
+    "single_source": 0,
+    "conflict": 0,
+    "missing_in_db": 3
+  },
+  "source_counts": {
+    "db": 58,
+    "db_locked": 0,
+    "db_total": 58,
+    "wikipedia": 54,
+    "nager": 58
+  },
+  "health_score": 95,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 603,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Neujahr",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": "Neujahrstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "Neujahr",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-06",
+      "group": {
+        "date": "2025-01-06",
+        "db": [
+          {
+            "db_id": 604,
+            "date": "2025-01-06",
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-06",
+            "year": 2025,
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-06",
+            "name": "Epiphany",
+            "localName": "Heilige Drei Könige",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Epiphany",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-03-08",
+      "group": {
+        "date": "2025-03-08",
+        "db": [
+          {
+            "db_id": 605,
+            "date": "2025-03-08",
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-03-08",
+            "year": 2025,
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-03-08",
+            "name": "International Women's Day",
+            "localName": "Internationaler Frauentag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "International Women's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-18",
+      "group": {
+        "date": "2025-04-18",
+        "db": [
+          {
+            "db_id": 606,
+            "date": "2025-04-18",
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-18",
+            "year": 2025,
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-18",
+            "name": "Good Friday",
+            "localName": "Karfreitag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-20",
+      "group": {
+        "date": "2025-04-20",
+        "db": [
+          {
+            "db_id": 607,
+            "date": "2025-04-20",
+            "name_en": "Easter Sunday",
+            "name_local": "Ostersonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-04-20",
+            "name": "Easter Sunday",
+            "localName": "Ostersonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Sunday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-21",
+      "group": {
+        "date": "2025-04-21",
+        "db": [
+          {
+            "db_id": 608,
+            "date": "2025-04-21",
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-21",
+            "year": 2025,
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-21",
+            "name": "Easter Monday",
+            "localName": "Ostermontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-01",
+      "group": {
+        "date": "2025-05-01",
+        "db": [
+          {
+            "db_id": 609,
+            "date": "2025-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-01",
+            "year": 2025,
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-01",
+            "name": "Labour Day",
+            "localName": "Tag der Arbeit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-08",
+      "group": {
+        "date": "2025-05-08",
+        "db": [
+          {
+            "db_id": 610,
+            "date": "2025-05-08",
+            "name_en": "Liberation Day",
+            "name_local": "Tag der Befreiung",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-05-08",
+            "name": "Liberation Day",
+            "localName": "Tag der Befreiung",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Liberation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-29",
+      "group": {
+        "date": "2025-05-29",
+        "db": [
+          {
+            "db_id": 611,
+            "date": "2025-05-29",
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-29",
+            "year": 2025,
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-29",
+            "name": "Ascension Day",
+            "localName": "Christi Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-06-08",
+      "group": {
+        "date": "2025-06-08",
+        "db": [
+          {
+            "db_id": 612,
+            "date": "2025-06-08",
+            "name_en": "Pentecost",
+            "name_local": "Pfingstsonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-06-08",
+            "name": "Pentecost",
+            "localName": "Pfingstsonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Pentecost",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-06-09",
+      "group": {
+        "date": "2025-06-09",
+        "db": [
+          {
+            "db_id": 613,
+            "date": "2025-06-09",
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-06-09",
+            "year": 2025,
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-06-09",
+            "name": "Whit Monday",
+            "localName": "Pfingstmontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-06-19",
+      "group": {
+        "date": "2025-06-19",
+        "db": [
+          {
+            "db_id": 614,
+            "date": "2025-06-19",
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-06-19",
+            "year": 2025,
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-06-19",
+            "name": "Corpus Christi",
+            "localName": "Fronleichnam",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Corpus Christi",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-08-15",
+      "group": {
+        "date": "2025-08-15",
+        "db": [
+          {
+            "db_id": 615,
+            "date": "2025-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-15",
+            "year": 2025,
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-15",
+            "name": "Assumption Day",
+            "localName": "Mariä Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-09-20",
+      "group": {
+        "date": "2025-09-20",
+        "db": [
+          {
+            "db_id": 616,
+            "date": "2025-09-20",
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-09-20",
+            "year": 2025,
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-09-20",
+            "name": "World Children's Day",
+            "localName": "Weltkindertag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "World Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-03",
+      "group": {
+        "date": "2025-10-03",
+        "db": [
+          {
+            "db_id": 617,
+            "date": "2025-10-03",
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-03",
+            "year": 2025,
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-03",
+            "name": "German Unity Day",
+            "localName": "Tag der Deutschen Einheit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "German Unity Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-31",
+      "group": {
+        "date": "2025-10-31",
+        "db": [
+          {
+            "db_id": 618,
+            "date": "2025-10-31",
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-31",
+            "year": 2025,
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-31",
+            "name": "Reformation Day",
+            "localName": "Reformationstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Reformation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-01",
+      "group": {
+        "date": "2025-11-01",
+        "db": [
+          {
+            "db_id": 619,
+            "date": "2025-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-01",
+            "year": 2025,
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-01",
+            "name": "All Saints' Day",
+            "localName": "Allerheiligen",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-19",
+      "group": {
+        "date": "2025-11-19",
+        "db": [
+          {
+            "db_id": 620,
+            "date": "2025-11-19",
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-19",
+            "year": 2025,
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-19",
+            "name": "Repentance and Prayer Day",
+            "localName": "Buß- und Bettag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Repentance and Prayer Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-25",
+      "group": {
+        "date": "2025-12-25",
+        "db": [
+          {
+            "db_id": 621,
+            "date": "2025-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Erster Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-25",
+            "year": 2025,
+            "name_en": "Christmas Day",
+            "name_local": "Weihnachtstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-25",
+            "name": "Christmas Day",
+            "localName": "Erster Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-26",
+      "group": {
+        "date": "2025-12-26",
+        "db": [
+          {
+            "db_id": 622,
+            "date": "2025-12-26",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Zweiter Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-26",
+            "year": 2025,
+            "name_en": "Second Day of Christmas",
+            "name_local": "Zweiter Weihnachtsfeiertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-26",
+            "name": "St. Stephen's Day",
+            "localName": "Zweiter Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "St. Stephen's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 623,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Neujahr",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": "Neujahrstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "Neujahr",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-06",
+      "group": {
+        "date": "2026-01-06",
+        "db": [
+          {
+            "db_id": 624,
+            "date": "2026-01-06",
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-06",
+            "year": 2026,
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-06",
+            "name": "Epiphany",
+            "localName": "Heilige Drei Könige",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Epiphany",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-03-08",
+      "group": {
+        "date": "2026-03-08",
+        "db": [
+          {
+            "db_id": 625,
+            "date": "2026-03-08",
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-03-08",
+            "year": 2026,
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-03-08",
+            "name": "International Women's Day",
+            "localName": "Internationaler Frauentag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "International Women's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-03",
+      "group": {
+        "date": "2026-04-03",
+        "db": [
+          {
+            "db_id": 626,
+            "date": "2026-04-03",
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-03",
+            "year": 2026,
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-03",
+            "name": "Good Friday",
+            "localName": "Karfreitag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-05",
+      "group": {
+        "date": "2026-04-05",
+        "db": [
+          {
+            "db_id": 627,
+            "date": "2026-04-05",
+            "name_en": "Easter Sunday",
+            "name_local": "Ostersonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-04-05",
+            "name": "Easter Sunday",
+            "localName": "Ostersonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Sunday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-06",
+      "group": {
+        "date": "2026-04-06",
+        "db": [
+          {
+            "db_id": 628,
+            "date": "2026-04-06",
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-06",
+            "year": 2026,
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-06",
+            "name": "Easter Monday",
+            "localName": "Ostermontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-01",
+      "group": {
+        "date": "2026-05-01",
+        "db": [
+          {
+            "db_id": 629,
+            "date": "2026-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-01",
+            "year": 2026,
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-01",
+            "name": "Labour Day",
+            "localName": "Tag der Arbeit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-14",
+      "group": {
+        "date": "2026-05-14",
+        "db": [
+          {
+            "db_id": 630,
+            "date": "2026-05-14",
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-14",
+            "year": 2026,
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-14",
+            "name": "Ascension Day",
+            "localName": "Christi Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-24",
+      "group": {
+        "date": "2026-05-24",
+        "db": [
+          {
+            "db_id": 631,
+            "date": "2026-05-24",
+            "name_en": "Pentecost",
+            "name_local": "Pfingstsonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-05-24",
+            "name": "Pentecost",
+            "localName": "Pfingstsonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Pentecost",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-25",
+      "group": {
+        "date": "2026-05-25",
+        "db": [
+          {
+            "db_id": 632,
+            "date": "2026-05-25",
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-25",
+            "year": 2026,
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-25",
+            "name": "Whit Monday",
+            "localName": "Pfingstmontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-06-04",
+      "group": {
+        "date": "2026-06-04",
+        "db": [
+          {
+            "db_id": 633,
+            "date": "2026-06-04",
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-06-04",
+            "year": 2026,
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-06-04",
+            "name": "Corpus Christi",
+            "localName": "Fronleichnam",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Corpus Christi",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-08-15",
+      "group": {
+        "date": "2026-08-15",
+        "db": [
+          {
+            "db_id": 634,
+            "date": "2026-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-15",
+            "year": 2026,
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-15",
+            "name": "Assumption Day",
+            "localName": "Mariä Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-20",
+      "group": {
+        "date": "2026-09-20",
+        "db": [
+          {
+            "db_id": 635,
+            "date": "2026-09-20",
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-20",
+            "year": 2026,
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-20",
+            "name": "World Children's Day",
+            "localName": "Weltkindertag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "World Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-03",
+      "group": {
+        "date": "2026-10-03",
+        "db": [
+          {
+            "db_id": 636,
+            "date": "2026-10-03",
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-03",
+            "year": 2026,
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-03",
+            "name": "German Unity Day",
+            "localName": "Tag der Deutschen Einheit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "German Unity Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-31",
+      "group": {
+        "date": "2026-10-31",
+        "db": [
+          {
+            "db_id": 637,
+            "date": "2026-10-31",
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-31",
+            "year": 2026,
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-31",
+            "name": "Reformation Day",
+            "localName": "Reformationstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Reformation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-01",
+      "group": {
+        "date": "2026-11-01",
+        "db": [
+          {
+            "db_id": 638,
+            "date": "2026-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-01",
+            "year": 2026,
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-01",
+            "name": "All Saints' Day",
+            "localName": "Allerheiligen",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-18",
+      "group": {
+        "date": "2026-11-18",
+        "db": [
+          {
+            "db_id": 639,
+            "date": "2026-11-18",
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-18",
+            "year": 2026,
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-18",
+            "name": "Repentance and Prayer Day",
+            "localName": "Buß- und Bettag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Repentance and Prayer Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-25",
+      "group": {
+        "date": "2026-12-25",
+        "db": [
+          {
+            "db_id": 640,
+            "date": "2026-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Erster Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-25",
+            "year": 2026,
+            "name_en": "Christmas Day",
+            "name_local": "Weihnachtstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-25",
+            "name": "Christmas Day",
+            "localName": "Erster Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-26",
+      "group": {
+        "date": "2026-12-26",
+        "db": [
+          {
+            "db_id": 641,
+            "date": "2026-12-26",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Zweiter Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-26",
+            "year": 2026,
+            "name_en": "Second Day of Christmas",
+            "name_local": "Zweiter Weihnachtsfeiertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-26",
+            "name": "St. Stephen's Day",
+            "localName": "Zweiter Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "St. Stephen's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 642,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Neujahr",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": "Neujahrstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "Neujahr",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-06",
+      "group": {
+        "date": "2027-01-06",
+        "db": [
+          {
+            "db_id": 643,
+            "date": "2027-01-06",
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-06",
+            "year": 2027,
+            "name_en": "Epiphany",
+            "name_local": "Heilige Drei Könige",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-06",
+            "name": "Epiphany",
+            "localName": "Heilige Drei Könige",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Epiphany",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-08",
+      "group": {
+        "date": "2027-03-08",
+        "db": [
+          {
+            "db_id": 644,
+            "date": "2027-03-08",
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-08",
+            "year": 2027,
+            "name_en": "International Women's Day",
+            "name_local": "Internationaler Frauentag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-08",
+            "name": "International Women's Day",
+            "localName": "Internationaler Frauentag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "International Women's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-26",
+      "group": {
+        "date": "2027-03-26",
+        "db": [
+          {
+            "db_id": 645,
+            "date": "2027-03-26",
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-26",
+            "year": 2027,
+            "name_en": "Good Friday",
+            "name_local": "Karfreitag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-26",
+            "name": "Good Friday",
+            "localName": "Karfreitag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-28",
+      "group": {
+        "date": "2027-03-28",
+        "db": [
+          {
+            "db_id": 646,
+            "date": "2027-03-28",
+            "name_en": "Easter Sunday",
+            "name_local": "Ostersonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-03-28",
+            "name": "Easter Sunday",
+            "localName": "Ostersonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Sunday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-29",
+      "group": {
+        "date": "2027-03-29",
+        "db": [
+          {
+            "db_id": 647,
+            "date": "2027-03-29",
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-29",
+            "year": 2027,
+            "name_en": "Easter Monday",
+            "name_local": "Ostermontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-29",
+            "name": "Easter Monday",
+            "localName": "Ostermontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-01",
+      "group": {
+        "date": "2027-05-01",
+        "db": [
+          {
+            "db_id": 648,
+            "date": "2027-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-01",
+            "year": 2027,
+            "name_en": "Labour Day",
+            "name_local": "Tag der Arbeit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-01",
+            "name": "Labour Day",
+            "localName": "Tag der Arbeit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-06",
+      "group": {
+        "date": "2027-05-06",
+        "db": [
+          {
+            "db_id": 649,
+            "date": "2027-05-06",
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-06",
+            "year": 2027,
+            "name_en": "Ascension Day",
+            "name_local": "Christi Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-06",
+            "name": "Ascension Day",
+            "localName": "Christi Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-16",
+      "group": {
+        "date": "2027-05-16",
+        "db": [
+          {
+            "db_id": 650,
+            "date": "2027-05-16",
+            "name_en": "Pentecost",
+            "name_local": "Pfingstsonntag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-05-16",
+            "name": "Pentecost",
+            "localName": "Pfingstsonntag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Pentecost",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-17",
+      "group": {
+        "date": "2027-05-17",
+        "db": [
+          {
+            "db_id": 651,
+            "date": "2027-05-17",
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-17",
+            "year": 2027,
+            "name_en": "Whit Monday",
+            "name_local": "Pfingstmontag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-17",
+            "name": "Whit Monday",
+            "localName": "Pfingstmontag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-27",
+      "group": {
+        "date": "2027-05-27",
+        "db": [
+          {
+            "db_id": 652,
+            "date": "2027-05-27",
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-27",
+            "year": 2027,
+            "name_en": "Corpus Christi",
+            "name_local": "Fronleichnam",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-27",
+            "name": "Corpus Christi",
+            "localName": "Fronleichnam",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Corpus Christi",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-08-15",
+      "group": {
+        "date": "2027-08-15",
+        "db": [
+          {
+            "db_id": 653,
+            "date": "2027-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-15",
+            "year": 2027,
+            "name_en": "Assumption Day",
+            "name_local": "Mariä Himmelfahrt",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-15",
+            "name": "Assumption Day",
+            "localName": "Mariä Himmelfahrt",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-20",
+      "group": {
+        "date": "2027-09-20",
+        "db": [
+          {
+            "db_id": 654,
+            "date": "2027-09-20",
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-20",
+            "year": 2027,
+            "name_en": "World Children's Day",
+            "name_local": "Weltkindertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-20",
+            "name": "World Children's Day",
+            "localName": "Weltkindertag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "World Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-03",
+      "group": {
+        "date": "2027-10-03",
+        "db": [
+          {
+            "db_id": 655,
+            "date": "2027-10-03",
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-03",
+            "year": 2027,
+            "name_en": "German Unity Day",
+            "name_local": "Tag der Deutschen Einheit",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-03",
+            "name": "German Unity Day",
+            "localName": "Tag der Deutschen Einheit",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "German Unity Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-31",
+      "group": {
+        "date": "2027-10-31",
+        "db": [
+          {
+            "db_id": 656,
+            "date": "2027-10-31",
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-31",
+            "year": 2027,
+            "name_en": "Reformation Day",
+            "name_local": "Reformationstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-31",
+            "name": "Reformation Day",
+            "localName": "Reformationstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Reformation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-01",
+      "group": {
+        "date": "2027-11-01",
+        "db": [
+          {
+            "db_id": 657,
+            "date": "2027-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-01",
+            "year": 2027,
+            "name_en": "All Saints' Day",
+            "name_local": "Allerheiligen",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-01",
+            "name": "All Saints' Day",
+            "localName": "Allerheiligen",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-17",
+      "group": {
+        "date": "2027-11-17",
+        "db": [
+          {
+            "db_id": 658,
+            "date": "2027-11-17",
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-17",
+            "year": 2027,
+            "name_en": "Repentance and Prayer Day",
+            "name_local": "Buß- und Bettag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-17",
+            "name": "Repentance and Prayer Day",
+            "localName": "Buß- und Bettag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Repentance and Prayer Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-25",
+      "group": {
+        "date": "2027-12-25",
+        "db": [
+          {
+            "db_id": 659,
+            "date": "2027-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Erster Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-25",
+            "year": 2027,
+            "name_en": "Christmas Day",
+            "name_local": "Weihnachtstag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-25",
+            "name": "Christmas Day",
+            "localName": "Erster Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-26",
+      "group": {
+        "date": "2027-12-26",
+        "db": [
+          {
+            "db_id": 660,
+            "date": "2027-12-26",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Zweiter Weihnachtstag",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-26",
+            "year": 2027,
+            "name_en": "Second Day of Christmas",
+            "name_local": "Zweiter Weihnachtsfeiertag",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-26",
+            "name": "St. Stephen's Day",
+            "localName": "Zweiter Weihnachtstag",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "St. Stephen's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-08",
+      "group": {
+        "date": "2025-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-08-08",
+            "year": 2025,
+            "name_en": "Augsburg Peace Festival",
+            "name_local": "Augsburger Hohes Friedensfest",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Augsburg Peace Festival",
+      "issue": "Wikipedia and Nager have 'Augsburg Peace Festival', but it's missing in the DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-08",
+      "group": {
+        "date": "2026-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-08-08",
+            "year": 2026,
+            "name_en": "Augsburg Peace Festival",
+            "name_local": "Augsburger Hohes Friedensfest",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Augsburg Peace Festival",
+      "issue": "Wikipedia and Nager have 'Augsburg Peace Festival', but it's missing in the DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-08",
+      "group": {
+        "date": "2027-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-08-08",
+            "year": 2027,
+            "name_en": "Augsburg Peace Festival",
+            "name_local": "Augsburger Hohes Friedensfest",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Augsburg Peace Festival",
+      "issue": "Wikipedia and Nager have 'Augsburg Peace Festival', but it's missing in the DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

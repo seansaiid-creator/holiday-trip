@@ -1,0 +1,2054 @@
+{
+  "validation_run_id": "GB-2026-04-24",
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-24T08:26:09.488Z",
+  "duration_ms": 117601,
+  "summary": {
+    "verified_high": 32,
+    "verified_mid": 8,
+    "single_source": 0,
+    "conflict": 0,
+    "missing_in_db": 2
+  },
+  "source_counts": {
+    "db": 40,
+    "db_locked": 0,
+    "db_total": 40,
+    "wikipedia": 43,
+    "nager": 40
+  },
+  "health_score": 95,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 563,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-02",
+      "group": {
+        "date": "2025-01-02",
+        "db": [
+          {
+            "db_id": 564,
+            "date": "2025-01-02",
+            "name_en": "2 January",
+            "name_local": "2 January",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-02",
+            "year": 2025,
+            "name_en": "New Year Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-02",
+            "name": "2 January",
+            "localName": "2 January",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "New Year Holiday",
+      "issue": "DB name is too generic.",
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-17",
+      "group": {
+        "date": "2025-03-17",
+        "db": [
+          {
+            "db_id": 565,
+            "date": "2025-03-17",
+            "name_en": "Saint Patrick's Day",
+            "name_local": "Saint Patrick's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-03-17",
+            "year": 2025,
+            "name_en": "Saint Patrick's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-03-17",
+            "name": "Saint Patrick's Day",
+            "localName": "Saint Patrick's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Saint Patrick's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-18",
+      "group": {
+        "date": "2025-04-18",
+        "db": [
+          {
+            "db_id": 566,
+            "date": "2025-04-18",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-18",
+            "year": 2025,
+            "name_en": "Good Friday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-18",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-21",
+      "group": {
+        "date": "2025-04-21",
+        "db": [
+          {
+            "db_id": 567,
+            "date": "2025-04-21",
+            "name_en": "Easter Monday",
+            "name_local": "Easter Monday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-21",
+            "year": 2025,
+            "name_en": "Easter Monday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-21",
+            "name": "Easter Monday",
+            "localName": "Easter Monday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-05",
+      "group": {
+        "date": "2025-05-05",
+        "db": [
+          {
+            "db_id": 568,
+            "date": "2025-05-05",
+            "name_en": "Early May Bank Holiday",
+            "name_local": "Early May Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-05",
+            "year": 2025,
+            "name_en": "Early May bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-05",
+            "name": "Early May Bank Holiday",
+            "localName": "Early May Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Early May bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-26",
+      "group": {
+        "date": "2025-05-26",
+        "db": [
+          {
+            "db_id": 569,
+            "date": "2025-05-26",
+            "name_en": "Spring Bank Holiday",
+            "name_local": "Spring Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-26",
+            "year": 2025,
+            "name_en": "Spring Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-05-26",
+            "year": 2025,
+            "name_en": "Spring bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-26",
+            "name": "Spring Bank Holiday",
+            "localName": "Spring Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Spring Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-07-14",
+      "group": {
+        "date": "2025-07-14",
+        "db": [
+          {
+            "db_id": 570,
+            "date": "2025-07-14",
+            "name_en": "Battle of the Boyne",
+            "name_local": "Battle of the Boyne",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-07-14",
+            "year": 2025,
+            "name_en": "Battle of the Boyne (Orangeman's Day)",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Battle of the Boyne (Orangeman's Day)",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-07-14",
+            "name": "Battle of the Boyne",
+            "localName": "Battle of the Boyne",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Battle of the Boyne (Orangeman's Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-08-04",
+      "group": {
+        "date": "2025-08-04",
+        "db": [
+          {
+            "db_id": 571,
+            "date": "2025-08-04",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-04",
+            "year": 2025,
+            "name_en": "Summer bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-04",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-08-25",
+      "group": {
+        "date": "2025-08-25",
+        "db": [
+          {
+            "db_id": 572,
+            "date": "2025-08-25",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-25",
+            "year": 2025,
+            "name_en": "Summer Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-25",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-01",
+      "group": {
+        "date": "2025-12-01",
+        "db": [
+          {
+            "db_id": 573,
+            "date": "2025-12-01",
+            "name_en": "Saint Andrew's Day",
+            "name_local": "Saint Andrew's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-01",
+            "year": 2025,
+            "name_en": "St. Andrew's Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "St. Andrew's Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-01",
+            "name": "Saint Andrew's Day",
+            "localName": "Saint Andrew's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Saint Andrew's Day",
+      "issue": "Wikipedia categorizes this as a substitute holiday, while DB and Nager do not. The name is consistent.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-12-25",
+      "group": {
+        "date": "2025-12-25",
+        "db": [
+          {
+            "db_id": 574,
+            "date": "2025-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-25",
+            "year": 2025,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-25",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-26",
+      "group": {
+        "date": "2025-12-26",
+        "db": [
+          {
+            "db_id": 575,
+            "date": "2025-12-26",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Boxing Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-26",
+            "year": 2025,
+            "name_en": "Boxing Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-26",
+            "name": "St. Stephen's Day",
+            "localName": "Boxing Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Boxing Day",
+      "issue": "DB and Nager use 'St. Stephen's Day' while Wikipedia uses 'Boxing Day'. These refer to the same holiday.",
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 576,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-02",
+      "group": {
+        "date": "2026-01-02",
+        "db": [
+          {
+            "db_id": 577,
+            "date": "2026-01-02",
+            "name_en": "2 January",
+            "name_local": "2 January",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-02",
+            "year": 2026,
+            "name_en": "New Year Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-02",
+            "name": "2 January",
+            "localName": "2 January",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "New Year Holiday",
+      "issue": "DB name is too generic.",
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-17",
+      "group": {
+        "date": "2026-03-17",
+        "db": [
+          {
+            "db_id": 578,
+            "date": "2026-03-17",
+            "name_en": "Saint Patrick's Day",
+            "name_local": "Saint Patrick's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-03-17",
+            "year": 2026,
+            "name_en": "Saint Patrick's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-03-17",
+            "name": "Saint Patrick's Day",
+            "localName": "Saint Patrick's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Saint Patrick's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-03",
+      "group": {
+        "date": "2026-04-03",
+        "db": [
+          {
+            "db_id": 579,
+            "date": "2026-04-03",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-03",
+            "year": 2026,
+            "name_en": "Good Friday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-03",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-06",
+      "group": {
+        "date": "2026-04-06",
+        "db": [
+          {
+            "db_id": 580,
+            "date": "2026-04-06",
+            "name_en": "Easter Monday",
+            "name_local": "Easter Monday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-06",
+            "year": 2026,
+            "name_en": "Easter Monday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-06",
+            "name": "Easter Monday",
+            "localName": "Easter Monday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-04",
+      "group": {
+        "date": "2026-05-04",
+        "db": [
+          {
+            "db_id": 581,
+            "date": "2026-05-04",
+            "name_en": "Early May Bank Holiday",
+            "name_local": "Early May Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-04",
+            "year": 2026,
+            "name_en": "Early May bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-04",
+            "name": "Early May Bank Holiday",
+            "localName": "Early May Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Early May bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-25",
+      "group": {
+        "date": "2026-05-25",
+        "db": [
+          {
+            "db_id": 582,
+            "date": "2026-05-25",
+            "name_en": "Spring Bank Holiday",
+            "name_local": "Spring Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-25",
+            "year": 2026,
+            "name_en": "Spring Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-05-25",
+            "year": 2026,
+            "name_en": "Spring bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-25",
+            "name": "Spring Bank Holiday",
+            "localName": "Spring Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Spring Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-06-15",
+      "group": {
+        "date": "2026-06-15",
+        "db": [
+          {
+            "db_id": 583,
+            "date": "2026-06-15",
+            "name_en": "World Cup Bank Holiday",
+            "name_local": "World Cup Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-06-15",
+            "name": "World Cup Bank Holiday",
+            "localName": "World Cup Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "World Cup Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-07-13",
+      "group": {
+        "date": "2026-07-13",
+        "db": [
+          {
+            "db_id": 584,
+            "date": "2026-07-13",
+            "name_en": "Battle of the Boyne",
+            "name_local": "Battle of the Boyne",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-07-13",
+            "year": 2026,
+            "name_en": "Battle of the Boyne (Orangeman's Day)",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Battle of the Boyne (Orangeman's Day)",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-07-13",
+            "name": "Battle of the Boyne",
+            "localName": "Battle of the Boyne",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Battle of the Boyne (Orangeman's Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-08-03",
+      "group": {
+        "date": "2026-08-03",
+        "db": [
+          {
+            "db_id": 585,
+            "date": "2026-08-03",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-03",
+            "year": 2026,
+            "name_en": "Summer bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-03",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-08-31",
+      "group": {
+        "date": "2026-08-31",
+        "db": [
+          {
+            "db_id": 586,
+            "date": "2026-08-31",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-31",
+            "year": 2026,
+            "name_en": "Summer Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-31",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-30",
+      "group": {
+        "date": "2026-11-30",
+        "db": [
+          {
+            "db_id": 587,
+            "date": "2026-11-30",
+            "name_en": "Saint Andrew's Day",
+            "name_local": "Saint Andrew's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-30",
+            "year": 2026,
+            "name_en": "St. Andrew's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-30",
+            "name": "Saint Andrew's Day",
+            "localName": "Saint Andrew's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Saint Andrew's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-12-25",
+      "group": {
+        "date": "2026-12-25",
+        "db": [
+          {
+            "db_id": 588,
+            "date": "2026-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-25",
+            "year": 2026,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-25",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-28",
+      "group": {
+        "date": "2026-12-28",
+        "db": [
+          {
+            "db_id": 589,
+            "date": "2026-12-28",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Boxing Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-28",
+            "year": 2026,
+            "name_en": "Boxing Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Boxing Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-28",
+            "name": "St. Stephen's Day",
+            "localName": "Boxing Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Boxing Day",
+      "issue": "DB and Nager use 'St. Stephen's Day' while Wikipedia uses 'Boxing Day'. Wikipedia categorizes it as a substitute holiday.",
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 590,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-02",
+      "group": {
+        "date": "2027-01-02",
+        "db": [
+          {
+            "db_id": 591,
+            "date": "2027-01-02",
+            "name_en": "2 January",
+            "name_local": "2 January",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-01-02",
+            "name": "2 January",
+            "localName": "2 January",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "2 January",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-17",
+      "group": {
+        "date": "2027-03-17",
+        "db": [
+          {
+            "db_id": 592,
+            "date": "2027-03-17",
+            "name_en": "Saint Patrick's Day",
+            "name_local": "Saint Patrick's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-17",
+            "year": 2027,
+            "name_en": "Saint Patrick's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-17",
+            "name": "Saint Patrick's Day",
+            "localName": "Saint Patrick's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Saint Patrick's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-26",
+      "group": {
+        "date": "2027-03-26",
+        "db": [
+          {
+            "db_id": 593,
+            "date": "2027-03-26",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-26",
+            "year": 2027,
+            "name_en": "Good Friday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-26",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-29",
+      "group": {
+        "date": "2027-03-29",
+        "db": [
+          {
+            "db_id": 594,
+            "date": "2027-03-29",
+            "name_en": "Easter Monday",
+            "name_local": "Easter Monday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-29",
+            "year": 2027,
+            "name_en": "Easter Monday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-29",
+            "name": "Easter Monday",
+            "localName": "Easter Monday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-03",
+      "group": {
+        "date": "2027-05-03",
+        "db": [
+          {
+            "db_id": 595,
+            "date": "2027-05-03",
+            "name_en": "Early May Bank Holiday",
+            "name_local": "Early May Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-03",
+            "year": 2027,
+            "name_en": "Early May bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-03",
+            "name": "Early May Bank Holiday",
+            "localName": "Early May Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Early May bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-31",
+      "group": {
+        "date": "2027-05-31",
+        "db": [
+          {
+            "db_id": 596,
+            "date": "2027-05-31",
+            "name_en": "Spring Bank Holiday",
+            "name_local": "Spring Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-31",
+            "year": 2027,
+            "name_en": "Spring Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-05-31",
+            "year": 2027,
+            "name_en": "Spring bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-31",
+            "name": "Spring Bank Holiday",
+            "localName": "Spring Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Spring Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-07-12",
+      "group": {
+        "date": "2027-07-12",
+        "db": [
+          {
+            "db_id": 597,
+            "date": "2027-07-12",
+            "name_en": "Battle of the Boyne",
+            "name_local": "Battle of the Boyne",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-07-12",
+            "year": 2027,
+            "name_en": "Battle of the Boyne (Orangeman's Day)",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-07-12",
+            "name": "Battle of the Boyne",
+            "localName": "Battle of the Boyne",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Battle of the Boyne (Orangeman's Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-08-02",
+      "group": {
+        "date": "2027-08-02",
+        "db": [
+          {
+            "db_id": 598,
+            "date": "2027-08-02",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-02",
+            "year": 2027,
+            "name_en": "Summer bank holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-02",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer bank holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-08-30",
+      "group": {
+        "date": "2027-08-30",
+        "db": [
+          {
+            "db_id": 599,
+            "date": "2027-08-30",
+            "name_en": "Summer Bank Holiday",
+            "name_local": "Summer Bank Holiday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-30",
+            "year": 2027,
+            "name_en": "Summer Bank Holiday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-30",
+            "name": "Summer Bank Holiday",
+            "localName": "Summer Bank Holiday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Summer Bank Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-30",
+      "group": {
+        "date": "2027-11-30",
+        "db": [
+          {
+            "db_id": 600,
+            "date": "2027-11-30",
+            "name_en": "Saint Andrew's Day",
+            "name_local": "Saint Andrew's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-30",
+            "year": 2027,
+            "name_en": "St. Andrew's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-30",
+            "name": "Saint Andrew's Day",
+            "localName": "Saint Andrew's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Saint Andrew's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-12-27",
+      "group": {
+        "date": "2027-12-27",
+        "db": [
+          {
+            "db_id": 601,
+            "date": "2027-12-27",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-27",
+            "year": 2027,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Christmas Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-27",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-28",
+      "group": {
+        "date": "2027-12-28",
+        "db": [
+          {
+            "db_id": 602,
+            "date": "2027-12-28",
+            "name_en": "St. Stephen's Day",
+            "name_local": "Boxing Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-28",
+            "year": 2027,
+            "name_en": "Boxing Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Boxing Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-28",
+            "name": "St. Stephen's Day",
+            "localName": "Boxing Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Boxing Day",
+      "issue": "DB and Nager use 'St. Stephen's Day' while Wikipedia uses 'Boxing Day'. Wikipedia categorizes it as a substitute holiday.",
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-01-04",
+      "group": {
+        "date": "2027-01-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-01-04",
+            "year": 2027,
+            "name_en": "New Year Holiday",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "New Year Holiday",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "New Year Holiday",
+      "issue": "DB is missing a substitute holiday listed on Wikipedia.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-12-25",
+      "group": {
+        "date": "2027-12-25",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-12-25",
+            "year": 2027,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Christmas Day",
+      "issue": "DB is missing a regular holiday listed on Wikipedia.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

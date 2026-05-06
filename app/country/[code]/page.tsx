@@ -369,9 +369,15 @@ export default async function CountryPage({
         {/* Hero section */}
         <div className="mb-8">
           <div className="flex items-start gap-5 mb-5">
-            {country.emoji_flag && (
-              <div className="text-6xl leading-none">{country.emoji_flag}</div>
-            )}
+            <img
+              src={`https://flagcdn.com/w80/${code.toLowerCase()}.png`}
+              srcSet={`https://flagcdn.com/w160/${code.toLowerCase()}.png 2x`}
+              alt={`${country.name} flag`}
+              width={80}
+              height={60}
+              className="rounded-sm object-cover"
+              style={{ width: '80px', height: '60px' }}
+            />  
             <div className="flex-1 pt-1">
               <h1 className="text-4xl font-semibold text-gray-900 tracking-tight">
                 {country.name}

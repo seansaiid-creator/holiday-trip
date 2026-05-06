@@ -1,0 +1,2777 @@
+{
+  "validation_run_id": "FR-2026-04-24",
+  "country": "France",
+  "country_code": "FR",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-24T08:24:09.866Z",
+  "duration_ms": 74999,
+  "summary": {
+    "verified_high": 33,
+    "verified_mid": 0,
+    "single_source": 0,
+    "conflict": 0,
+    "missing_in_db": 39
+  },
+  "source_counts": {
+    "db": 33,
+    "db_locked": 0,
+    "db_total": 33,
+    "wikipedia": 72,
+    "nager": 33
+  },
+  "health_score": 46,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 337,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'an",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'An",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "Jour de l'an",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-04-21",
+      "group": {
+        "date": "2025-04-21",
+        "db": [
+          {
+            "db_id": 338,
+            "date": "2025-04-21",
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-04-21",
+            "year": 2025,
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-04-21",
+            "name": "Easter Monday",
+            "localName": "Lundi de Pâques",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-01",
+      "group": {
+        "date": "2025-05-01",
+        "db": [
+          {
+            "db_id": 339,
+            "date": "2025-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-01",
+            "year": 2025,
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-01",
+            "name": "Labour Day",
+            "localName": "Fête du Travail",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-08",
+      "group": {
+        "date": "2025-05-08",
+        "db": [
+          {
+            "db_id": 340,
+            "date": "2025-05-08",
+            "name_en": "Victory in Europe Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-08",
+            "year": 2025,
+            "name_en": "Victory Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-08",
+            "name": "Victory in Europe Day",
+            "localName": "Victoire 1945",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Victory in Europe Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-29",
+      "group": {
+        "date": "2025-05-29",
+        "db": [
+          {
+            "db_id": 341,
+            "date": "2025-05-29",
+            "name_en": "Ascension Day",
+            "name_local": "Ascension",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-29",
+            "year": 2025,
+            "name_en": "Ascension Day",
+            "name_local": "L'Ascension",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-29",
+            "name": "Ascension Day",
+            "localName": "Ascension",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-06-09",
+      "group": {
+        "date": "2025-06-09",
+        "db": [
+          {
+            "db_id": 342,
+            "date": "2025-06-09",
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-06-09",
+            "year": 2025,
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-06-09",
+            "name": "Whit Monday",
+            "localName": "Lundi de Pentecôte",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-07-14",
+      "group": {
+        "date": "2025-07-14",
+        "db": [
+          {
+            "db_id": 343,
+            "date": "2025-07-14",
+            "name_en": "Bastille Day",
+            "name_local": "Fête nationale",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-07-14",
+            "year": 2025,
+            "name_en": "National Day",
+            "name_local": "Fête nationale française",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-07-14",
+            "name": "Bastille Day",
+            "localName": "Fête nationale",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Bastille Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-15",
+      "group": {
+        "date": "2025-08-15",
+        "db": [
+          {
+            "db_id": 344,
+            "date": "2025-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Assomption",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-15",
+            "year": 2025,
+            "name_en": "Assumption Day",
+            "name_local": "L'Assomption",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-15",
+            "name": "Assumption Day",
+            "localName": "Assomption",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-01",
+      "group": {
+        "date": "2025-11-01",
+        "db": [
+          {
+            "db_id": 345,
+            "date": "2025-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Toussaint",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-01",
+            "year": 2025,
+            "name_en": "All Saints' Day",
+            "name_local": "La Toussaint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-01",
+            "name": "All Saints' Day",
+            "localName": "Toussaint",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-11",
+      "group": {
+        "date": "2025-11-11",
+        "db": [
+          {
+            "db_id": 346,
+            "date": "2025-11-11",
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-11",
+            "year": 2025,
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-11",
+            "name": "Armistice Day",
+            "localName": "Armistice 1918",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Armistice Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-25",
+      "group": {
+        "date": "2025-12-25",
+        "db": [
+          {
+            "db_id": 347,
+            "date": "2025-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-25",
+            "year": 2025,
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-25",
+            "name": "Christmas Day",
+            "localName": "Noël",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 348,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'an",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'An",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "Jour de l'an",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-04-06",
+      "group": {
+        "date": "2026-04-06",
+        "db": [
+          {
+            "db_id": 349,
+            "date": "2026-04-06",
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-04-06",
+            "year": 2026,
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-04-06",
+            "name": "Easter Monday",
+            "localName": "Lundi de Pâques",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-01",
+      "group": {
+        "date": "2026-05-01",
+        "db": [
+          {
+            "db_id": 350,
+            "date": "2026-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-01",
+            "year": 2026,
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-01",
+            "name": "Labour Day",
+            "localName": "Fête du Travail",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-08",
+      "group": {
+        "date": "2026-05-08",
+        "db": [
+          {
+            "db_id": 351,
+            "date": "2026-05-08",
+            "name_en": "Victory in Europe Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-08",
+            "year": 2026,
+            "name_en": "Victory Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-08",
+            "name": "Victory in Europe Day",
+            "localName": "Victoire 1945",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Victory in Europe Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-14",
+      "group": {
+        "date": "2026-05-14",
+        "db": [
+          {
+            "db_id": 352,
+            "date": "2026-05-14",
+            "name_en": "Ascension Day",
+            "name_local": "Ascension",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-14",
+            "year": 2026,
+            "name_en": "Ascension Day",
+            "name_local": "L'Ascension",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-14",
+            "name": "Ascension Day",
+            "localName": "Ascension",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-25",
+      "group": {
+        "date": "2026-05-25",
+        "db": [
+          {
+            "db_id": 353,
+            "date": "2026-05-25",
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-25",
+            "year": 2026,
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-25",
+            "name": "Whit Monday",
+            "localName": "Lundi de Pentecôte",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-07-14",
+      "group": {
+        "date": "2026-07-14",
+        "db": [
+          {
+            "db_id": 354,
+            "date": "2026-07-14",
+            "name_en": "Bastille Day",
+            "name_local": "Fête nationale",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-07-14",
+            "year": 2026,
+            "name_en": "National Day",
+            "name_local": "Fête nationale française",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-07-14",
+            "name": "Bastille Day",
+            "localName": "Fête nationale",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Bastille Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-15",
+      "group": {
+        "date": "2026-08-15",
+        "db": [
+          {
+            "db_id": 355,
+            "date": "2026-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Assomption",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-15",
+            "year": 2026,
+            "name_en": "Assumption Day",
+            "name_local": "L'Assomption",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-15",
+            "name": "Assumption Day",
+            "localName": "Assomption",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-01",
+      "group": {
+        "date": "2026-11-01",
+        "db": [
+          {
+            "db_id": 356,
+            "date": "2026-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Toussaint",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-01",
+            "year": 2026,
+            "name_en": "All Saints' Day",
+            "name_local": "La Toussaint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-01",
+            "name": "All Saints' Day",
+            "localName": "Toussaint",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-11",
+      "group": {
+        "date": "2026-11-11",
+        "db": [
+          {
+            "db_id": 357,
+            "date": "2026-11-11",
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-11",
+            "year": 2026,
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-11",
+            "name": "Armistice Day",
+            "localName": "Armistice 1918",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Armistice Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-25",
+      "group": {
+        "date": "2026-12-25",
+        "db": [
+          {
+            "db_id": 358,
+            "date": "2026-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-25",
+            "year": 2026,
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-25",
+            "name": "Christmas Day",
+            "localName": "Noël",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 359,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'an",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": "Jour de l'An",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "Jour de l'an",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-29",
+      "group": {
+        "date": "2027-03-29",
+        "db": [
+          {
+            "db_id": 360,
+            "date": "2027-03-29",
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-29",
+            "year": 2027,
+            "name_en": "Easter Monday",
+            "name_local": "Lundi de Pâques",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-29",
+            "name": "Easter Monday",
+            "localName": "Lundi de Pâques",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Easter Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-01",
+      "group": {
+        "date": "2027-05-01",
+        "db": [
+          {
+            "db_id": 361,
+            "date": "2027-05-01",
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-01",
+            "year": 2027,
+            "name_en": "Labour Day",
+            "name_local": "Fête du Travail",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-01",
+            "name": "Labour Day",
+            "localName": "Fête du Travail",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-06",
+      "group": {
+        "date": "2027-05-06",
+        "db": [
+          {
+            "db_id": 362,
+            "date": "2027-05-06",
+            "name_en": "Ascension Day",
+            "name_local": "Ascension",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-06",
+            "year": 2027,
+            "name_en": "Ascension Day",
+            "name_local": "L'Ascension",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-06",
+            "name": "Ascension Day",
+            "localName": "Ascension",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Ascension Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-08",
+      "group": {
+        "date": "2027-05-08",
+        "db": [
+          {
+            "db_id": 363,
+            "date": "2027-05-08",
+            "name_en": "Victory in Europe Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-08",
+            "year": 2027,
+            "name_en": "Victory Day",
+            "name_local": "Victoire 1945",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-08",
+            "name": "Victory in Europe Day",
+            "localName": "Victoire 1945",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Victory in Europe Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-17",
+      "group": {
+        "date": "2027-05-17",
+        "db": [
+          {
+            "db_id": 364,
+            "date": "2027-05-17",
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-17",
+            "year": 2027,
+            "name_en": "Whit Monday",
+            "name_local": "Lundi de Pentecôte",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-17",
+            "name": "Whit Monday",
+            "localName": "Lundi de Pentecôte",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Whit Monday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-07-14",
+      "group": {
+        "date": "2027-07-14",
+        "db": [
+          {
+            "db_id": 365,
+            "date": "2027-07-14",
+            "name_en": "Bastille Day",
+            "name_local": "Fête nationale",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-07-14",
+            "year": 2027,
+            "name_en": "National Day",
+            "name_local": "Fête nationale française",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-07-14",
+            "name": "Bastille Day",
+            "localName": "Fête nationale",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Bastille Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-15",
+      "group": {
+        "date": "2027-08-15",
+        "db": [
+          {
+            "db_id": 366,
+            "date": "2027-08-15",
+            "name_en": "Assumption Day",
+            "name_local": "Assomption",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-15",
+            "year": 2027,
+            "name_en": "Assumption Day",
+            "name_local": "L'Assomption",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-15",
+            "name": "Assumption Day",
+            "localName": "Assomption",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Assumption Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-01",
+      "group": {
+        "date": "2027-11-01",
+        "db": [
+          {
+            "db_id": 367,
+            "date": "2027-11-01",
+            "name_en": "All Saints' Day",
+            "name_local": "Toussaint",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-01",
+            "year": 2027,
+            "name_en": "All Saints' Day",
+            "name_local": "La Toussaint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-01",
+            "name": "All Saints' Day",
+            "localName": "Toussaint",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "All Saints' Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-11",
+      "group": {
+        "date": "2027-11-11",
+        "db": [
+          {
+            "db_id": 368,
+            "date": "2027-11-11",
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-11",
+            "year": 2027,
+            "name_en": "Armistice Day",
+            "name_local": "Armistice 1918",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-11",
+            "name": "Armistice Day",
+            "localName": "Armistice 1918",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Armistice Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-25",
+      "group": {
+        "date": "2027-12-25",
+        "db": [
+          {
+            "db_id": 369,
+            "date": "2027-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-25",
+            "year": 2027,
+            "name_en": "Christmas Day",
+            "name_local": "Noël",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-25",
+            "name": "Christmas Day",
+            "localName": "Noël",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-03-05",
+      "group": {
+        "date": "2025-03-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-03-05",
+            "year": 2025,
+            "name_en": "Missionary Day",
+            "name_local": "Arrivée de l'Évangile",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Missionary Day",
+      "issue": "Wikipedia has 'Missionary Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-27",
+      "group": {
+        "date": "2025-03-27",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-03-27",
+            "year": 2025,
+            "name_en": "Mi-Carême",
+            "name_local": "Mi-Carême",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Mi-Carême",
+      "issue": "Wikipedia has 'Mi-Carême' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-18",
+      "group": {
+        "date": "2025-04-18",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-18",
+            "year": 2025,
+            "name_en": "Good Friday",
+            "name_local": "Vendredi saint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Good Friday",
+      "issue": "Wikipedia has 'Good Friday' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-28",
+      "group": {
+        "date": "2025-04-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-28",
+            "year": 2025,
+            "name_en": "Feast of Saint Peter Chanel",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Feast of Saint Peter Chanel",
+      "issue": "Wikipedia has 'Feast of Saint Peter Chanel' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-22",
+      "group": {
+        "date": "2025-05-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-22",
+            "year": 2025,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-27",
+      "group": {
+        "date": "2025-05-27",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-27",
+            "year": 2025,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-28",
+      "group": {
+        "date": "2025-05-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-28",
+            "year": 2025,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-06-10",
+      "group": {
+        "date": "2025-06-10",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-06-10",
+            "year": 2025,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-07-29",
+      "group": {
+        "date": "2025-07-29",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-07-29",
+            "year": 2025,
+            "name_en": "Festival of the Territory",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Festival of the Territory",
+      "issue": "Wikipedia has 'Festival of the Territory' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-09-24",
+      "group": {
+        "date": "2025-09-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-09-24",
+            "year": 2025,
+            "name_en": "Citizenship Day",
+            "name_local": "Fête de la citoyenneté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Citizenship Day",
+      "issue": "Wikipedia has 'Citizenship Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-10-09",
+      "group": {
+        "date": "2025-10-09",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-10-09",
+            "year": 2025,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-12-20",
+      "group": {
+        "date": "2025-12-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-12-20",
+            "year": 2025,
+            "name_en": "Réunion Freedom Day",
+            "name_local": "Fête réunionnaise de la liberté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Réunion Freedom Day",
+      "issue": "Wikipedia has 'Réunion Freedom Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-12-26",
+      "group": {
+        "date": "2025-12-26",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-12-26",
+            "year": 2025,
+            "name_en": "Saint Stephen's Day",
+            "name_local": "Saint Étienne",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Saint Stephen's Day",
+      "issue": "Wikipedia has 'Saint Stephen's Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-05",
+      "group": {
+        "date": "2026-03-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-03-05",
+            "year": 2026,
+            "name_en": "Missionary Day",
+            "name_local": "Arrivée de l'Évangile",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Missionary Day",
+      "issue": "Wikipedia has 'Missionary Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-12",
+      "group": {
+        "date": "2026-03-12",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-03-12",
+            "year": 2026,
+            "name_en": "Mi-Carême",
+            "name_local": "Mi-Carême",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Mi-Carême",
+      "issue": "Wikipedia has 'Mi-Carême' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-03",
+      "group": {
+        "date": "2026-04-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-03",
+            "year": 2026,
+            "name_en": "Good Friday",
+            "name_local": "Vendredi saint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Good Friday",
+      "issue": "Wikipedia has 'Good Friday' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-28",
+      "group": {
+        "date": "2026-04-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-28",
+            "year": 2026,
+            "name_en": "Feast of Saint Peter Chanel",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Feast of Saint Peter Chanel",
+      "issue": "Wikipedia has 'Feast of Saint Peter Chanel' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-22",
+      "group": {
+        "date": "2026-05-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-22",
+            "year": 2026,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-27",
+      "group": {
+        "date": "2026-05-27",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-27",
+            "year": 2026,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-28",
+      "group": {
+        "date": "2026-05-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-28",
+            "year": 2026,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-06-10",
+      "group": {
+        "date": "2026-06-10",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-06-10",
+            "year": 2026,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-07-29",
+      "group": {
+        "date": "2026-07-29",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-07-29",
+            "year": 2026,
+            "name_en": "Festival of the Territory",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Festival of the Territory",
+      "issue": "Wikipedia has 'Festival of the Territory' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-24",
+      "group": {
+        "date": "2026-09-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-09-24",
+            "year": 2026,
+            "name_en": "Citizenship Day",
+            "name_local": "Fête de la citoyenneté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Citizenship Day",
+      "issue": "Wikipedia has 'Citizenship Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-10-09",
+      "group": {
+        "date": "2026-10-09",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-10-09",
+            "year": 2026,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-12-20",
+      "group": {
+        "date": "2026-12-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-12-20",
+            "year": 2026,
+            "name_en": "Réunion Freedom Day",
+            "name_local": "Fête réunionnaise de la liberté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Réunion Freedom Day",
+      "issue": "Wikipedia has 'Réunion Freedom Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-12-26",
+      "group": {
+        "date": "2026-12-26",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-12-26",
+            "year": 2026,
+            "name_en": "Saint Stephen's Day",
+            "name_local": "Saint Étienne",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Saint Stephen's Day",
+      "issue": "Wikipedia has 'Saint Stephen's Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-04",
+      "group": {
+        "date": "2027-03-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-04",
+            "year": 2027,
+            "name_en": "Mi-Carême",
+            "name_local": "Mi-Carême",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Mi-Carême",
+      "issue": "Wikipedia has 'Mi-Carême' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-05",
+      "group": {
+        "date": "2027-03-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-05",
+            "year": 2027,
+            "name_en": "Missionary Day",
+            "name_local": "Arrivée de l'Évangile",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Missionary Day",
+      "issue": "Wikipedia has 'Missionary Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-26",
+      "group": {
+        "date": "2027-03-26",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-26",
+            "year": 2027,
+            "name_en": "Good Friday",
+            "name_local": "Vendredi saint",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Good Friday",
+      "issue": "Wikipedia has 'Good Friday' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-04-28",
+      "group": {
+        "date": "2027-04-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-04-28",
+            "year": 2027,
+            "name_en": "Feast of Saint Peter Chanel",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Feast of Saint Peter Chanel",
+      "issue": "Wikipedia has 'Feast of Saint Peter Chanel' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-22",
+      "group": {
+        "date": "2027-05-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-05-22",
+            "year": 2027,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-27",
+      "group": {
+        "date": "2027-05-27",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-05-27",
+            "year": 2027,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-28",
+      "group": {
+        "date": "2027-05-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-05-28",
+            "year": 2027,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-06-10",
+      "group": {
+        "date": "2027-06-10",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-06-10",
+            "year": 2027,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-07-29",
+      "group": {
+        "date": "2027-07-29",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-07-29",
+            "year": 2027,
+            "name_en": "Festival of the Territory",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Festival of the Territory",
+      "issue": "Wikipedia has 'Festival of the Territory' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-09-24",
+      "group": {
+        "date": "2027-09-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-09-24",
+            "year": 2027,
+            "name_en": "Citizenship Day",
+            "name_local": "Fête de la citoyenneté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Citizenship Day",
+      "issue": "Wikipedia has 'Citizenship Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-10-09",
+      "group": {
+        "date": "2027-10-09",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-10-09",
+            "year": 2027,
+            "name_en": "Abolition of slavery",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Abolition of slavery",
+      "issue": "Wikipedia has 'Abolition of slavery' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-12-20",
+      "group": {
+        "date": "2027-12-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-12-20",
+            "year": 2027,
+            "name_en": "Réunion Freedom Day",
+            "name_local": "Fête réunionnaise de la liberté",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Réunion Freedom Day",
+      "issue": "Wikipedia has 'Réunion Freedom Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-12-26",
+      "group": {
+        "date": "2027-12-26",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-12-26",
+            "year": 2027,
+            "name_en": "Saint Stephen's Day",
+            "name_local": "Saint Étienne",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Saint Stephen's Day",
+      "issue": "Wikipedia has 'Saint Stephen's Day' but DB and Nager.Date are missing.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

@@ -1,0 +1,3433 @@
+{
+  "validation_run_id": "CN-2026-04-24",
+  "country": "China",
+  "country_code": "CN",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-24T08:29:06.517Z",
+  "duration_ms": 105800,
+  "summary": {
+    "verified_high": 16,
+    "verified_mid": 2,
+    "single_source": 0,
+    "conflict": 0,
+    "missing_in_db": 83
+  },
+  "source_counts": {
+    "db": 18,
+    "db_locked": 0,
+    "db_total": 18,
+    "wikipedia": 114,
+    "nager": 18
+  },
+  "health_score": 18,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 370,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "元旦",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-29",
+      "group": {
+        "date": "2025-01-29",
+        "db": [
+          {
+            "db_id": 371,
+            "date": "2025-01-29",
+            "name_en": "Chinese New Year (Spring Festival)",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-29",
+            "year": 2025,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-29",
+            "name": "Chinese New Year (Spring Festival)",
+            "localName": "春节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Chinese New Year (Spring Festival)",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-01",
+      "group": {
+        "date": "2025-05-01",
+        "db": [
+          {
+            "db_id": 372,
+            "date": "2025-05-01",
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-01",
+            "year": 2025,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-05-01",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-01",
+            "name": "Labour Day",
+            "localName": "劳动节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-31",
+      "group": {
+        "date": "2025-05-31",
+        "db": [
+          {
+            "db_id": 373,
+            "date": "2025-05-31",
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-31",
+            "year": 2025,
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-31",
+            "name": "Dragon Boat Festival",
+            "localName": "端午节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Dragon Boat Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-01",
+      "group": {
+        "date": "2025-10-01",
+        "db": [
+          {
+            "db_id": 374,
+            "date": "2025-10-01",
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-01",
+            "year": 2025,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-10-01",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-10-01",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-01",
+            "name": "National Day",
+            "localName": "国庆节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-06",
+      "group": {
+        "date": "2025-10-06",
+        "db": [
+          {
+            "db_id": 375,
+            "date": "2025-10-06",
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-06",
+            "year": 2025,
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-06",
+            "name": "Mid-Autumn Festival",
+            "localName": "中秋节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mid-Autumn Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 376,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "元旦",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-02-17",
+      "group": {
+        "date": "2026-02-17",
+        "db": [
+          {
+            "db_id": 377,
+            "date": "2026-02-17",
+            "name_en": "Chinese New Year (Spring Festival)",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-17",
+            "year": 2026,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-17",
+            "name": "Chinese New Year (Spring Festival)",
+            "localName": "春节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Chinese New Year (Spring Festival)",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-01",
+      "group": {
+        "date": "2026-05-01",
+        "db": [
+          {
+            "db_id": 378,
+            "date": "2026-05-01",
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-01",
+            "year": 2026,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-05-01",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-01",
+            "name": "Labour Day",
+            "localName": "劳动节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-06-19",
+      "group": {
+        "date": "2026-06-19",
+        "db": [
+          {
+            "db_id": 379,
+            "date": "2026-06-19",
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-06-19",
+            "name": "Dragon Boat Festival",
+            "localName": "端午节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Dragon Boat Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-25",
+      "group": {
+        "date": "2026-09-25",
+        "db": [
+          {
+            "db_id": 380,
+            "date": "2026-09-25",
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-25",
+            "year": 2026,
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-25",
+            "name": "Mid-Autumn Festival",
+            "localName": "中秋节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mid-Autumn Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-01",
+      "group": {
+        "date": "2026-10-01",
+        "db": [
+          {
+            "db_id": 381,
+            "date": "2026-10-01",
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-01",
+            "year": 2026,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-10-01",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-10-01",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-01",
+            "name": "National Day",
+            "localName": "国庆节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 382,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": "元旦",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "元旦",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-02-06",
+      "group": {
+        "date": "2027-02-06",
+        "db": [
+          {
+            "db_id": 383,
+            "date": "2027-02-06",
+            "name_en": "Chinese New Year (Spring Festival)",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-06",
+            "year": 2027,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-06",
+            "name": "Chinese New Year (Spring Festival)",
+            "localName": "春节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Chinese New Year (Spring Festival)",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-01",
+      "group": {
+        "date": "2027-05-01",
+        "db": [
+          {
+            "db_id": 384,
+            "date": "2027-05-01",
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-01",
+            "year": 2027,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-05-01",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-01",
+            "name": "Labour Day",
+            "localName": "劳动节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Labour Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-06-09",
+      "group": {
+        "date": "2027-06-09",
+        "db": [
+          {
+            "db_id": 385,
+            "date": "2027-06-09",
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-06-09",
+            "name": "Dragon Boat Festival",
+            "localName": "端午节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Dragon Boat Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-15",
+      "group": {
+        "date": "2027-09-15",
+        "db": [
+          {
+            "db_id": 386,
+            "date": "2027-09-15",
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-15",
+            "year": 2027,
+            "name_en": "Mid-Autumn Festival",
+            "name_local": "中秋节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-15",
+            "name": "Mid-Autumn Festival",
+            "localName": "中秋节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Mid-Autumn Festival",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-01",
+      "group": {
+        "date": "2027-10-01",
+        "db": [
+          {
+            "db_id": 387,
+            "date": "2027-10-01",
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-01",
+            "year": 2027,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-10-01",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-10-01",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-01",
+            "name": "National Day",
+            "localName": "国庆节",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-28",
+      "group": {
+        "date": "2025-01-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-01-28",
+            "year": 2025,
+            "name_en": "Chinese New Year's Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Chinese New Year's Eve",
+      "issue": "Wikipedia and Nager.Date list Chinese New Year's Eve, but DB does not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-30",
+      "group": {
+        "date": "2025-01-30",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-01-30",
+            "year": 2025,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-31",
+      "group": {
+        "date": "2025-01-31",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-01-31",
+            "year": 2025,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-16",
+      "group": {
+        "date": "2026-02-16",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-02-16",
+            "year": 2026,
+            "name_en": "Chinese New Year's Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Chinese New Year's Eve",
+      "issue": "Wikipedia lists Chinese New Year's Eve, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-18",
+      "group": {
+        "date": "2026-02-18",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-02-18",
+            "year": 2026,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-19",
+      "group": {
+        "date": "2026-02-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-02-19",
+            "year": 2026,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-05",
+      "group": {
+        "date": "2027-02-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-02-05",
+            "year": 2027,
+            "name_en": "Chinese New Year's Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Chinese New Year's Eve",
+      "issue": "Wikipedia lists Chinese New Year's Eve, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-07",
+      "group": {
+        "date": "2027-02-07",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-02-07",
+            "year": 2027,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-08",
+      "group": {
+        "date": "2027-02-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-02-08",
+            "year": 2027,
+            "name_en": "Spring Festival",
+            "name_local": "春节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Spring Festival",
+      "issue": "Wikipedia lists Spring Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-04",
+      "group": {
+        "date": "2025-04-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-04",
+            "year": 2025,
+            "name_en": "Tomb-Sweeping Day",
+            "name_local": "清明节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Tomb-Sweeping Day",
+      "issue": "Wikipedia lists Tomb-Sweeping Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-05",
+      "group": {
+        "date": "2026-04-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-05",
+            "year": 2026,
+            "name_en": "Tomb-Sweeping Day",
+            "name_local": "清明节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Tomb-Sweeping Day",
+      "issue": "Wikipedia lists Tomb-Sweeping Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-04-05",
+      "group": {
+        "date": "2027-04-05",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-04-05",
+            "year": 2027,
+            "name_en": "Tomb-Sweeping Day",
+            "name_local": "清明节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Tomb-Sweeping Day",
+      "issue": "Wikipedia lists Tomb-Sweeping Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-02",
+      "group": {
+        "date": "2025-05-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-02",
+            "year": 2025,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Labour Day",
+      "issue": "Wikipedia lists Labour Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-02",
+      "group": {
+        "date": "2026-05-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-02",
+            "year": 2026,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Labour Day",
+      "issue": "Wikipedia lists Labour Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-02",
+      "group": {
+        "date": "2027-05-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-05-02",
+            "year": 2027,
+            "name_en": "Labour Day",
+            "name_local": "劳动节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Labour Day",
+      "issue": "Wikipedia lists Labour Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-06-20",
+      "group": {
+        "date": "2026-06-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-06-20",
+            "year": 2026,
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Dragon Boat Festival",
+      "issue": "Wikipedia lists Dragon Boat Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-06-10",
+      "group": {
+        "date": "2027-06-10",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-06-10",
+            "year": 2027,
+            "name_en": "Dragon Boat Festival",
+            "name_local": "端午节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Dragon Boat Festival",
+      "issue": "Wikipedia lists Dragon Boat Festival, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-10-02",
+      "group": {
+        "date": "2025-10-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-10-02",
+            "year": 2025,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-10-03",
+      "group": {
+        "date": "2025-10-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-10-03",
+            "year": 2025,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-10-02",
+      "group": {
+        "date": "2026-10-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-10-02",
+            "year": 2026,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-10-03",
+      "group": {
+        "date": "2026-10-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-10-03",
+            "year": 2026,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-10-02",
+      "group": {
+        "date": "2027-10-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-10-02",
+            "year": 2027,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-10-03",
+      "group": {
+        "date": "2027-10-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-10-03",
+            "year": 2027,
+            "name_en": "National Day",
+            "name_local": "国庆节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "National Day",
+      "issue": "Wikipedia lists National Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-08",
+      "group": {
+        "date": "2025-03-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-03-08",
+            "year": 2025,
+            "name_en": "International Women's Day",
+            "name_local": "国际妇女节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "International Women's Day",
+      "issue": "Wikipedia lists International Women's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-08",
+      "group": {
+        "date": "2026-03-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-03-08",
+            "year": 2026,
+            "name_en": "International Women's Day",
+            "name_local": "国际妇女节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "International Women's Day",
+      "issue": "Wikipedia lists International Women's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-08",
+      "group": {
+        "date": "2027-03-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-08",
+            "year": 2027,
+            "name_en": "International Women's Day",
+            "name_local": "国际妇女节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "International Women's Day",
+      "issue": "Wikipedia lists International Women's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-05-04",
+      "group": {
+        "date": "2025-05-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-05-04",
+            "year": 2025,
+            "name_en": "Youth Day",
+            "name_local": "青年节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Youth Day",
+      "issue": "Wikipedia lists Youth Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-04",
+      "group": {
+        "date": "2026-05-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-05-04",
+            "year": 2026,
+            "name_en": "Youth Day",
+            "name_local": "青年节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Youth Day",
+      "issue": "Wikipedia lists Youth Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-04",
+      "group": {
+        "date": "2027-05-04",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-05-04",
+            "year": 2027,
+            "name_en": "Youth Day",
+            "name_local": "青年节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Youth Day",
+      "issue": "Wikipedia lists Youth Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-06-01",
+      "group": {
+        "date": "2025-06-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-06-01",
+            "year": 2025,
+            "name_en": "Children's Day",
+            "name_local": "六一儿童节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Children's Day",
+      "issue": "Wikipedia lists Children's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-06-01",
+      "group": {
+        "date": "2026-06-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-06-01",
+            "year": 2026,
+            "name_en": "Children's Day",
+            "name_local": "六一儿童节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Children's Day",
+      "issue": "Wikipedia lists Children's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-06-01",
+      "group": {
+        "date": "2027-06-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-06-01",
+            "year": 2027,
+            "name_en": "Children's Day",
+            "name_local": "六一儿童节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Children's Day",
+      "issue": "Wikipedia lists Children's Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-01",
+      "group": {
+        "date": "2025-08-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-08-01",
+            "year": 2025,
+            "name_en": "Army Day",
+            "name_local": "建军节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Army Day",
+      "issue": "Wikipedia lists Army Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-01",
+      "group": {
+        "date": "2026-08-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-08-01",
+            "year": 2026,
+            "name_en": "Army Day",
+            "name_local": "建军节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Army Day",
+      "issue": "Wikipedia lists Army Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-01",
+      "group": {
+        "date": "2027-08-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-08-01",
+            "year": 2027,
+            "name_en": "Army Day",
+            "name_local": "建军节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Army Day",
+      "issue": "Wikipedia lists Army Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-09-20",
+      "group": {
+        "date": "2025-09-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-09-20",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "阔时节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-09-20",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-20",
+      "group": {
+        "date": "2026-09-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-09-20",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "阔时节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-09-20",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-09-20",
+      "group": {
+        "date": "2027-09-20",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-09-20",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "阔时节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-09-20",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-13",
+      "group": {
+        "date": "2025-04-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-13",
+            "year": 2025,
+            "name_en": "Water-Sprinkling Festival or Songkran",
+            "name_local": "泼水节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Water-Sprinkling Festival or Songkran",
+      "issue": "Wikipedia lists Water-Sprinkling Festival or Songkran, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-13",
+      "group": {
+        "date": "2026-04-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-13",
+            "year": 2026,
+            "name_en": "Water-Sprinkling Festival or Songkran",
+            "name_local": "泼水节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Water-Sprinkling Festival or Songkran",
+      "issue": "Wikipedia lists Water-Sprinkling Festival or Songkran, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-04-13",
+      "group": {
+        "date": "2027-04-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-04-13",
+            "year": 2027,
+            "name_en": "Water-Sprinkling Festival or Songkran",
+            "name_local": "泼水节",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Water-Sprinkling Festival or Songkran",
+      "issue": "Wikipedia lists Water-Sprinkling Festival or Songkran, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-15",
+      "group": {
+        "date": "2025-04-15",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-15",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-15",
+      "group": {
+        "date": "2026-04-15",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-15",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-04-15",
+      "group": {
+        "date": "2027-04-15",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-04-15",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-11-22",
+      "group": {
+        "date": "2025-11-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-11-22",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-11-22",
+      "group": {
+        "date": "2026-11-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-11-22",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-11-22",
+      "group": {
+        "date": "2027-11-22",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-11-22",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-07-23",
+      "group": {
+        "date": "2025-07-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-07-23",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-07-23",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-07-23",
+      "group": {
+        "date": "2026-07-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-07-23",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-07-23",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-07-23",
+      "group": {
+        "date": "2027-07-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-07-23",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-07-23",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists two holidays with null names, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-09-13",
+      "group": {
+        "date": "2025-09-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-09-13",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-13",
+      "group": {
+        "date": "2026-09-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-09-13",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-09-13",
+      "group": {
+        "date": "2027-09-13",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-09-13",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-19",
+      "group": {
+        "date": "2025-08-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-08-19",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-19",
+      "group": {
+        "date": "2026-08-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-08-19",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-19",
+      "group": {
+        "date": "2027-08-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-08-19",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-11-24",
+      "group": {
+        "date": "2025-11-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-11-24",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-11-24",
+      "group": {
+        "date": "2026-11-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-11-24",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-11-24",
+      "group": {
+        "date": "2027-11-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-11-24",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-11-19",
+      "group": {
+        "date": "2025-11-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-11-19",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-11-19",
+      "group": {
+        "date": "2026-11-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-11-19",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-11-19",
+      "group": {
+        "date": "2027-11-19",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-11-19",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-02",
+      "group": {
+        "date": "2025-01-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-01-02",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-01-02",
+      "group": {
+        "date": "2026-01-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-01-02",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-01-02",
+      "group": {
+        "date": "2027-01-02",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-01-02",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-23",
+      "group": {
+        "date": "2025-08-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-08-23",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-23",
+      "group": {
+        "date": "2026-08-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-08-23",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-23",
+      "group": {
+        "date": "2027-08-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-08-23",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-08-08",
+      "group": {
+        "date": "2025-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-08-08",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-08",
+      "group": {
+        "date": "2026-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-08-08",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-08",
+      "group": {
+        "date": "2027-08-08",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-08-08",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-01",
+      "group": {
+        "date": "2025-04-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-04-01",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-01",
+      "group": {
+        "date": "2026-04-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-04-01",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-04-01",
+      "group": {
+        "date": "2027-04-01",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-04-01",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-23",
+      "group": {
+        "date": "2025-01-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-01-23",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-01-23",
+      "group": {
+        "date": "2026-01-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-01-23",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-01-23",
+      "group": {
+        "date": "2027-01-23",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-01-23",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-09-03",
+      "group": {
+        "date": "2025-09-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-09-03",
+            "year": 2025,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-03",
+      "group": {
+        "date": "2026-09-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-09-03",
+            "year": 2026,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-09-03",
+      "group": {
+        "date": "2027-09-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-09-03",
+            "year": 2027,
+            "name_en": null,
+            "name_local": "州庆纪念日",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": null,
+      "issue": "Wikipedia lists a holiday with a null name, but DB and Nager.Date do not.",
+      "action": "manual_review",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-28",
+      "group": {
+        "date": "2025-03-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-03-28",
+            "year": 2025,
+            "name_en": "Serfs' Emancipation Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Serfs' Emancipation Day",
+      "issue": "Wikipedia lists Serfs' Emancipation Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-28",
+      "group": {
+        "date": "2026-03-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-03-28",
+            "year": 2026,
+            "name_en": "Serfs' Emancipation Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Serfs' Emancipation Day",
+      "issue": "Wikipedia lists Serfs' Emancipation Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-28",
+      "group": {
+        "date": "2027-03-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-03-28",
+            "year": 2027,
+            "name_en": "Serfs' Emancipation Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Serfs' Emancipation Day",
+      "issue": "Wikipedia lists Serfs' Emancipation Day, but DB and Nager.Date do not.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

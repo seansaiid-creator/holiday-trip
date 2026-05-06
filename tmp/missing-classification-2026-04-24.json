@@ -1,0 +1,1513 @@
+{
+  "generated_at": "2026-04-25T13:32:13.929Z",
+  "source_date": "2026-04-24",
+  "duration_ms": 121835,
+  "total_missing": 145,
+  "breakdown": {
+    "national": 40,
+    "regional": 87,
+    "observance": 18,
+    "uncertain": 0
+  },
+  "countries": [
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "total_missing": 83,
+      "classifications": [
+        {
+          "date": "2025-01-28",
+          "name_en": "Chinese New Year's Eve",
+          "name_local": null,
+          "wiki_category": "eve",
+          "classification": "national",
+          "reason": "Chinese New Year's Eve is part of the Spring Festival holiday period, which is a major national public holiday.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-01-30",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-01-31",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-02-16",
+          "name_en": "Chinese New Year's Eve",
+          "name_local": null,
+          "wiki_category": "eve",
+          "classification": "national",
+          "reason": "Chinese New Year's Eve is part of the Spring Festival holiday period, which is a major national public holiday.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-02-18",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-02-19",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-02-05",
+          "name_en": "Chinese New Year's Eve",
+          "name_local": null,
+          "wiki_category": "eve",
+          "classification": "national",
+          "reason": "Chinese New Year's Eve is part of the Spring Festival holiday period, which is a major national public holiday.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-02-07",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-02-08",
+          "name_en": "Spring Festival",
+          "name_local": "春节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Spring Festival (Chinese New Year) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-04",
+          "name_en": "Tomb-Sweeping Day",
+          "name_local": "清明节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Tomb-Sweeping Day (Qingming Festival) is one of China's official national public holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-05",
+          "name_en": "Tomb-Sweeping Day",
+          "name_local": "清明节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Tomb-Sweeping Day (Qingming Festival) is one of China's official national public holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-04-05",
+          "name_en": "Tomb-Sweeping Day",
+          "name_local": "清明节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Tomb-Sweeping Day (Qingming Festival) is one of China's official national public holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-02",
+          "name_en": "Labour Day",
+          "name_local": "劳动节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Labour Day (May Day) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-02",
+          "name_en": "Labour Day",
+          "name_local": "劳动节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Labour Day (May Day) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-05-02",
+          "name_en": "Labour Day",
+          "name_local": "劳动节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Labour Day (May Day) is a major national public holiday in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-06-20",
+          "name_en": "Dragon Boat Festival",
+          "name_local": "端午节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Dragon Boat Festival is one of China's official national public holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-06-10",
+          "name_en": "Dragon Boat Festival",
+          "name_local": "端午节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Dragon Boat Festival is one of China's official national public holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-10-02",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-10-03",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-03",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-10-02",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-10-03",
+          "name_en": "National Day",
+          "name_local": "国庆节",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "National Day is a major national public holiday in China, forming a Golden Week.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-03-08",
+          "name_en": "International Women's Day",
+          "name_local": "国际妇女节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "International Women's Day is a partial holiday (half-day off for women) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-03-08",
+          "name_en": "International Women's Day",
+          "name_local": "国际妇女节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "International Women's Day is a partial holiday (half-day off for women) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-08",
+          "name_en": "International Women's Day",
+          "name_local": "国际妇女节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "International Women's Day is a partial holiday (half-day off for women) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-04",
+          "name_en": "Youth Day",
+          "name_local": "青年节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Youth Day is a partial holiday (half-day off for youth) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-04",
+          "name_en": "Youth Day",
+          "name_local": "青年节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Youth Day is a partial holiday (half-day off for youth) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-05-04",
+          "name_en": "Youth Day",
+          "name_local": "青年节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Youth Day is a partial holiday (half-day off for youth) and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-06-01",
+          "name_en": "Children's Day",
+          "name_local": "六一儿童节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Children's Day is a holiday for children and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-06-01",
+          "name_en": "Children's Day",
+          "name_local": "六一儿童节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Children's Day is a holiday for children and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-06-01",
+          "name_en": "Children's Day",
+          "name_local": "六一儿童节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Children's Day is a holiday for children and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-08-01",
+          "name_en": "Army Day",
+          "name_local": "建军节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Army Day is a commemorative day for the military and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-01",
+          "name_en": "Army Day",
+          "name_local": "建军节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Army Day is a commemorative day for the military and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-08-01",
+          "name_en": "Army Day",
+          "name_local": "建军节",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Army Day is a commemorative day for the military and not a full national public holiday for all citizens in China.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-09-20",
+          "name_en": null,
+          "name_local": "阔时节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Kuoshi Festival is an ethnic festival primarily celebrated by the Jingpo people, concentrated in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09-20",
+          "name_en": null,
+          "name_local": "阔时节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Kuoshi Festival is an ethnic festival primarily celebrated by the Jingpo people, concentrated in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-09-20",
+          "name_en": null,
+          "name_local": "阔时节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Kuoshi Festival is an ethnic festival primarily celebrated by the Jingpo people, concentrated in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-13",
+          "name_en": "Water-Sprinkling Festival or Songkran",
+          "name_local": "泼水节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Water-Sprinkling Festival (Songkran) is an ethnic festival primarily celebrated by the Dai people in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-13",
+          "name_en": "Water-Sprinkling Festival or Songkran",
+          "name_local": "泼水节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Water-Sprinkling Festival (Songkran) is an ethnic festival primarily celebrated by the Dai people in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-04-13",
+          "name_en": "Water-Sprinkling Festival or Songkran",
+          "name_local": "泼水节",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Water-Sprinkling Festival (Songkran) is an ethnic festival primarily celebrated by the Dai people in Yunnan province.",
+          "region_name": "Yunnan",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-15",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-15",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-04-15",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-11-22",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-11-22",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-11-22",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-07-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-07-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-07-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-09-13",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09-13",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-09-13",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-08-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-08-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-11-24",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-11-24",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-11-24",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-11-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-11-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-11-19",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-01-02",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-01-02",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-01-02",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-08-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-08-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-08-08",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-08",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-08-08",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-01",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-01",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-04-01",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-01-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-01-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-01-23",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-09-03",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09-03",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-09-03",
+          "name_en": null,
+          "name_local": "州庆纪念日",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "This is a 'Prefecture Anniversary Day' (州庆纪念日), indicating a regional holiday specific to an autonomous prefecture.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-03-28",
+          "name_en": "Serfs' Emancipation Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Serfs' Emancipation Day is a holiday celebrated specifically in the Tibet Autonomous Region.",
+          "region_name": "Tibet Autonomous Region",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-03-28",
+          "name_en": "Serfs' Emancipation Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Serfs' Emancipation Day is a holiday celebrated specifically in the Tibet Autonomous Region.",
+          "region_name": "Tibet Autonomous Region",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-28",
+          "name_en": "Serfs' Emancipation Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "Serfs' Emancipation Day is a holiday celebrated specifically in the Tibet Autonomous Region.",
+          "region_name": "Tibet Autonomous Region",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "total_missing": 3,
+      "classifications": [
+        {
+          "date": "2025-08-08",
+          "name_en": "Augsburg Peace Festival",
+          "name_local": "Augsburger Hohes Friedensfest",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "The Augsburg Peace Festival is a legal public holiday exclusively observed in the city of Augsburg, Bavaria.",
+          "region_name": "Augsburg",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-08",
+          "name_en": "Augsburg Peace Festival",
+          "name_local": "Augsburger Hohes Friedensfest",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "The Augsburg Peace Festival is a legal public holiday exclusively observed in the city of Augsburg, Bavaria.",
+          "region_name": "Augsburg",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-08-08",
+          "name_en": "Augsburg Peace Festival",
+          "name_local": "Augsburger Hohes Friedensfest",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "The Augsburg Peace Festival is a legal public holiday exclusively observed in the city of Augsburg, Bavaria.",
+          "region_name": "Augsburg",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "total_missing": 39,
+      "classifications": [
+        {
+          "date": "2025-03-05",
+          "name_en": "Missionary Day",
+          "name_local": "Arrivée de l'Évangile",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to French Polynesia, commemorating the arrival of Christianity.",
+          "region_name": "French Polynesia",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-03-27",
+          "name_en": "Mi-Carême",
+          "name_local": "Mi-Carême",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "A traditional carnival celebration in France, but not a legal public holiday where work and schools close.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-18",
+          "name_en": "Good Friday",
+          "name_local": "Vendredi saint",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in various overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-28",
+          "name_en": "Feast of Saint Peter Chanel",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to Wallis and Futuna, celebrating their patron saint.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-22",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Martinique, commemorating the local abolition of slavery.",
+          "region_name": "Martinique",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-27",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Guadeloupe, commemorating the local abolition of slavery.",
+          "region_name": "Guadeloupe",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-28",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Martin and Saint-Barthélemy, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Martin, Saint-Barthélemy",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-06-10",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to French Guiana, commemorating the local abolition of slavery.",
+          "region_name": "French Guiana",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-07-29",
+          "name_en": "Festival of the Territory",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Wallis and Futuna, commemorating the signing of the Treaty of Friendship.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-09-24",
+          "name_en": "Citizenship Day",
+          "name_local": "Fête de la citoyenneté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to New Caledonia, commemorating its civic and criminal status.",
+          "region_name": "New Caledonia",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-10-09",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Pierre and Miquelon, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Pierre and Miquelon",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-12-20",
+          "name_en": "Réunion Freedom Day",
+          "name_local": "Fête réunionnaise de la liberté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Réunion, commemorating the local abolition of slavery.",
+          "region_name": "Réunion",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-12-26",
+          "name_en": "Saint Stephen's Day",
+          "name_local": "Saint Étienne",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in some overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-03-05",
+          "name_en": "Missionary Day",
+          "name_local": "Arrivée de l'Évangile",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to French Polynesia, commemorating the arrival of Christianity.",
+          "region_name": "French Polynesia",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-03-12",
+          "name_en": "Mi-Carême",
+          "name_local": "Mi-Carême",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "A traditional carnival celebration in France, but not a legal public holiday where work and schools close.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-03",
+          "name_en": "Good Friday",
+          "name_local": "Vendredi saint",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in various overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-04-28",
+          "name_en": "Feast of Saint Peter Chanel",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to Wallis and Futuna, celebrating their patron saint.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-22",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Martinique, commemorating the local abolition of slavery.",
+          "region_name": "Martinique",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-27",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Guadeloupe, commemorating the local abolition of slavery.",
+          "region_name": "Guadeloupe",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-28",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Martin and Saint-Barthélemy, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Martin, Saint-Barthélemy",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-06-10",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to French Guiana, commemorating the local abolition of slavery.",
+          "region_name": "French Guiana",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-07-29",
+          "name_en": "Festival of the Territory",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Wallis and Futuna, commemorating the signing of the Treaty of Friendship.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09-24",
+          "name_en": "Citizenship Day",
+          "name_local": "Fête de la citoyenneté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to New Caledonia, commemorating its civic and criminal status.",
+          "region_name": "New Caledonia",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-09",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Pierre and Miquelon, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Pierre and Miquelon",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-12-20",
+          "name_en": "Réunion Freedom Day",
+          "name_local": "Fête réunionnaise de la liberté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Réunion, commemorating the local abolition of slavery.",
+          "region_name": "Réunion",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-12-26",
+          "name_en": "Saint Stephen's Day",
+          "name_local": "Saint Étienne",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in some overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-04",
+          "name_en": "Mi-Carême",
+          "name_local": "Mi-Carême",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "A traditional carnival celebration in France, but not a legal public holiday where work and schools close.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-05",
+          "name_en": "Missionary Day",
+          "name_local": "Arrivée de l'Évangile",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to French Polynesia, commemorating the arrival of Christianity.",
+          "region_name": "French Polynesia",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-26",
+          "name_en": "Good Friday",
+          "name_local": "Vendredi saint",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in various overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-04-28",
+          "name_en": "Feast of Saint Peter Chanel",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A public holiday specific to Wallis and Futuna, celebrating their patron saint.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-05-22",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Martinique, commemorating the local abolition of slavery.",
+          "region_name": "Martinique",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-05-27",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Guadeloupe, commemorating the local abolition of slavery.",
+          "region_name": "Guadeloupe",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-05-28",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Martin and Saint-Barthélemy, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Martin, Saint-Barthélemy",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-06-10",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to French Guiana, commemorating the local abolition of slavery.",
+          "region_name": "French Guiana",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-07-29",
+          "name_en": "Festival of the Territory",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Wallis and Futuna, commemorating the signing of the Treaty of Friendship.",
+          "region_name": "Wallis and Futuna",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-09-24",
+          "name_en": "Citizenship Day",
+          "name_local": "Fête de la citoyenneté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to New Caledonia, commemorating its civic and criminal status.",
+          "region_name": "New Caledonia",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-10-09",
+          "name_en": "Abolition of slavery",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Saint-Pierre and Miquelon, commemorating the local abolition of slavery.",
+          "region_name": "Saint-Pierre and Miquelon",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-12-20",
+          "name_en": "Réunion Freedom Day",
+          "name_local": "Fête réunionnaise de la liberté",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday specific to Réunion, commemorating the local abolition of slavery.",
+          "region_name": "Réunion",
+          "confidence": "high"
+        },
+        {
+          "date": "2027-12-26",
+          "name_en": "Saint Stephen's Day",
+          "name_local": "Saint Étienne",
+          "wiki_category": "regular",
+          "classification": "regional",
+          "reason": "A legal public holiday only in the Alsace-Moselle region of mainland France and in some overseas territories, not nationwide.",
+          "region_name": "Alsace-Moselle, various overseas territories",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "total_missing": 2,
+      "classifications": [
+        {
+          "date": "2027-01-04",
+          "name_en": "New Year Holiday",
+          "name_local": null,
+          "wiki_category": "substitute",
+          "classification": "national",
+          "reason": "This is a substitute bank holiday for New Year's Day, which is a national public holiday across the United Kingdom.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-12-25",
+          "name_en": "Christmas Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Christmas Day is a universally observed national public holiday across the entire United Kingdom.",
+          "region_name": null,
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japan",
+      "total_missing": 9,
+      "classifications": [
+        {
+          "date": "2025-02-23",
+          "name_en": "Emperor's Birthday",
+          "name_local": "天皇誕生日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Emperor's Birthday is a principal national public holiday in Japan.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-04",
+          "name_en": "Greenery Day",
+          "name_local": "みどりの日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Greenery Day is a legally designated national holiday in Japan and part of the Golden Week observance.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-11-23",
+          "name_en": "Labor Thanksgiving Day",
+          "name_local": "勤労感謝の日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Labor Thanksgiving Day is a legally designated national public holiday in Japan.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-03",
+          "name_en": "Constitution Memorial Day",
+          "name_local": "憲法記念日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Constitution Memorial Day is a legally designated national holiday in Japan and part of the Golden Week observance.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-06",
+          "name_en": "Citizens' Holiday",
+          "name_local": "国民の休日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Citizens' Holiday (Kokumin no Kyūjitsu) is a legally designated national holiday in Japan, occurring when a weekday falls between two other national holidays.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-05-07",
+          "name_en": "Substitute Holiday (for Constitution Memorial Day)",
+          "name_local": "振替休日",
+          "wiki_category": "substitute",
+          "classification": "national",
+          "reason": "Substitute Holidays (Furikae Kyūjitsu) are legally designated national holidays that occur when a national holiday falls on a Sunday, making the next weekday a public holiday.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09-15",
+          "name_en": "Respect for the Aged Day",
+          "name_local": "敬老の日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Respect for the Aged Day is a legally designated national public holiday in Japan.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-13",
+          "name_en": "Sports Day",
+          "name_local": "スポーツの日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Sports Day (formerly Health and Sports Day) is a legally designated national public holiday in Japan.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-03-20",
+          "name_en": "Vernal Equinox Day",
+          "name_local": "春分の日",
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Vernal Equinox Day is a legally designated national public holiday in Japan, determined by astronomical observation.",
+          "region_name": null,
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "KR",
+      "country_name": "South Korea",
+      "total_missing": 5,
+      "classifications": [
+        {
+          "date": "2025-07-17",
+          "name_en": "Constitution Day",
+          "name_local": "제헌절",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Constitution Day was downgraded in 2008 and is no longer a legal public holiday; it is a commemorative day where work and school continue normally.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2026-07-17",
+          "name_en": "Constitution Day",
+          "name_local": "제헌절",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Constitution Day was downgraded in 2008 and is no longer a legal public holiday; it is a commemorative day where work and school continue normally.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-07-17",
+          "name_en": "Constitution Day",
+          "name_local": "제헌절",
+          "wiki_category": "regular",
+          "classification": "observance",
+          "reason": "Constitution Day was downgraded in 2008 and is no longer a legal public holiday; it is a commemorative day where work and school continue normally.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2025-10-08",
+          "name_en": "Chuseok",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Chuseok is one of South Korea's major national holidays, observed nationwide with multiple days off.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-02-09",
+          "name_en": "Lunar New Year",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Lunar New Year (Seollal) is one of South Korea's major national holidays, observed nationwide with multiple days off.",
+          "region_name": null,
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "country_code": "US",
+      "country_name": "United States",
+      "total_missing": 4,
+      "classifications": [
+        {
+          "date": "2026-07-04",
+          "name_en": "Independence Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Independence Day is a federal holiday in the United States, observed nationwide with government and many businesses closed.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-06-19",
+          "name_en": "Juneteenth",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Juneteenth National Independence Day is a federal holiday in the United States, observed nationwide with government and many businesses closed.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-07-04",
+          "name_en": "Independence Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Independence Day is a federal holiday in the United States, observed nationwide with government and many businesses closed.",
+          "region_name": null,
+          "confidence": "high"
+        },
+        {
+          "date": "2027-12-25",
+          "name_en": "Christmas Day",
+          "name_local": null,
+          "wiki_category": "regular",
+          "classification": "national",
+          "reason": "Christmas Day is a federal holiday in the United States, observed nationwide with government and many businesses closed.",
+          "region_name": null,
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

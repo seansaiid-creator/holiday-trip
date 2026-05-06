@@ -1,0 +1,2445 @@
+{
+  "validation_run_id": "US-2026-04-25",
+  "country": "United States",
+  "country_code": "US",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-25T22:48:46.553Z",
+  "duration_ms": 60604,
+  "summary": {
+    "verified_high": 32,
+    "verified_mid": 10,
+    "single_source": 4,
+    "conflict": 0,
+    "missing_in_db": 7
+  },
+  "source_counts": {
+    "db": 52,
+    "db_locked": 0,
+    "db_total": 52,
+    "wikipedia": 42,
+    "nager": 48
+  },
+  "health_score": 79,
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 235,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-20",
+      "group": {
+        "date": "2025-01-20",
+        "db": [
+          {
+            "db_id": 236,
+            "date": "2025-01-20",
+            "name_en": "Martin Luther King, Jr. Day",
+            "name_local": "Martin Luther King, Jr. Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-20",
+            "year": 2025,
+            "name_en": "Birthday of Martin Luther King, Jr.",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-20",
+            "name": "Martin Luther King, Jr. Day",
+            "localName": "Martin Luther King, Jr. Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Martin Luther King, Jr. Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-02-12",
+      "group": {
+        "date": "2025-02-12",
+        "db": [
+          {
+            "db_id": 237,
+            "date": "2025-02-12",
+            "name_en": "Lincoln's Birthday",
+            "name_local": "Lincoln's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-02-12",
+            "name": "Lincoln's Birthday",
+            "localName": "Lincoln's Birthday",
+            "types": [
+              "Observance"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Lincoln's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-02-17",
+      "group": {
+        "date": "2025-02-17",
+        "db": [
+          {
+            "db_id": 238,
+            "date": "2025-02-17",
+            "name_en": "Presidents Day",
+            "name_local": "Washington's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-02-17",
+            "year": 2025,
+            "name_en": "Washington's Birthday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-02-17",
+            "name": "Presidents Day",
+            "localName": "Washington's Birthday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Presidents Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-04-18",
+      "group": {
+        "date": "2025-04-18",
+        "db": [
+          {
+            "db_id": 239,
+            "date": "2025-04-18",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 240,
+            "date": "2025-04-18",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-04-18",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2025-04-18",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Optional"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-08",
+      "group": {
+        "date": "2025-05-08",
+        "db": [
+          {
+            "db_id": 241,
+            "date": "2025-05-08",
+            "name_en": "Truman Day",
+            "name_local": "Truman Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-05-08",
+            "name": "Truman Day",
+            "localName": "Truman Day",
+            "types": [
+              "School",
+              "Authorities"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Truman Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-26",
+      "group": {
+        "date": "2025-05-26",
+        "db": [
+          {
+            "db_id": 242,
+            "date": "2025-05-26",
+            "name_en": "Memorial Day",
+            "name_local": "Memorial Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-26",
+            "year": 2025,
+            "name_en": "Memorial Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-26",
+            "name": "Memorial Day",
+            "localName": "Memorial Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-06-19",
+      "group": {
+        "date": "2025-06-19",
+        "db": [
+          {
+            "db_id": 243,
+            "date": "2025-06-19",
+            "name_en": "Juneteenth National Independence Day",
+            "name_local": "Juneteenth National Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-06-19",
+            "year": 2025,
+            "name_en": "Juneteenth",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-06-19",
+            "name": "Juneteenth National Independence Day",
+            "localName": "Juneteenth National Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Juneteenth National Independence Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-07-04",
+      "group": {
+        "date": "2025-07-04",
+        "db": [
+          {
+            "db_id": 244,
+            "date": "2025-07-04",
+            "name_en": "Independence Day",
+            "name_local": "Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-07-04",
+            "year": 2025,
+            "name_en": "Independence Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-07-04",
+            "name": "Independence Day",
+            "localName": "Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-09-01",
+      "group": {
+        "date": "2025-09-01",
+        "db": [
+          {
+            "db_id": 245,
+            "date": "2025-09-01",
+            "name_en": "Labour Day",
+            "name_local": "Labor Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-09-01",
+            "year": 2025,
+            "name_en": "Labor Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-09-01",
+            "name": "Labour Day",
+            "localName": "Labor Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Labor Day",
+      "issue": null,
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-10-13",
+      "group": {
+        "date": "2025-10-13",
+        "db": [
+          {
+            "db_id": 246,
+            "date": "2025-10-13",
+            "name_en": "Columbus Day",
+            "name_local": "Columbus Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 247,
+            "date": "2025-10-13",
+            "name_en": "Indigenous Peoples' Day",
+            "name_local": "Indigenous Peoples' Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-13",
+            "year": 2025,
+            "name_en": "Columbus Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-13",
+            "name": "Columbus Day",
+            "localName": "Columbus Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2025-10-13",
+            "name": "Indigenous Peoples' Day",
+            "localName": "Indigenous Peoples' Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Columbus Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-11",
+      "group": {
+        "date": "2025-11-11",
+        "db": [
+          {
+            "db_id": 248,
+            "date": "2025-11-11",
+            "name_en": "Veterans Day",
+            "name_local": "Veterans Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-11",
+            "year": 2025,
+            "name_en": "Veterans Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-11",
+            "name": "Veterans Day",
+            "localName": "Veterans Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Veterans Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-11-27",
+      "group": {
+        "date": "2025-11-27",
+        "db": [
+          {
+            "db_id": 249,
+            "date": "2025-11-27",
+            "name_en": "Thanksgiving Day",
+            "name_local": "Thanksgiving Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-11-27",
+            "year": 2025,
+            "name_en": "Thanksgiving Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-11-27",
+            "name": "Thanksgiving Day",
+            "localName": "Thanksgiving Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Thanksgiving Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-25",
+      "group": {
+        "date": "2025-12-25",
+        "db": [
+          {
+            "db_id": 250,
+            "date": "2025-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-25",
+            "year": 2025,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-25",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 251,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-19",
+      "group": {
+        "date": "2026-01-19",
+        "db": [
+          {
+            "db_id": 252,
+            "date": "2026-01-19",
+            "name_en": "Martin Luther King, Jr. Day",
+            "name_local": "Martin Luther King, Jr. Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-19",
+            "year": 2026,
+            "name_en": "Birthday of Martin Luther King, Jr.",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-19",
+            "name": "Martin Luther King, Jr. Day",
+            "localName": "Martin Luther King, Jr. Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Martin Luther King, Jr. Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-12",
+      "group": {
+        "date": "2026-02-12",
+        "db": [
+          {
+            "db_id": 253,
+            "date": "2026-02-12",
+            "name_en": "Lincoln's Birthday",
+            "name_local": "Lincoln's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-02-12",
+            "name": "Lincoln's Birthday",
+            "localName": "Lincoln's Birthday",
+            "types": [
+              "Observance"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Lincoln's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-02-16",
+      "group": {
+        "date": "2026-02-16",
+        "db": [
+          {
+            "db_id": 254,
+            "date": "2026-02-16",
+            "name_en": "Presidents Day",
+            "name_local": "Washington's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-16",
+            "year": 2026,
+            "name_en": "Washington's Birthday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-16",
+            "name": "Presidents Day",
+            "localName": "Washington's Birthday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Presidents Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-04-03",
+      "group": {
+        "date": "2026-04-03",
+        "db": [
+          {
+            "db_id": 255,
+            "date": "2026-04-03",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 256,
+            "date": "2026-04-03",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-04-03",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2026-04-03",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Optional"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-08",
+      "group": {
+        "date": "2026-05-08",
+        "db": [
+          {
+            "db_id": 257,
+            "date": "2026-05-08",
+            "name_en": "Truman Day",
+            "name_local": "Truman Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2026-05-08",
+            "name": "Truman Day",
+            "localName": "Truman Day",
+            "types": [
+              "School",
+              "Authorities"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Truman Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-25",
+      "group": {
+        "date": "2026-05-25",
+        "db": [
+          {
+            "db_id": 258,
+            "date": "2026-05-25",
+            "name_en": "Memorial Day",
+            "name_local": "Memorial Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-25",
+            "year": 2026,
+            "name_en": "Memorial Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-25",
+            "name": "Memorial Day",
+            "localName": "Memorial Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-06-19",
+      "group": {
+        "date": "2026-06-19",
+        "db": [
+          {
+            "db_id": 259,
+            "date": "2026-06-19",
+            "name_en": "Juneteenth National Independence Day",
+            "name_local": "Juneteenth National Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-06-19",
+            "year": 2026,
+            "name_en": "Juneteenth",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-06-19",
+            "name": "Juneteenth National Independence Day",
+            "localName": "Juneteenth National Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Juneteenth National Independence Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-07-03",
+      "group": {
+        "date": "2026-07-03",
+        "db": [
+          {
+            "db_id": 260,
+            "date": "2026-07-03",
+            "name_en": "Independence Day",
+            "name_local": "Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-07-03",
+            "year": 2026,
+            "name_en": "Independence Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Independence Day",
+            "source": "wikipedia"
+          },
+          {
+            "date": "2026-07-03",
+            "year": 2026,
+            "name_en": "Independence Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Independence Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-07-03",
+            "name": "Independence Day",
+            "localName": "Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Day Eve",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-07-04",
+      "group": {
+        "date": "2026-07-04",
+        "db": [
+          {
+            "db_id": 2192,
+            "date": "2026-07-04",
+            "name_en": "Independence Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Independence Day",
+      "issue": "Holiday present only in DB.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-09-07",
+      "group": {
+        "date": "2026-09-07",
+        "db": [
+          {
+            "db_id": 261,
+            "date": "2026-09-07",
+            "name_en": "Labour Day",
+            "name_local": "Labor Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-07",
+            "year": 2026,
+            "name_en": "Labor Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-07",
+            "name": "Labour Day",
+            "localName": "Labor Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Labor Day",
+      "issue": null,
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-10-12",
+      "group": {
+        "date": "2026-10-12",
+        "db": [
+          {
+            "db_id": 262,
+            "date": "2026-10-12",
+            "name_en": "Columbus Day",
+            "name_local": "Columbus Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 263,
+            "date": "2026-10-12",
+            "name_en": "Indigenous Peoples' Day",
+            "name_local": "Indigenous Peoples' Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-12",
+            "year": 2026,
+            "name_en": "Columbus Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-12",
+            "name": "Columbus Day",
+            "localName": "Columbus Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2026-10-12",
+            "name": "Indigenous Peoples' Day",
+            "localName": "Indigenous Peoples' Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Columbus Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-11",
+      "group": {
+        "date": "2026-11-11",
+        "db": [
+          {
+            "db_id": 264,
+            "date": "2026-11-11",
+            "name_en": "Veterans Day",
+            "name_local": "Veterans Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-11",
+            "year": 2026,
+            "name_en": "Veterans Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-11",
+            "name": "Veterans Day",
+            "localName": "Veterans Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Veterans Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-11-26",
+      "group": {
+        "date": "2026-11-26",
+        "db": [
+          {
+            "db_id": 265,
+            "date": "2026-11-26",
+            "name_en": "Thanksgiving Day",
+            "name_local": "Thanksgiving Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-11-26",
+            "year": 2026,
+            "name_en": "Thanksgiving Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-11-26",
+            "name": "Thanksgiving Day",
+            "localName": "Thanksgiving Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Thanksgiving Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-25",
+      "group": {
+        "date": "2026-12-25",
+        "db": [
+          {
+            "db_id": 266,
+            "date": "2026-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-25",
+            "year": 2026,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-25",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 267,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "New Year's Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "New Year's Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-18",
+      "group": {
+        "date": "2027-01-18",
+        "db": [
+          {
+            "db_id": 268,
+            "date": "2027-01-18",
+            "name_en": "Martin Luther King, Jr. Day",
+            "name_local": "Martin Luther King, Jr. Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-18",
+            "year": 2027,
+            "name_en": "Birthday of Martin Luther King, Jr.",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-18",
+            "name": "Martin Luther King, Jr. Day",
+            "localName": "Martin Luther King, Jr. Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Martin Luther King, Jr. Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-12",
+      "group": {
+        "date": "2027-02-12",
+        "db": [
+          {
+            "db_id": 269,
+            "date": "2027-02-12",
+            "name_en": "Lincoln's Birthday",
+            "name_local": "Lincoln's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-02-12",
+            "name": "Lincoln's Birthday",
+            "localName": "Lincoln's Birthday",
+            "types": [
+              "Observance"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Lincoln's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-02-15",
+      "group": {
+        "date": "2027-02-15",
+        "db": [
+          {
+            "db_id": 270,
+            "date": "2027-02-15",
+            "name_en": "Presidents Day",
+            "name_local": "Washington's Birthday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-15",
+            "year": 2027,
+            "name_en": "Washington's Birthday",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-15",
+            "name": "Presidents Day",
+            "localName": "Washington's Birthday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Presidents Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-03-26",
+      "group": {
+        "date": "2027-03-26",
+        "db": [
+          {
+            "db_id": 271,
+            "date": "2027-03-26",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 272,
+            "date": "2027-03-26",
+            "name_en": "Good Friday",
+            "name_local": "Good Friday",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-03-26",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2027-03-26",
+            "name": "Good Friday",
+            "localName": "Good Friday",
+            "types": [
+              "Optional"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Good Friday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-08",
+      "group": {
+        "date": "2027-05-08",
+        "db": [
+          {
+            "db_id": 273,
+            "date": "2027-05-08",
+            "name_en": "Truman Day",
+            "name_local": "Truman Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-05-08",
+            "name": "Truman Day",
+            "localName": "Truman Day",
+            "types": [
+              "School",
+              "Authorities"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Truman Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-31",
+      "group": {
+        "date": "2027-05-31",
+        "db": [
+          {
+            "db_id": 274,
+            "date": "2027-05-31",
+            "name_en": "Memorial Day",
+            "name_local": "Memorial Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-31",
+            "year": 2027,
+            "name_en": "Memorial Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-31",
+            "name": "Memorial Day",
+            "localName": "Memorial Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-06-18",
+      "group": {
+        "date": "2027-06-18",
+        "db": [
+          {
+            "db_id": 275,
+            "date": "2027-06-18",
+            "name_en": "Juneteenth National Independence Day",
+            "name_local": "Juneteenth National Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-06-18",
+            "year": 2027,
+            "name_en": "Juneteenth",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Juneteenth",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-06-18",
+            "name": "Juneteenth National Independence Day",
+            "localName": "Juneteenth National Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Juneteenth National Independence Day",
+      "issue": "Wikipedia lists 'Juneteenth' as a 'substitute' holiday on this date, while DB and Nager list it as 'regular'. This might be a discrepancy in how substitute holidays are handled.",
+      "action": "manual_review",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-06-19",
+      "group": {
+        "date": "2027-06-19",
+        "db": [
+          {
+            "db_id": 2193,
+            "date": "2027-06-19",
+            "name_en": "Juneteenth",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Juneteenth",
+      "issue": "Holiday present only in DB.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-07-04",
+      "group": {
+        "date": "2027-07-04",
+        "db": [
+          {
+            "db_id": 2194,
+            "date": "2027-07-04",
+            "name_en": "Independence Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Independence Day",
+      "issue": "Holiday present only in DB.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-07-05",
+      "group": {
+        "date": "2027-07-05",
+        "db": [
+          {
+            "db_id": 276,
+            "date": "2027-07-05",
+            "name_en": "Independence Day",
+            "name_local": "Independence Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-07-05",
+            "year": 2027,
+            "name_en": "Independence Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Independence Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-07-05",
+            "name": "Independence Day",
+            "localName": "Independence Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-06",
+      "group": {
+        "date": "2027-09-06",
+        "db": [
+          {
+            "db_id": 277,
+            "date": "2027-09-06",
+            "name_en": "Labour Day",
+            "name_local": "Labor Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-06",
+            "year": 2027,
+            "name_en": "Labor Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-06",
+            "name": "Labour Day",
+            "localName": "Labor Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Labor Day",
+      "issue": null,
+      "action": "update_db_name",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-10-11",
+      "group": {
+        "date": "2027-10-11",
+        "db": [
+          {
+            "db_id": 278,
+            "date": "2027-10-11",
+            "name_en": "Columbus Day",
+            "name_local": "Columbus Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 279,
+            "date": "2027-10-11",
+            "name_en": "Indigenous Peoples' Day",
+            "name_local": "Indigenous Peoples' Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-11",
+            "year": 2027,
+            "name_en": "Columbus Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-11",
+            "name": "Columbus Day",
+            "localName": "Columbus Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2027-10-11",
+            "name": "Indigenous Peoples' Day",
+            "localName": "Indigenous Peoples' Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Columbus Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-11",
+      "group": {
+        "date": "2027-11-11",
+        "db": [
+          {
+            "db_id": 280,
+            "date": "2027-11-11",
+            "name_en": "Veterans Day",
+            "name_local": "Veterans Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-11",
+            "year": 2027,
+            "name_en": "Veterans Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-11",
+            "name": "Veterans Day",
+            "localName": "Veterans Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Veterans Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-11-25",
+      "group": {
+        "date": "2027-11-25",
+        "db": [
+          {
+            "db_id": 281,
+            "date": "2027-11-25",
+            "name_en": "Thanksgiving Day",
+            "name_local": "Thanksgiving Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-11-25",
+            "year": 2027,
+            "name_en": "Thanksgiving Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-11-25",
+            "name": "Thanksgiving Day",
+            "localName": "Thanksgiving Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Thanksgiving Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-24",
+      "group": {
+        "date": "2027-12-24",
+        "db": [
+          {
+            "db_id": 282,
+            "date": "2027-12-24",
+            "name_en": "Christmas Day",
+            "name_local": "Christmas Day",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-24",
+            "year": 2027,
+            "name_en": "Christmas Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Christmas Day",
+            "source": "wikipedia"
+          },
+          {
+            "date": "2027-12-24",
+            "year": 2027,
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "substitute",
+            "is_substitute_for": "Christmas Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-24",
+            "name": "Christmas Day",
+            "localName": "Christmas Day",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas Day Eve",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-25",
+      "group": {
+        "date": "2027-12-25",
+        "db": [
+          {
+            "db_id": 2195,
+            "date": "2027-12-25",
+            "name_en": "Christmas Day",
+            "name_local": null,
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Christmas Day",
+      "issue": "Holiday present only in DB.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-07-03",
+      "group": {
+        "date": "2025-07-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-07-03",
+            "year": 2025,
+            "name_en": "Independence Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Independence Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Independence Day Eve",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-11-28",
+      "group": {
+        "date": "2025-11-28",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-11-28",
+            "year": 2025,
+            "name_en": "Day After Thanksgiving",
+            "name_local": null,
+            "category": "day_after",
+            "is_substitute_for": "Thanksgiving Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Day After Thanksgiving",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-12-24",
+      "group": {
+        "date": "2025-12-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-12-24",
+            "year": 2025,
+            "name_en": "Christmas Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Christmas Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Christmas Day Eve",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-11-27",
+      "group": {
+        "date": "2026-11-27",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-11-27",
+            "year": 2026,
+            "name_en": "Day After Thanksgiving",
+            "name_local": null,
+            "category": "day_after",
+            "is_substitute_for": "Thanksgiving Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Day After Thanksgiving",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-12-24",
+      "group": {
+        "date": "2026-12-24",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2026-12-24",
+            "year": 2026,
+            "name_en": "Christmas Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Christmas Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Christmas Day Eve",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-07-03",
+      "group": {
+        "date": "2027-07-03",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-07-03",
+            "year": 2027,
+            "name_en": "Independence Day Eve",
+            "name_local": null,
+            "category": "eve",
+            "is_substitute_for": "Independence Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Independence Day Eve",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-11-26",
+      "group": {
+        "date": "2027-11-26",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2027-11-26",
+            "year": 2027,
+            "name_en": "Day After Thanksgiving",
+            "name_local": null,
+            "category": "day_after",
+            "is_substitute_for": "Thanksgiving Day",
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Day After Thanksgiving",
+      "issue": "Holiday present in Wikipedia but missing in DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

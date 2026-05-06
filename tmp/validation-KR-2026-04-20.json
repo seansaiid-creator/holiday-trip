@@ -1,0 +1,2842 @@
+{
+  "country": "South Korea",
+  "country_code": "KR",
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "generated_at": "2026-04-20T05:17:44.619Z",
+  "duration_ms": 51743,
+  "summary": {
+    "verified_high": 42,
+    "verified_mid": 6,
+    "single_source": 16,
+    "conflict": 0,
+    "missing_in_db": 1
+  },
+  "source_counts": {
+    "db": 65,
+    "wikipedia": 48,
+    "nager": 45
+  },
+  "optimization": {
+    "auto_classified_by_js": 50,
+    "needed_gemini_judgment": 15,
+    "total_gemini_calls": 2
+  },
+  "results": [
+    {
+      "date": "2025-01-01",
+      "group": {
+        "date": "2025-01-01",
+        "db": [
+          {
+            "db_id": 142,
+            "date": "2025-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "1월1일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-01",
+            "year": 2025,
+            "name_en": "New Year's Day",
+            "name_local": "신정",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-01",
+            "name": "New Year's Day",
+            "localName": "새해",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-01-27",
+      "group": {
+        "date": "2025-01-27",
+        "db": [
+          {
+            "db_id": 2137,
+            "date": "2025-01-27",
+            "name_en": "Temporary Public Holiday",
+            "name_local": "임시공휴일",
+            "category": "temporary",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Temporary Public Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2025-01-28",
+      "group": {
+        "date": "2025-01-28",
+        "db": [
+          {
+            "db_id": 143,
+            "date": "2025-01-28",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-28",
+            "year": 2025,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-28",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-29",
+      "group": {
+        "date": "2025-01-29",
+        "db": [
+          {
+            "db_id": 144,
+            "date": "2025-01-29",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-29",
+            "year": 2025,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-29",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-01-30",
+      "group": {
+        "date": "2025-01-30",
+        "db": [
+          {
+            "db_id": 145,
+            "date": "2025-01-30",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-01-30",
+            "year": 2025,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-01-30",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-03-01",
+      "group": {
+        "date": "2025-03-01",
+        "db": [
+          {
+            "db_id": 146,
+            "date": "2025-03-01",
+            "name_en": "Independence Movement Day",
+            "name_local": "삼일절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-03-01",
+            "year": 2025,
+            "name_en": "Independence Movement Day",
+            "name_local": "3ㆍ1절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-03-01",
+            "name": "Independence Movement Day",
+            "localName": "3·1절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Movement Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-03-03",
+      "group": {
+        "date": "2025-03-03",
+        "db": [
+          {
+            "db_id": 2138,
+            "date": "2025-03-03",
+            "name_en": "Substitute Holiday",
+            "name_local": "대체공휴일",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2025-05-05",
+      "group": {
+        "date": "2025-05-05",
+        "db": [
+          {
+            "db_id": 147,
+            "date": "2025-05-05",
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          },
+          {
+            "db_id": 148,
+            "date": "2025-05-05",
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님오신날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-05-05",
+            "year": 2025,
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          },
+          {
+            "date": "2025-05-05",
+            "year": 2025,
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님 오신 날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-05-05",
+            "name": "Children's Day",
+            "localName": "어린이날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          },
+          {
+            "date": "2025-05-05",
+            "name": "Buddha's Birthday",
+            "localName": "부처님 오신 날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-05-06",
+      "group": {
+        "date": "2025-05-06",
+        "db": [
+          {
+            "db_id": 2139,
+            "date": "2025-05-06",
+            "name_en": "Substitute Holiday",
+            "name_local": "대체공휴일",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2025-06-03",
+      "group": {
+        "date": "2025-06-03",
+        "db": [
+          {
+            "db_id": 2140,
+            "date": "2025-06-03",
+            "name_en": "Temporary Holiday (Presidential Election)",
+            "name_local": "임시공휴일(제21대 대통령 선거)",
+            "category": "temporary",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Temporary Holiday (Presidential Election)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2025-06-06",
+      "group": {
+        "date": "2025-06-06",
+        "db": [
+          {
+            "db_id": 149,
+            "date": "2025-06-06",
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-06-06",
+            "year": 2025,
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-06-06",
+            "name": "Memorial Day",
+            "localName": "현충일",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-08-15",
+      "group": {
+        "date": "2025-08-15",
+        "db": [
+          {
+            "db_id": 150,
+            "date": "2025-08-15",
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-08-15",
+            "year": 2025,
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-08-15",
+            "name": "Liberation Day",
+            "localName": "광복절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "National Liberation Day of Korea",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2025-10-03",
+      "group": {
+        "date": "2025-10-03",
+        "db": [
+          {
+            "db_id": 151,
+            "date": "2025-10-03",
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-03",
+            "year": 2025,
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-03",
+            "name": "National Foundation Day",
+            "localName": "개천절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-05",
+      "group": {
+        "date": "2025-10-05",
+        "db": [
+          {
+            "db_id": 2141,
+            "date": "2025-10-05",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-05",
+            "year": 2025,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": false
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-06",
+      "group": {
+        "date": "2025-10-06",
+        "db": [
+          {
+            "db_id": 152,
+            "date": "2025-10-06",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-06",
+            "year": 2025,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-06",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-07",
+      "group": {
+        "date": "2025-10-07",
+        "db": [
+          {
+            "db_id": 153,
+            "date": "2025-10-07",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-07",
+            "year": 2025,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-07",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-08",
+      "group": {
+        "date": "2025-10-08",
+        "db": [
+          {
+            "db_id": 154,
+            "date": "2025-10-08",
+            "name_en": "Chuseok",
+            "name_local": "대체공휴일",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2025-10-08",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-10-09",
+      "group": {
+        "date": "2025-10-09",
+        "db": [
+          {
+            "db_id": 155,
+            "date": "2025-10-09",
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-10-09",
+            "year": 2025,
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-10-09",
+            "name": "Hangul Day",
+            "localName": "한글날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Hangul Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2025-12-25",
+      "group": {
+        "date": "2025-12-25",
+        "db": [
+          {
+            "db_id": 156,
+            "date": "2025-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "성탄절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2025-12-25",
+            "year": 2025,
+            "name_en": "Christmas",
+            "name_local": "크리스마스/성탄절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2025-12-25",
+            "name": "Christmas Day",
+            "localName": "크리스마스",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-01-01",
+      "group": {
+        "date": "2026-01-01",
+        "db": [
+          {
+            "db_id": 157,
+            "date": "2026-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "1월1일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-01-01",
+            "year": 2026,
+            "name_en": "New Year's Day",
+            "name_local": "신정",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-01-01",
+            "name": "New Year's Day",
+            "localName": "새해",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-02-16",
+      "group": {
+        "date": "2026-02-16",
+        "db": [
+          {
+            "db_id": 158,
+            "date": "2026-02-16",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-16",
+            "year": 2026,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-16",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-17",
+      "group": {
+        "date": "2026-02-17",
+        "db": [
+          {
+            "db_id": 159,
+            "date": "2026-02-17",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-17",
+            "year": 2026,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-17",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-02-18",
+      "group": {
+        "date": "2026-02-18",
+        "db": [
+          {
+            "db_id": 160,
+            "date": "2026-02-18",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-02-18",
+            "year": 2026,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-02-18",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-03-01",
+      "group": {
+        "date": "2026-03-01",
+        "db": [
+          {
+            "db_id": 161,
+            "date": "2026-03-01",
+            "name_en": "Independence Movement Day",
+            "name_local": "삼일절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-03-01",
+            "year": 2026,
+            "name_en": "Independence Movement Day",
+            "name_local": "3ㆍ1절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-03-01",
+            "name": "Independence Movement Day",
+            "localName": "3·1절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Movement Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-03-02",
+      "group": {
+        "date": "2026-03-02",
+        "db": [
+          {
+            "db_id": 2142,
+            "date": "2026-03-02",
+            "name_en": "Substitute Holiday (Independence Movement Day)",
+            "name_local": "대체공휴일(삼일절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (Independence Movement Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2026-05-01",
+      "group": {
+        "date": "2026-05-01",
+        "db": [
+          {
+            "db_id": 2143,
+            "date": "2026-05-01",
+            "name_en": "Labor Day",
+            "name_local": "노동절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Labor Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-05-05",
+      "group": {
+        "date": "2026-05-05",
+        "db": [
+          {
+            "db_id": 162,
+            "date": "2026-05-05",
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-05",
+            "year": 2026,
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-05",
+            "name": "Children's Day",
+            "localName": "어린이날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-24",
+      "group": {
+        "date": "2026-05-24",
+        "db": [
+          {
+            "db_id": 163,
+            "date": "2026-05-24",
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님오신날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-05-24",
+            "year": 2026,
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님 오신 날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-05-24",
+            "name": "Buddha's Birthday",
+            "localName": "부처님 오신 날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Buddha's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-05-25",
+      "group": {
+        "date": "2026-05-25",
+        "db": [
+          {
+            "db_id": 2144,
+            "date": "2026-05-25",
+            "name_en": "Substitute Holiday (Buddha's Birthday)",
+            "name_local": "대체공휴일(부처님오신날)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (Buddha's Birthday)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2026-06-03",
+      "group": {
+        "date": "2026-06-03",
+        "db": [
+          {
+            "db_id": 2145,
+            "date": "2026-06-03",
+            "name_en": "Local Elections Day",
+            "name_local": "전국동시지방선거",
+            "category": "temporary",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Local Elections Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2026-06-06",
+      "group": {
+        "date": "2026-06-06",
+        "db": [
+          {
+            "db_id": 164,
+            "date": "2026-06-06",
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-06-06",
+            "year": 2026,
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-06-06",
+            "name": "Memorial Day",
+            "localName": "현충일",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-07-17",
+      "group": {
+        "date": "2026-07-17",
+        "db": [
+          {
+            "db_id": 2158,
+            "date": "2026-07-17",
+            "name_en": "Constitution Day",
+            "name_local": "제헌절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-07-17",
+            "year": 2026,
+            "name_en": "Constitution Day",
+            "name_local": "제헌절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": false
+      },
+      "recommended_name_en": "Constitution Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-08-15",
+      "group": {
+        "date": "2026-08-15",
+        "db": [
+          {
+            "db_id": 165,
+            "date": "2026-08-15",
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-08-15",
+            "year": 2026,
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-08-15",
+            "name": "Liberation Day",
+            "localName": "광복절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "National Liberation Day of Korea",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2026-08-17",
+      "group": {
+        "date": "2026-08-17",
+        "db": [
+          {
+            "db_id": 2146,
+            "date": "2026-08-17",
+            "name_en": "Substitute Holiday (National Liberation Day of Korea)",
+            "name_local": "대체공휴일(광복절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (National Liberation Day of Korea)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2026-09-24",
+      "group": {
+        "date": "2026-09-24",
+        "db": [
+          {
+            "db_id": 166,
+            "date": "2026-09-24",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-24",
+            "year": 2026,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-24",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-25",
+      "group": {
+        "date": "2026-09-25",
+        "db": [
+          {
+            "db_id": 167,
+            "date": "2026-09-25",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-25",
+            "year": 2026,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-25",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-09-26",
+      "group": {
+        "date": "2026-09-26",
+        "db": [
+          {
+            "db_id": 168,
+            "date": "2026-09-26",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-09-26",
+            "year": 2026,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-09-26",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-03",
+      "group": {
+        "date": "2026-10-03",
+        "db": [
+          {
+            "db_id": 169,
+            "date": "2026-10-03",
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-03",
+            "year": 2026,
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-03",
+            "name": "National Foundation Day",
+            "localName": "개천절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-10-05",
+      "group": {
+        "date": "2026-10-05",
+        "db": [
+          {
+            "db_id": 2147,
+            "date": "2026-10-05",
+            "name_en": "Substitute Holiday (National Foundation Day)",
+            "name_local": "대체공휴일(개천절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (National Foundation Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2026-10-09",
+      "group": {
+        "date": "2026-10-09",
+        "db": [
+          {
+            "db_id": 170,
+            "date": "2026-10-09",
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-10-09",
+            "year": 2026,
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-10-09",
+            "name": "Hangul Day",
+            "localName": "한글날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Hangul Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2026-12-25",
+      "group": {
+        "date": "2026-12-25",
+        "db": [
+          {
+            "db_id": 171,
+            "date": "2026-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "성탄절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2026-12-25",
+            "year": 2026,
+            "name_en": "Christmas",
+            "name_local": "크리스마스/성탄절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2026-12-25",
+            "name": "Christmas Day",
+            "localName": "크리스마스",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-01-01",
+      "group": {
+        "date": "2027-01-01",
+        "db": [
+          {
+            "db_id": 172,
+            "date": "2027-01-01",
+            "name_en": "New Year's Day",
+            "name_local": "1월1일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-01-01",
+            "year": 2027,
+            "name_en": "New Year's Day",
+            "name_local": "신정",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-01-01",
+            "name": "New Year's Day",
+            "localName": "새해",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "New Year's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-02-06",
+      "group": {
+        "date": "2027-02-06",
+        "db": [
+          {
+            "db_id": 173,
+            "date": "2027-02-06",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-06",
+            "year": 2027,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-06",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-07",
+      "group": {
+        "date": "2027-02-07",
+        "db": [
+          {
+            "db_id": 2148,
+            "date": "2027-02-07",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-07",
+            "year": 2027,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "verified_mid",
+      "recommended_name_en": "Lunar New Year",
+      "issue": "Nager.Date is missing this entry.",
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-08",
+      "group": {
+        "date": "2027-02-08",
+        "db": [
+          {
+            "db_id": 174,
+            "date": "2027-02-08",
+            "name_en": "Lunar New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-02-08",
+            "year": 2027,
+            "name_en": "Korean New Year",
+            "name_local": "설날",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-02-08",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-02-09",
+      "group": {
+        "date": "2027-02-09",
+        "db": [
+          {
+            "db_id": 175,
+            "date": "2027-02-09",
+            "name_en": "Lunar New Year",
+            "name_local": "대체공휴일(설날)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": [
+          {
+            "date": "2027-02-09",
+            "name": "Lunar New Year",
+            "localName": "설날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": true
+      },
+      "recommended_name_en": "Lunar New Year",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-03-01",
+      "group": {
+        "date": "2027-03-01",
+        "db": [
+          {
+            "db_id": 176,
+            "date": "2027-03-01",
+            "name_en": "Independence Movement Day",
+            "name_local": "삼일절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-03-01",
+            "year": 2027,
+            "name_en": "Independence Movement Day",
+            "name_local": "3ㆍ1절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-03-01",
+            "name": "Independence Movement Day",
+            "localName": "3·1절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Independence Movement Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-01",
+      "group": {
+        "date": "2027-05-01",
+        "db": [
+          {
+            "db_id": 2149,
+            "date": "2027-05-01",
+            "name_en": "Labor Day",
+            "name_local": "노동절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "recommended_name_en": "Labor Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-05-05",
+      "group": {
+        "date": "2027-05-05",
+        "db": [
+          {
+            "db_id": 177,
+            "date": "2027-05-05",
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-05",
+            "year": 2027,
+            "name_en": "Children's Day",
+            "name_local": "어린이날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-05",
+            "name": "Children's Day",
+            "localName": "어린이날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Children's Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-05-13",
+      "group": {
+        "date": "2027-05-13",
+        "db": [
+          {
+            "db_id": 178,
+            "date": "2027-05-13",
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님오신날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-05-13",
+            "year": 2027,
+            "name_en": "Buddha's Birthday",
+            "name_local": "부처님 오신 날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-05-13",
+            "name": "Buddha's Birthday",
+            "localName": "부처님 오신 날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Buddha's Birthday",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-06-06",
+      "group": {
+        "date": "2027-06-06",
+        "db": [
+          {
+            "db_id": 179,
+            "date": "2027-06-06",
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-06-06",
+            "year": 2027,
+            "name_en": "Memorial Day",
+            "name_local": "현충일",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-06-06",
+            "name": "Memorial Day",
+            "localName": "현충일",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Memorial Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-07-17",
+      "group": {
+        "date": "2027-07-17",
+        "db": [
+          {
+            "db_id": 2159,
+            "date": "2027-07-17",
+            "name_en": "Constitution Day",
+            "name_local": "제헌절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-07-17",
+            "year": 2027,
+            "name_en": "Constitution Day",
+            "name_local": "제헌절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "verified_mid",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": false
+      },
+      "recommended_name_en": "Constitution Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-07-19",
+      "group": {
+        "date": "2027-07-19",
+        "db": [
+          {
+            "db_id": 2160,
+            "date": "2027-07-19",
+            "name_en": "Substitute Holiday (Constitution Day)",
+            "name_local": "대체공휴일(제헌절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (Constitution Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2027-08-15",
+      "group": {
+        "date": "2027-08-15",
+        "db": [
+          {
+            "db_id": 180,
+            "date": "2027-08-15",
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-08-15",
+            "year": 2027,
+            "name_en": "National Liberation Day of Korea",
+            "name_local": "광복절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-08-15",
+            "name": "Liberation Day",
+            "localName": "광복절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "recommended_name_en": "National Liberation Day of Korea",
+      "issue": null,
+      "action": "keep_as_is",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "note": "Judged by Gemini (batch)"
+    },
+    {
+      "date": "2027-08-16",
+      "group": {
+        "date": "2027-08-16",
+        "db": [
+          {
+            "db_id": 2150,
+            "date": "2027-08-16",
+            "name_en": "Substitute Holiday (National Liberation Day of Korea)",
+            "name_local": "대체공휴일(광복절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (National Liberation Day of Korea)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2027-09-14",
+      "group": {
+        "date": "2027-09-14",
+        "db": [
+          {
+            "db_id": 181,
+            "date": "2027-09-14",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-14",
+            "year": 2027,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "eve",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-14",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-15",
+      "group": {
+        "date": "2027-09-15",
+        "db": [
+          {
+            "db_id": 182,
+            "date": "2027-09-15",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-15",
+            "year": 2027,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-15",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-09-16",
+      "group": {
+        "date": "2027-09-16",
+        "db": [
+          {
+            "db_id": 183,
+            "date": "2027-09-16",
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-09-16",
+            "year": 2027,
+            "name_en": "Chuseok",
+            "name_local": "추석",
+            "category": "day_after",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-09-16",
+            "name": "Chuseok",
+            "localName": "추석",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Chuseok",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-03",
+      "group": {
+        "date": "2027-10-03",
+        "db": [
+          {
+            "db_id": 184,
+            "date": "2027-10-03",
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-03",
+            "year": 2027,
+            "name_en": "National Foundation Day",
+            "name_local": "개천절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-03",
+            "name": "National Foundation Day",
+            "localName": "개천절",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "National Foundation Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-04",
+      "group": {
+        "date": "2027-10-04",
+        "db": [
+          {
+            "db_id": 2151,
+            "date": "2027-10-04",
+            "name_en": "Substitute Holiday (National Foundation Day)",
+            "name_local": "대체공휴일(개천절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (National Foundation Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2027-10-09",
+      "group": {
+        "date": "2027-10-09",
+        "db": [
+          {
+            "db_id": 185,
+            "date": "2027-10-09",
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-10-09",
+            "year": 2027,
+            "name_en": "Hangul Day",
+            "name_local": "한글날",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-10-09",
+            "name": "Hangul Day",
+            "localName": "한글날",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Hangul Day",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-10-11",
+      "group": {
+        "date": "2027-10-11",
+        "db": [
+          {
+            "db_id": 2152,
+            "date": "2027-10-11",
+            "name_en": "Substitute Holiday (Hangul Day)",
+            "name_local": "대체공휴일(한글날)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (Hangul Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2027-12-25",
+      "group": {
+        "date": "2027-12-25",
+        "db": [
+          {
+            "db_id": 186,
+            "date": "2027-12-25",
+            "name_en": "Christmas Day",
+            "name_local": "성탄절",
+            "category": "regular",
+            "is_substitute": false,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [
+          {
+            "date": "2027-12-25",
+            "year": 2027,
+            "name_en": "Christmas",
+            "name_local": "크리스마스/성탄절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": [
+          {
+            "date": "2027-12-25",
+            "name": "Christmas Day",
+            "localName": "크리스마스",
+            "types": [
+              "Public"
+            ],
+            "source": "nager"
+          }
+        ]
+      },
+      "verification_status": "verified_high",
+      "present_in": {
+        "db": true,
+        "wikipedia": true,
+        "nager": true
+      },
+      "recommended_name_en": "Christmas",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Auto-matched by JS (min similarity 1.00)."
+    },
+    {
+      "date": "2027-12-27",
+      "group": {
+        "date": "2027-12-27",
+        "db": [
+          {
+            "db_id": 2153,
+            "date": "2027-12-27",
+            "name_en": "Substitute Holiday (Christmas Day)",
+            "name_local": "대체공휴일(성탄절)",
+            "category": "substitute",
+            "is_substitute": true,
+            "source": "db"
+          }
+        ],
+        "wikipedia": [],
+        "nager": []
+      },
+      "verification_status": "single_source",
+      "present_in": {
+        "db": true,
+        "wikipedia": false,
+        "nager": false
+      },
+      "recommended_name_en": "Substitute Holiday (Christmas Day)",
+      "issue": null,
+      "action": "keep_as_is",
+      "note": "Substitute/temporary holiday only in our DB (expected)."
+    },
+    {
+      "date": "2025-07-17",
+      "group": {
+        "date": "2025-07-17",
+        "db": [],
+        "wikipedia": [
+          {
+            "date": "2025-07-17",
+            "year": 2025,
+            "name_en": "Constitution Day",
+            "name_local": "제헌절",
+            "category": "regular",
+            "is_substitute_for": null,
+            "source": "wikipedia"
+          }
+        ],
+        "nager": []
+      },
+      "verification_status": "missing_in_db",
+      "recommended_name_en": "Constitution Day",
+      "issue": "Constitution Day is present in Wikipedia but missing in the DB.",
+      "action": "add_to_db",
+      "present_in": {
+        "db": false,
+        "wikipedia": true,
+        "nager": false
+      },
+      "note": "Judged by Gemini (batch)"
+    }
+  ]
+}

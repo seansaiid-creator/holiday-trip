@@ -1,0 +1,3359 @@
+[
+  {
+    "id": 1922,
+    "date": "2025-08-04",
+    "name": "Picnic Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1907,
+    "date": "2025-03-03",
+    "name": "Labour Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1908,
+    "date": "2025-03-10",
+    "name": "Canberra Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1909,
+    "date": "2025-03-10",
+    "name": "Adelaide Cup Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1910,
+    "date": "2025-03-10",
+    "name": "Eight Hours Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1911,
+    "date": "2025-03-10",
+    "name": "Labour Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1913,
+    "date": "2025-04-19",
+    "name": "Holy Saturday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1914,
+    "date": "2025-04-20",
+    "name": "Easter Sunday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1917,
+    "date": "2025-05-05",
+    "name": "May Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1918,
+    "date": "2025-05-05",
+    "name": "Labour Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1919,
+    "date": "2025-06-02",
+    "name": "Reconciliation Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1920,
+    "date": "2025-06-02",
+    "name": "Western Australia Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1921,
+    "date": "2025-06-09",
+    "name": "King's Birthday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1923,
+    "date": "2025-09-26",
+    "name": "Friday before AFL Grand Final",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1924,
+    "date": "2025-09-29",
+    "name": "King's Birthday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1925,
+    "date": "2025-10-06",
+    "name": "Labour Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1926,
+    "date": "2025-10-06",
+    "name": "King's Birthday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1927,
+    "date": "2025-11-04",
+    "name": "Melbourne Cup",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1932,
+    "date": "2026-03-02",
+    "name": "Labour Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1933,
+    "date": "2026-03-09",
+    "name": "Canberra Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1934,
+    "date": "2026-03-09",
+    "name": "Adelaide Cup Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1935,
+    "date": "2026-03-09",
+    "name": "Eight Hours Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1936,
+    "date": "2026-03-09",
+    "name": "Labour Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1938,
+    "date": "2026-04-04",
+    "name": "Holy Saturday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1939,
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1942,
+    "date": "2026-04-27",
+    "name": "Anzac Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1943,
+    "date": "2026-05-04",
+    "name": "May Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1944,
+    "date": "2026-05-04",
+    "name": "Labour Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1945,
+    "date": "2026-06-01",
+    "name": "Reconciliation Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1946,
+    "date": "2026-06-01",
+    "name": "Western Australia Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1947,
+    "date": "2026-06-08",
+    "name": "King's Birthday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1948,
+    "date": "2026-08-03",
+    "name": "Picnic Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1949,
+    "date": "2026-09-28",
+    "name": "King's Birthday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1950,
+    "date": "2026-10-05",
+    "name": "Labour Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1951,
+    "date": "2026-10-05",
+    "name": "King's Birthday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1952,
+    "date": "2026-11-03",
+    "name": "Melbourne Cup",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1957,
+    "date": "2027-03-01",
+    "name": "Labour Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1958,
+    "date": "2027-03-08",
+    "name": "Canberra Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1959,
+    "date": "2027-03-08",
+    "name": "Adelaide Cup Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1960,
+    "date": "2027-03-08",
+    "name": "Eight Hours Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1961,
+    "date": "2027-03-08",
+    "name": "Labour Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1963,
+    "date": "2027-03-27",
+    "name": "Holy Saturday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1964,
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1967,
+    "date": "2027-04-26",
+    "name": "Anzac Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1968,
+    "date": "2027-05-03",
+    "name": "May Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1969,
+    "date": "2027-05-03",
+    "name": "Labour Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1970,
+    "date": "2027-05-31",
+    "name": "Reconciliation Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1971,
+    "date": "2027-06-07",
+    "name": "Western Australia Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1972,
+    "date": "2027-06-14",
+    "name": "King's Birthday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1973,
+    "date": "2027-08-02",
+    "name": "Picnic Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1974,
+    "date": "2027-09-24",
+    "name": "Friday before AFL Grand Final (Tentative Date)",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1975,
+    "date": "2027-09-27",
+    "name": "King's Birthday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1976,
+    "date": "2027-10-04",
+    "name": "Labour Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1977,
+    "date": "2027-10-04",
+    "name": "King's Birthday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1978,
+    "date": "2027-11-02",
+    "name": "Melbourne Cup",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 832,
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 837,
+    "date": "2025-05-30",
+    "name": "Day after Ascension Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 844,
+    "date": "2025-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 846,
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 851,
+    "date": "2026-05-15",
+    "name": "Day after Ascension Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 858,
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 860,
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 865,
+    "date": "2027-05-07",
+    "name": "Day after Ascension Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 872,
+    "date": "2027-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1666,
+    "date": "2025-03-03",
+    "name": "Carnival",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1667,
+    "date": "2025-03-04",
+    "name": "Carnival",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1673,
+    "date": "2025-07-09",
+    "name": "Constitutionalist Revolution of 1932",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1681,
+    "date": "2026-02-16",
+    "name": "Carnival",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1682,
+    "date": "2026-02-17",
+    "name": "Carnival",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1688,
+    "date": "2026-07-09",
+    "name": "Constitutionalist Revolution of 1932",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1696,
+    "date": "2027-02-08",
+    "name": "Carnival",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1697,
+    "date": "2027-02-09",
+    "name": "Carnival",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1703,
+    "date": "2027-07-09",
+    "name": "Constitutionalist Revolution of 1932",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1546,
+    "date": "2025-02-17",
+    "name": "Louis Riel Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1547,
+    "date": "2025-02-17",
+    "name": "Islander Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1548,
+    "date": "2025-02-17",
+    "name": "Heritage Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1549,
+    "date": "2025-02-17",
+    "name": "Family Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1550,
+    "date": "2025-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1552,
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1553,
+    "date": "2025-04-23",
+    "name": "Saint George's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1554,
+    "date": "2025-05-19",
+    "name": "National Patriots' Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1556,
+    "date": "2025-06-21",
+    "name": "National Aboriginal Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1557,
+    "date": "2025-06-24",
+    "name": "Discovery Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1558,
+    "date": "2025-06-24",
+    "name": "National Holiday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1560,
+    "date": "2025-07-12",
+    "name": "Orangemen's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1561,
+    "date": "2025-08-04",
+    "name": "Civic Holiday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1562,
+    "date": "2025-08-04",
+    "name": "British Columbia Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1563,
+    "date": "2025-08-04",
+    "name": "Heritage Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1564,
+    "date": "2025-08-04",
+    "name": "New Brunswick Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1565,
+    "date": "2025-08-04",
+    "name": "Natal Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1566,
+    "date": "2025-08-04",
+    "name": "Saskatchewan Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1567,
+    "date": "2025-08-18",
+    "name": "Gold Cup Parade Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1568,
+    "date": "2025-08-18",
+    "name": "Discovery Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1572,
+    "date": "2025-11-11",
+    "name": "Armistice Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1573,
+    "date": "2025-11-11",
+    "name": "Remembrance Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1575,
+    "date": "2025-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1577,
+    "date": "2026-02-16",
+    "name": "Louis Riel Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1578,
+    "date": "2026-02-16",
+    "name": "Islander Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1579,
+    "date": "2026-02-16",
+    "name": "Heritage Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1580,
+    "date": "2026-02-16",
+    "name": "Family Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1581,
+    "date": "2026-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1583,
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1584,
+    "date": "2026-04-23",
+    "name": "Saint George's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1585,
+    "date": "2026-05-18",
+    "name": "National Patriots' Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1587,
+    "date": "2026-06-21",
+    "name": "National Aboriginal Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1588,
+    "date": "2026-06-24",
+    "name": "Discovery Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1589,
+    "date": "2026-06-24",
+    "name": "National Holiday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1591,
+    "date": "2026-07-12",
+    "name": "Orangemen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1592,
+    "date": "2026-08-03",
+    "name": "Civic Holiday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1593,
+    "date": "2026-08-03",
+    "name": "British Columbia Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1594,
+    "date": "2026-08-03",
+    "name": "Heritage Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1595,
+    "date": "2026-08-03",
+    "name": "New Brunswick Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1596,
+    "date": "2026-08-03",
+    "name": "Natal Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1597,
+    "date": "2026-08-03",
+    "name": "Saskatchewan Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1598,
+    "date": "2026-08-17",
+    "name": "Gold Cup Parade Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1599,
+    "date": "2026-08-17",
+    "name": "Discovery Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1603,
+    "date": "2026-11-11",
+    "name": "Armistice Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1604,
+    "date": "2026-11-11",
+    "name": "Remembrance Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1606,
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1608,
+    "date": "2027-02-15",
+    "name": "Louis Riel Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1609,
+    "date": "2027-02-15",
+    "name": "Islander Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1610,
+    "date": "2027-02-15",
+    "name": "Heritage Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1611,
+    "date": "2027-02-15",
+    "name": "Family Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1612,
+    "date": "2027-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1614,
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1615,
+    "date": "2027-04-23",
+    "name": "Saint George's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1616,
+    "date": "2027-05-24",
+    "name": "National Patriots' Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1618,
+    "date": "2027-06-21",
+    "name": "National Aboriginal Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1619,
+    "date": "2027-06-24",
+    "name": "Discovery Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1620,
+    "date": "2027-06-24",
+    "name": "National Holiday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1622,
+    "date": "2027-07-12",
+    "name": "Orangemen's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1623,
+    "date": "2027-08-02",
+    "name": "Civic Holiday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1624,
+    "date": "2027-08-02",
+    "name": "British Columbia Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1625,
+    "date": "2027-08-02",
+    "name": "Heritage Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1626,
+    "date": "2027-08-02",
+    "name": "New Brunswick Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1627,
+    "date": "2027-08-02",
+    "name": "Natal Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1628,
+    "date": "2027-08-02",
+    "name": "Saskatchewan Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1629,
+    "date": "2027-08-16",
+    "name": "Gold Cup Parade Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1630,
+    "date": "2027-08-16",
+    "name": "Discovery Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1634,
+    "date": "2027-11-11",
+    "name": "Armistice Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1635,
+    "date": "2027-11-11",
+    "name": "Remembrance Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1637,
+    "date": "2027-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 875,
+    "date": "2025-01-06",
+    "name": "Epiphany",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 878,
+    "date": "2025-03-19",
+    "name": "Saint Joseph's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 884,
+    "date": "2025-05-01",
+    "name": "Labour Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 889,
+    "date": "2025-06-19",
+    "name": "Corpus Christi",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 893,
+    "date": "2025-08-15",
+    "name": "Assumption of the Virgin Mary",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 898,
+    "date": "2025-11-01",
+    "name": "All Saints' Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 900,
+    "date": "2025-12-08",
+    "name": "Immaculate Conception",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 908,
+    "date": "2026-01-06",
+    "name": "Epiphany",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 911,
+    "date": "2026-03-19",
+    "name": "Saint Joseph's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 917,
+    "date": "2026-05-01",
+    "name": "Labour Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 922,
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 926,
+    "date": "2026-08-15",
+    "name": "Assumption of the Virgin Mary",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 931,
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 933,
+    "date": "2026-12-08",
+    "name": "Immaculate Conception",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 936,
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 941,
+    "date": "2027-01-06",
+    "name": "Epiphany",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 944,
+    "date": "2027-03-19",
+    "name": "Saint Joseph's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 950,
+    "date": "2027-05-01",
+    "name": "Labour Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 955,
+    "date": "2027-05-27",
+    "name": "Corpus Christi",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 959,
+    "date": "2027-08-15",
+    "name": "Assumption of the Virgin Mary",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 964,
+    "date": "2027-11-01",
+    "name": "All Saints' Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 966,
+    "date": "2027-12-08",
+    "name": "Immaculate Conception",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1763,
+    "date": "2025-06-07",
+    "name": "Battle of Arica",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1780,
+    "date": "2026-06-07",
+    "name": "Battle of Arica",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1797,
+    "date": "2027-06-07",
+    "name": "Battle of Arica",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 604,
+    "date": "2025-01-06",
+    "name": "Epiphany",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 605,
+    "date": "2025-03-08",
+    "name": "International Women's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 607,
+    "date": "2025-04-20",
+    "name": "Easter Sunday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 610,
+    "date": "2025-05-08",
+    "name": "Liberation Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 612,
+    "date": "2025-06-08",
+    "name": "Pentecost",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 614,
+    "date": "2025-06-19",
+    "name": "Corpus Christi",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 615,
+    "date": "2025-08-15",
+    "name": "Assumption Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 616,
+    "date": "2025-09-20",
+    "name": "World Children's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 618,
+    "date": "2025-10-31",
+    "name": "Reformation Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 619,
+    "date": "2025-11-01",
+    "name": "All Saints' Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 620,
+    "date": "2025-11-19",
+    "name": "Repentance and Prayer Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 624,
+    "date": "2026-01-06",
+    "name": "Epiphany",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 625,
+    "date": "2026-03-08",
+    "name": "International Women's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 627,
+    "date": "2026-04-05",
+    "name": "Easter Sunday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 631,
+    "date": "2026-05-24",
+    "name": "Pentecost",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 633,
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 634,
+    "date": "2026-08-15",
+    "name": "Assumption Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 635,
+    "date": "2026-09-20",
+    "name": "World Children's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 637,
+    "date": "2026-10-31",
+    "name": "Reformation Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 638,
+    "date": "2026-11-01",
+    "name": "All Saints' Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 639,
+    "date": "2026-11-18",
+    "name": "Repentance and Prayer Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 643,
+    "date": "2027-01-06",
+    "name": "Epiphany",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 644,
+    "date": "2027-03-08",
+    "name": "International Women's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 646,
+    "date": "2027-03-28",
+    "name": "Easter Sunday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 650,
+    "date": "2027-05-16",
+    "name": "Pentecost",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 652,
+    "date": "2027-05-27",
+    "name": "Corpus Christi",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 653,
+    "date": "2027-08-15",
+    "name": "Assumption Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 654,
+    "date": "2027-09-20",
+    "name": "World Children's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 656,
+    "date": "2027-10-31",
+    "name": "Reformation Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 657,
+    "date": "2027-11-01",
+    "name": "All Saints' Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 658,
+    "date": "2027-11-17",
+    "name": "Repentance and Prayer Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1203,
+    "date": "2025-05-30",
+    "name": "Bank closing day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1204,
+    "date": "2025-06-05",
+    "name": "Constitution Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1207,
+    "date": "2025-12-24",
+    "name": "Christmas Eve",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1210,
+    "date": "2025-12-31",
+    "name": "New Year's Eve",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1217,
+    "date": "2026-05-15",
+    "name": "Bank closing day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1220,
+    "date": "2026-06-05",
+    "name": "Constitution Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1221,
+    "date": "2026-12-24",
+    "name": "Christmas Eve",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1224,
+    "date": "2026-12-31",
+    "name": "New Year's Eve",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1231,
+    "date": "2027-05-07",
+    "name": "Bank closing day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1234,
+    "date": "2027-06-05",
+    "name": "Constitution Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1235,
+    "date": "2027-12-24",
+    "name": "Christmas Eve",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1238,
+    "date": "2027-12-31",
+    "name": "New Year's Eve",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 704,
+    "date": "2025-02-28",
+    "name": "Day of Andalucía",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 705,
+    "date": "2025-03-01",
+    "name": "Day of the Balearic Islands",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 708,
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 709,
+    "date": "2025-04-23",
+    "name": "Castile and León Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 710,
+    "date": "2025-04-23",
+    "name": "Day of Aragón",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 712,
+    "date": "2025-05-02",
+    "name": "Day of Madrid",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 713,
+    "date": "2025-05-17",
+    "name": "Galician Literature Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 714,
+    "date": "2025-05-30",
+    "name": "Day of the Canary Islands",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 715,
+    "date": "2025-05-31",
+    "name": "Day of Castilla-La Mancha",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 716,
+    "date": "2025-06-09",
+    "name": "Day of La Rioja",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 717,
+    "date": "2025-06-09",
+    "name": "Day of Murcia",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 718,
+    "date": "2025-06-19",
+    "name": "Corpus Christi",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 719,
+    "date": "2025-06-24",
+    "name": "St. John's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 720,
+    "date": "2025-07-25",
+    "name": "Santiago Apóstol",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 721,
+    "date": "2025-07-28",
+    "name": "Day of the Cantabrian Institutions",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 723,
+    "date": "2025-09-08",
+    "name": "Day of Asturias",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 724,
+    "date": "2025-09-08",
+    "name": "Day of Extremadura",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 725,
+    "date": "2025-09-11",
+    "name": "National Day of Catalonia",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 726,
+    "date": "2025-09-15",
+    "name": "Feast of Our Lady of Bien Aparecida",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 727,
+    "date": "2025-10-09",
+    "name": "Day of the Valencian Community",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 733,
+    "date": "2025-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 736,
+    "date": "2026-02-28",
+    "name": "Day of Andalucía",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 737,
+    "date": "2026-03-01",
+    "name": "Day of the Balearic Islands",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 740,
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 741,
+    "date": "2026-04-23",
+    "name": "Castile and León Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 742,
+    "date": "2026-04-23",
+    "name": "Day of Aragón",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 744,
+    "date": "2026-05-02",
+    "name": "Day of Madrid",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 745,
+    "date": "2026-05-17",
+    "name": "Galician Literature Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 746,
+    "date": "2026-05-30",
+    "name": "Day of the Canary Islands",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 747,
+    "date": "2026-05-31",
+    "name": "Day of Castilla-La Mancha",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 748,
+    "date": "2026-06-04",
+    "name": "Corpus Christi",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 749,
+    "date": "2026-06-09",
+    "name": "Day of La Rioja",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 750,
+    "date": "2026-06-09",
+    "name": "Day of Murcia",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 751,
+    "date": "2026-06-24",
+    "name": "St. John's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 752,
+    "date": "2026-07-25",
+    "name": "Santiago Apóstol",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 753,
+    "date": "2026-07-28",
+    "name": "Day of the Cantabrian Institutions",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 755,
+    "date": "2026-09-08",
+    "name": "Day of Asturias",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 756,
+    "date": "2026-09-08",
+    "name": "Day of Extremadura",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 757,
+    "date": "2026-09-11",
+    "name": "National Day of Catalonia",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 758,
+    "date": "2026-09-15",
+    "name": "Feast of Our Lady of Bien Aparecida",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 759,
+    "date": "2026-10-09",
+    "name": "Day of the Valencian Community",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 765,
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 768,
+    "date": "2027-02-28",
+    "name": "Day of Andalucía",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 769,
+    "date": "2027-03-01",
+    "name": "Day of the Balearic Islands",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 772,
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 773,
+    "date": "2027-04-23",
+    "name": "Castile and León Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 774,
+    "date": "2027-04-23",
+    "name": "Day of Aragón",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 776,
+    "date": "2027-05-03",
+    "name": "Day of Madrid",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 777,
+    "date": "2027-05-17",
+    "name": "Galician Literature Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 778,
+    "date": "2027-05-27",
+    "name": "Corpus Christi",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 779,
+    "date": "2027-05-30",
+    "name": "Day of the Canary Islands",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 780,
+    "date": "2027-05-31",
+    "name": "Day of Castilla-La Mancha",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 781,
+    "date": "2027-06-09",
+    "name": "Day of La Rioja",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 782,
+    "date": "2027-06-09",
+    "name": "Day of Murcia",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 783,
+    "date": "2027-06-24",
+    "name": "St. John's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 784,
+    "date": "2027-07-25",
+    "name": "Santiago Apóstol",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 785,
+    "date": "2027-07-28",
+    "name": "Day of the Cantabrian Institutions",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 787,
+    "date": "2027-09-08",
+    "name": "Day of Asturias",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 788,
+    "date": "2027-09-08",
+    "name": "Day of Extremadura",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 789,
+    "date": "2027-09-11",
+    "name": "National Day of Catalonia",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 790,
+    "date": "2027-09-15",
+    "name": "Feast of Our Lady of Bien Aparecida",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 791,
+    "date": "2027-10-09",
+    "name": "Day of the Valencian Community",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 797,
+    "date": "2027-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 563,
+    "date": "2025-01-01",
+    "name": "New Year's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 564,
+    "date": "2025-01-02",
+    "name": "2 January",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 565,
+    "date": "2025-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 567,
+    "date": "2025-04-21",
+    "name": "Easter Monday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 570,
+    "date": "2025-07-14",
+    "name": "Battle of the Boyne",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 571,
+    "date": "2025-08-04",
+    "name": "Summer Bank Holiday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 572,
+    "date": "2025-08-25",
+    "name": "Summer Bank Holiday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 573,
+    "date": "2025-12-01",
+    "name": "Saint Andrew's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 576,
+    "date": "2026-01-01",
+    "name": "New Year's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 577,
+    "date": "2026-01-02",
+    "name": "2 January",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 578,
+    "date": "2026-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 580,
+    "date": "2026-04-06",
+    "name": "Easter Monday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 583,
+    "date": "2026-06-15",
+    "name": "World Cup Bank Holiday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 584,
+    "date": "2026-07-13",
+    "name": "Battle of the Boyne",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 585,
+    "date": "2026-08-03",
+    "name": "Summer Bank Holiday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 586,
+    "date": "2026-08-31",
+    "name": "Summer Bank Holiday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 587,
+    "date": "2026-11-30",
+    "name": "Saint Andrew's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 590,
+    "date": "2027-01-01",
+    "name": "New Year's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 591,
+    "date": "2027-01-02",
+    "name": "2 January",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 592,
+    "date": "2027-03-17",
+    "name": "Saint Patrick's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 594,
+    "date": "2027-03-29",
+    "name": "Easter Monday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 597,
+    "date": "2027-07-12",
+    "name": "Battle of the Boyne",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 598,
+    "date": "2027-08-02",
+    "name": "Summer Bank Holiday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 599,
+    "date": "2027-08-30",
+    "name": "Summer Bank Holiday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 600,
+    "date": "2027-11-30",
+    "name": "Saint Andrew's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1335,
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1346,
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1357,
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 668,
+    "date": "2025-06-09",
+    "name": "Whit Monday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 680,
+    "date": "2026-05-25",
+    "name": "Whit Monday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 694,
+    "date": "2027-05-17",
+    "name": "Whit Monday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1641,
+    "date": "2025-04-17",
+    "name": "Maundy Thursday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1642,
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1650,
+    "date": "2026-04-02",
+    "name": "Maundy Thursday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1651,
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1659,
+    "date": "2027-03-25",
+    "name": "Maundy Thursday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1660,
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 799,
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 803,
+    "date": "2025-05-05",
+    "name": "Liberation Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 810,
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 814,
+    "date": "2026-05-05",
+    "name": "Liberation Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 821,
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 825,
+    "date": "2027-05-05",
+    "name": "Liberation Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1983,
+    "date": "2025-01-20",
+    "name": "Wellington Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1984,
+    "date": "2025-01-27",
+    "name": "Auckland Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1985,
+    "date": "2025-02-03",
+    "name": "Nelson Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1987,
+    "date": "2025-03-10",
+    "name": "Taranaki Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1988,
+    "date": "2025-03-24",
+    "name": "Otago Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1991,
+    "date": "2025-04-22",
+    "name": "Southland Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1995,
+    "date": "2025-09-22",
+    "name": "Canterbury (South) Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1996,
+    "date": "2025-10-24",
+    "name": "Hawke's Bay Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1998,
+    "date": "2025-11-03",
+    "name": "Marlborough Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1999,
+    "date": "2025-11-14",
+    "name": "Canterbury Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2000,
+    "date": "2025-12-01",
+    "name": "Chatham Islands Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2001,
+    "date": "2025-12-01",
+    "name": "Westland Anniversary Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2006,
+    "date": "2026-01-19",
+    "name": "Wellington Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2007,
+    "date": "2026-01-26",
+    "name": "Auckland Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2008,
+    "date": "2026-02-02",
+    "name": "Nelson Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2010,
+    "date": "2026-03-09",
+    "name": "Taranaki Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2011,
+    "date": "2026-03-23",
+    "name": "Otago Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2014,
+    "date": "2026-04-07",
+    "name": "Southland Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2018,
+    "date": "2026-09-28",
+    "name": "Canterbury (South) Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2019,
+    "date": "2026-10-23",
+    "name": "Hawke's Bay Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2021,
+    "date": "2026-11-02",
+    "name": "Marlborough Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2022,
+    "date": "2026-11-13",
+    "name": "Canterbury Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2023,
+    "date": "2026-11-30",
+    "name": "Chatham Islands Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2024,
+    "date": "2026-11-30",
+    "name": "Westland Anniversary Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2029,
+    "date": "2027-01-25",
+    "name": "Wellington Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2030,
+    "date": "2027-02-01",
+    "name": "Auckland Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2031,
+    "date": "2027-02-01",
+    "name": "Nelson Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2033,
+    "date": "2027-03-08",
+    "name": "Taranaki Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2034,
+    "date": "2027-03-22",
+    "name": "Otago Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2037,
+    "date": "2027-03-30",
+    "name": "Southland Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2041,
+    "date": "2027-09-27",
+    "name": "Canterbury (South) Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2042,
+    "date": "2027-10-22",
+    "name": "Hawke's Bay Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2044,
+    "date": "2027-11-01",
+    "name": "Marlborough Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2045,
+    "date": "2027-11-12",
+    "name": "Canterbury Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2046,
+    "date": "2027-11-29",
+    "name": "Chatham Islands Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 2047,
+    "date": "2027-11-29",
+    "name": "Westland Anniversary Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1018,
+    "date": "2025-03-04",
+    "name": "Carnival",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1023,
+    "date": "2025-06-01",
+    "name": "Azores Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1026,
+    "date": "2025-07-01",
+    "name": "Madeira Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1033,
+    "date": "2025-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1035,
+    "date": "2026-02-17",
+    "name": "Carnival",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1040,
+    "date": "2026-06-01",
+    "name": "Azores Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1043,
+    "date": "2026-07-01",
+    "name": "Madeira Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1050,
+    "date": "2026-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1052,
+    "date": "2027-02-09",
+    "name": "Carnival",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1058,
+    "date": "2027-06-01",
+    "name": "Azores Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1060,
+    "date": "2027-07-01",
+    "name": "Madeira Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 1067,
+    "date": "2027-12-26",
+    "name": "St. Stephen's Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 237,
+    "date": "2025-02-12",
+    "name": "Lincoln's Birthday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 240,
+    "date": "2025-04-18",
+    "name": "Good Friday",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 241,
+    "date": "2025-05-08",
+    "name": "Truman Day",
+    "year": 2025,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 253,
+    "date": "2026-02-12",
+    "name": "Lincoln's Birthday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 256,
+    "date": "2026-04-03",
+    "name": "Good Friday",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 257,
+    "date": "2026-05-08",
+    "name": "Truman Day",
+    "year": 2026,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 269,
+    "date": "2027-02-12",
+    "name": "Lincoln's Birthday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 272,
+    "date": "2027-03-26",
+    "name": "Good Friday",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  },
+  {
+    "id": 273,
+    "date": "2027-05-08",
+    "name": "Truman Day",
+    "year": 2027,
+    "data_source": "nager.date",
+    "manual_locked": false,
+    "holiday_category": "regular"
+  }
+]

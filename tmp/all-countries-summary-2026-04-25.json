@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-04-25T22:57:35.932Z",
+  "total_duration_ms": 730434,
+  "years": [
+    2025,
+    2026,
+    2027
+  ],
+  "countries_count": 8,
+  "successful": 7,
+  "failed": 1,
+  "countries": [
+    {
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "success": false,
+      "error": "Unexpected end of JSON input",
+      "health_score": 0,
+      "summary": null,
+      "source_counts": null,
+      "runId": null
+    },
+    {
+      "country_code": "CN",
+      "country_name": "China",
+      "success": true,
+      "error": null,
+      "health_score": 16,
+      "summary": {
+        "verified_high": 18,
+        "verified_mid": 20,
+        "single_source": 1,
+        "conflict": 2,
+        "missing_in_db": 198
+      },
+      "source_counts": {
+        "db": 41,
+        "db_locked": 0,
+        "db_total": 41,
+        "wikipedia": 337,
+        "nager": 18
+      },
+      "runId": "CN-2026-04-25"
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "success": true,
+      "error": null,
+      "health_score": 46,
+      "summary": {
+        "verified_high": 33,
+        "verified_mid": 0,
+        "single_source": 0,
+        "conflict": 0,
+        "missing_in_db": 39
+      },
+      "source_counts": {
+        "db": 33,
+        "db_locked": 0,
+        "db_total": 33,
+        "wikipedia": 72,
+        "nager": 33
+      },
+      "runId": "FR-2026-04-25"
+    },
+    {
+      "country_code": "US",
+      "country_name": "United States",
+      "success": true,
+      "error": null,
+      "health_score": 79,
+      "summary": {
+        "verified_high": 32,
+        "verified_mid": 10,
+        "single_source": 4,
+        "conflict": 0,
+        "missing_in_db": 7
+      },
+      "source_counts": {
+        "db": 52,
+        "db_locked": 0,
+        "db_total": 52,
+        "wikipedia": 42,
+        "nager": 48
+      },
+      "runId": "US-2026-04-25"
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Germany",
+      "success": true,
+      "error": null,
+      "health_score": 81,
+      "summary": {
+        "verified_high": 41,
+        "verified_mid": 16,
+        "single_source": 0,
+        "conflict": 1,
+        "missing_in_db": 12
+      },
+      "source_counts": {
+        "db": 58,
+        "db_locked": 0,
+        "db_total": 58,
+        "wikipedia": 54,
+        "nager": 58
+      },
+      "runId": "DE-2026-04-25"
+    },
+    {
+      "country_code": "KR",
+      "country_name": "South Korea",
+      "success": true,
+      "error": null,
+      "health_score": 83,
+      "summary": {
+        "verified_high": 38,
+        "verified_mid": 6,
+        "single_source": 2,
+        "conflict": 0,
+        "missing_in_db": 7
+      },
+      "source_counts": {
+        "db": 40,
+        "db_locked": 25,
+        "db_total": 65,
+        "wikipedia": 50,
+        "nager": 45
+      },
+      "runId": "KR-2026-04-25"
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japan",
+      "success": true,
+      "error": null,
+      "health_score": 93,
+      "summary": {
+        "verified_high": 40,
+        "verified_mid": 11,
+        "single_source": 2,
+        "conflict": 0,
+        "missing_in_db": 2
+      },
+      "source_counts": {
+        "db": 54,
+        "db_locked": 0,
+        "db_total": 54,
+        "wikipedia": 46,
+        "nager": 48
+      },
+      "runId": "JP-2026-04-25"
+    },
+    {
+      "country_code": "GB",
+      "country_name": "United Kingdom",
+      "success": true,
+      "error": null,
+      "health_score": 98,
+      "summary": {
+        "verified_high": 32,
+        "verified_mid": 9,
+        "single_source": 1,
+        "conflict": 0,
+        "missing_in_db": 0
+      },
+      "source_counts": {
+        "db": 42,
+        "db_locked": 0,
+        "db_total": 42,
+        "wikipedia": 39,
+        "nager": 40
+      },
+      "runId": "GB-2026-04-25"
+    }
+  ]
+}
