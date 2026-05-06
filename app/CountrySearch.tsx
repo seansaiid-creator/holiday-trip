@@ -96,7 +96,14 @@ export default function CountrySearch({
               href={`/country/${c.code.toLowerCase()}`}
               className="bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-gray-400 transition-colors flex items-center gap-3"
             >
-              <span className="text-2xl flex-shrink-0">{c.emoji_flag}</span>
+              <img
+                src={`https://flagcdn.com/w40/${c.code.toLowerCase()}.png`}
+                alt={c.name}
+                width={28}
+                height={21}
+                className="rounded-sm flex-shrink-0"
+                style={{ width: '28px', height: '21px', objectFit: 'cover' }}
+              />
               <div className="min-w-0">
                 <div className="text-sm font-medium text-gray-900 truncate">{c.name}</div>
                 {c.currency_code && (
