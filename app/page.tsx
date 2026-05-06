@@ -217,7 +217,15 @@ export default async function HomePage() {
                   <div className="text-xs text-gray-400 mb-1">{formatDate(h.date)}</div>
                   <div className="text-sm font-semibold text-gray-900 truncate">{h.name}</div>
                   <div className="text-xs text-gray-500 mt-0.5">
-                    {h.emoji_flag} {h.country_name}
+                    <img
+                      src={`https://flagcdn.com/w40/${h.country_code.toLowerCase()}.png`}
+                      alt={h.country_name}
+                      width={20}
+                      height={15}
+                      className="inline-block rounded-sm mr-1"
+                      style={{ width: '20px', height: '15px', verticalAlign: 'middle' }}
+                    />
+                    {h.country_name}
                   </div>
                 </Link>
               ))}
@@ -238,7 +246,14 @@ export default async function HomePage() {
                 href={`/country/${c.code.toLowerCase()}`}
                 className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-400 hover:shadow-sm transition-all group"
               >
-                <div className="text-3xl mb-2">{c.emoji_flag}</div>
+                <img
+                  src={`https://flagcdn.com/w80/${c.code.toLowerCase()}.png`}
+                  alt={c.name}
+                  width={48}
+                  height={36}
+                  className="rounded-sm mb-2"
+                  style={{ width: '48px', height: '36px', objectFit: 'cover' }}
+                />
                 <div className="text-base font-semibold text-gray-900 group-hover:text-gray-700">
                   {c.name}
                 </div>
