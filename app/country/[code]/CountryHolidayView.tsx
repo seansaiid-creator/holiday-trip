@@ -505,7 +505,7 @@ export default function CountryHolidayView({
                   onClick={() => cell.date && handleDayClick(cell.date)}
                   title={tooltipName || undefined}
                   className={`
-                    relative h-[60px] border rounded-md p-1 text-[11px]
+                    relative h-[60px] sm:h-[60px] border rounded-md p-0.5 text-[10px]
                     overflow-hidden
                     ${cell.day === null ? 'border-transparent' : 'border-gray-100'}
                     ${hasHoliday ? 'bg-red-50/70 cursor-pointer hover:bg-red-100/80' : 'hover:bg-gray-50 cursor-default'}
@@ -529,8 +529,8 @@ export default function CountryHolidayView({
                       </div>
                       {primary && (
                         <div
-                          className="text-[10px] leading-tight text-red-700 line-clamp-2"
-                          style={{ wordBreak: 'keep-all', overflowWrap: 'normal' }}
+                          className="text-[9px] leading-tight text-red-700 line-clamp-2"
+                          style={{ wordBreak: 'break-all', overflowWrap: 'anywhere' }}
                         >
                           {cellLabel}
                         </div>
@@ -607,7 +607,7 @@ export default function CountryHolidayView({
                       <div className="flex-1 px-3 py-3 min-w-0">
                         <div className="flex items-start justify-between gap-2">
                           <div className="min-w-0 flex-1">
-                            <div className="text-sm font-semibold text-gray-900 truncate">
+                            <div className="text-sm font-semibold text-gray-900 break-words">
                               {fullName}
                             </div>
                             {h.name_local && (
