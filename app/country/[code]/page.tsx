@@ -486,8 +486,8 @@ const PLUG_SVG: Record<string, React.ReactElement> = {
   A: (
     <svg width="40" height="40" viewBox="0 0 56 56">
       <rect x="4" y="4" width="48" height="48" rx="8" fill="none" stroke="currentColor" strokeWidth="2"/>
-      <rect x="18" y="14" width="7" height="18" rx="3" fill="currentColor"/>
-      <rect x="31" y="14" width="7" height="18" rx="3" fill="currentColor"/>
+      <rect x="18" y="17" width="7" height="18" rx="3" fill="currentColor"/>
+      <rect x="31" y="17" width="7" height="18" rx="3" fill="currentColor"/>
     </svg>
   ),
   B: (
