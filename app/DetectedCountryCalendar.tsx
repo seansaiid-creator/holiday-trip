@@ -151,9 +151,9 @@ export default function DetectedCountryCalendar() {
         </div>
         <Link
           href={`/country/${country.code.toLowerCase()}`}
-          className="text-xs text-blue-500 hover:underline whitespace-nowrap"
+          className="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg whitespace-nowrap transition-colors"
         >
-          Full calendar →
+          More Info →
         </Link>
       </div>
 
@@ -283,9 +283,9 @@ export default function DetectedCountryCalendar() {
 
           <Link
             href={`/country/${country.code.toLowerCase()}`}
-            className="text-center text-xs text-white bg-gray-900 hover:bg-gray-700 rounded-xl py-2.5 transition-colors"
+            className="text-center text-xs text-white font-bold bg-blue-600 hover:bg-blue-700 rounded-xl py-2.5 transition-colors"
           >
-            See full info for {country.name} →
+            More Info for {country.name} →
           </Link>
         </div>
       </div>
