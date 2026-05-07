@@ -87,13 +87,23 @@ type Props = {
   currencySymbol: string | null;
 };
 
-// Compare holiday type (fetched from API)
 type CompareHoliday = {
   id: number;
   date: string;
   name: string;
   name_local: string | null;
   holiday_category: string | null;
+};
+
+type CompareTip = {
+  holiday_id: number;
+  what_is_it: string | null;
+  traveler_impact: string | null;
+  cautions: string | null;
+  recommendations: string | null;
+  practical_tips: string | null;
+  tips: string | null;
+  source_urls: string[] | null;
 };
 
 type CompareCountry = {
@@ -178,36 +188,17 @@ function formatDateInTimezone(tz: string | null): string {
   } catch { return ''; }
 }
 
-// ── COMPARE MODE HELPERS ──────────────────────────────────────
-
-function buildLongWeekendSuggestions(
-  year: number,
-  month: number,
-  homeHolidays: Set<string>,
-  destHolidays: Set<string>
-): string[] {
+function buildLongWeekendSuggestions(year: number, month: number, homeHolidays: Set<string>, destHolidays: Set<string>): string[] {
   const suggestions: string[] = [];
   const daysInMonth = new Date(year, month, 0).getDate();
-
   for (let d = 1; d <= daysInMonth; d++) {
     const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
     const dow = new Date(dateStr + 'T00:00:00').getDay();
-    const isHomeHoliday = homeHolidays.has(dateStr);
-    const isDestHoliday = destHolidays.has(dateStr);
-    const isBoth = isHomeHoliday && isDestHoliday;
-
-    // Friday holiday → 3-day weekend
-    if (dow === 5 && (isHomeHoliday || isBoth)) {
-      suggestions.push(`${formatDateShort(dateStr)} is a holiday — combine with the weekend for a 3-day trip!`);
-    }
-    // Monday holiday → 3-day weekend
-    if (dow === 1 && (isHomeHoliday || isBoth)) {
-      suggestions.push(`${formatDateShort(dateStr)} is a holiday — combine with the previous weekend for a 3-day trip!`);
-    }
-    // Both countries same day
-    if (isBoth && dow !== 0 && dow !== 6) {
-      suggestions.push(`${formatDateShort(dateStr)} is a public holiday in both countries — great day to travel!`);
-    }
+    const isHome = homeHolidays.has(dateStr);
+    const isBoth = isHome && destHolidays.has(dateStr);
+    if (dow === 5 && isHome) suggestions.push(`${formatDateShort(dateStr)} is a holiday — combine with the weekend for a 3-day trip!`);
+    if (dow === 1 && isHome) suggestions.push(`${formatDateShort(dateStr)} is a holiday — combine with the previous weekend for a 3-day trip!`);
+    if (isBoth && dow !== 0 && dow !== 6) suggestions.push(`${formatDateShort(dateStr)} is a public holiday in both countries — great day to travel!`);
   }
   return suggestions.slice(0, 2);
 }
@@ -250,15 +241,16 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
   const currentDateStr = formatDateInTimezone(country.timezone);
   void clockTick;
 
-  // ── Compare mode state ──
+  // Compare state
   const [compareMode, setCompareMode] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
-  const [compareCode, setCompareCode] = useState('');
   const [compareInput, setCompareInput] = useState('');
   const [compareCountry, setCompareCountry] = useState<CompareCountry | null>(null);
   const [compareHolidays, setCompareHolidays] = useState<CompareHoliday[]>([]);
+  const [compareTips, setCompareTips] = useState<CompareTip[]>([]);
   const [compareLoading, setCompareLoading] = useState(false);
   const [compareError, setCompareError] = useState('');
+  const [expandedCompareId, setExpandedCompareId] = useState<number | null>(null);
 
   async function loadCompareCountry(code: string) {
     if (!code || code.length !== 2) return;
@@ -270,15 +262,22 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
       const data = await res.json();
       setCompareCountry({ code: data.country.code, name: data.country.name });
       setCompareHolidays(data.holidays || []);
-      setCompareCode(code.toUpperCase());
+      setCompareTips(data.tips || []);
     } catch {
       setCompareError('Country not found. Try a 2-letter code like JP, US, FR.');
       setCompareCountry(null);
       setCompareHolidays([]);
+      setCompareTips([]);
     } finally {
       setCompareLoading(false);
     }
   }
+
+  const compareTipByHolidayId = useMemo(() => {
+    const m = new Map<number, CompareTip>();
+    for (const t of compareTips) m.set(t.holiday_id, t);
+    return m;
+  }, [compareTips]);
 
   const monthHolidays = useMemo(() => {
     return holidays
@@ -296,7 +295,6 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
     return map;
   }, [holidays]);
 
-  // Compare holidays indexed by date
   const compareByDate = useMemo(() => {
     const map = new Map<string, CompareHoliday[]>();
     for (const h of compareHolidays) {
@@ -363,7 +361,6 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
   const todayDateStr = `${todayInTz.y}-${String(todayInTz.m).padStart(2, '0')}-${String(todayInTz.d).padStart(2, '0')}`;
   const isViewingTodaysMonth = year === todayInTz.y && month === todayInTz.m;
 
-  // ── Compare month holidays list ──
   const compareMonthHolidays = useMemo(() => {
     return compareHolidays
       .filter((h) => { const [y, m] = h.date.split('-').map(Number); return y === year && m === month; })
@@ -398,7 +395,7 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
       <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-6">
         {/* LEFT: Calendar */}
         <div className="bg-white border border-gray-200 rounded-2xl p-5">
-          {/* Calendar nav */}
+          {/* Nav */}
           <div className="flex items-center gap-2 mb-4 flex-wrap">
             <NavArrowButton direction="prev" onClick={() => nav(-1)} />
             <select value={year} onChange={(e) => setYear(Number(e.target.value))}
@@ -416,36 +413,27 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
               className="h-10 px-3 border border-gray-300 rounded-lg text-sm font-medium bg-white hover:bg-gray-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors">
               Today
             </button>
-
-            {/* Spacer */}
             <div className="flex-1" />
-
             {/* Compare button + tooltip */}
             <div className="flex items-center gap-1.5">
               <button
                 onClick={() => setCompareMode((v) => !v)}
                 className={`h-10 px-3 rounded-lg text-sm font-medium border transition-colors flex items-center gap-1.5 ${
-                  compareMode
-                    ? 'bg-blue-600 text-white border-blue-600'
-                    : 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100'
-                }`}
-              >
+                  compareMode ? 'bg-blue-600 text-white border-blue-600' : 'bg-blue-50 text-blue-700 border-blue-200 hover:bg-blue-100'
+                }`}>
                 <span>⇄</span> Compare
               </button>
-              {/* ? tooltip */}
               <div className="relative">
                 <button
                   onMouseEnter={() => setShowTooltip(true)}
                   onMouseLeave={() => setShowTooltip(false)}
                   onClick={() => setShowTooltip((v) => !v)}
-                  className="w-5 h-5 rounded-full border border-gray-300 bg-gray-50 flex items-center justify-center text-[11px] font-semibold text-gray-500 hover:bg-gray-100 transition-colors"
-                  aria-label="What is Compare?"
-                >
+                  className="w-5 h-5 rounded-full border border-gray-300 bg-gray-50 flex items-center justify-center text-[11px] font-semibold text-gray-500 hover:bg-gray-100 transition-colors">
                   ?
                 </button>
                 {showTooltip && (
                   <div className="absolute top-7 right-0 bg-gray-900 text-white text-xs rounded-lg px-3 py-2 w-52 z-20 shadow-lg leading-relaxed">
-                    Compare holidays from two countries side by side. Great for planning trips around long weekends!
+                    Compare holidays from two countries side by side. See travel tips for your destination!
                     <div className="absolute -top-1 right-2 w-2 h-2 bg-gray-900 rotate-45" />
                   </div>
                 )}
@@ -453,22 +441,20 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
             </div>
           </div>
 
-          {/* Compare mode: country selector */}
+          {/* Compare: country selector */}
           {compareMode && (
             <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-xl">
-              <div className="flex items-center gap-2 mb-2">
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
                 <div className="flex items-center gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block" />
-                  <span className="text-xs font-medium text-blue-800">{country.name}</span>
+                  <span className="text-xs font-medium text-blue-800">{country.name} (home)</span>
                 </div>
                 <span className="text-gray-400 text-xs">vs</span>
                 <div className="flex items-center gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block" />
-                  {compareCountry ? (
-                    <span className="text-xs font-medium text-orange-800">{compareCountry.name}</span>
-                  ) : (
-                    <span className="text-xs text-gray-400">Select a country</span>
-                  )}
+                  {compareCountry
+                    ? <span className="text-xs font-medium text-orange-800">{compareCountry.name} (destination)</span>
+                    : <span className="text-xs text-gray-400">Select destination</span>}
                 </div>
               </div>
               <div className="flex gap-2">
@@ -477,24 +463,23 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
                   value={compareInput}
                   onChange={(e) => setCompareInput(e.target.value.toUpperCase())}
                   onKeyDown={(e) => e.key === 'Enter' && loadCompareCountry(compareInput)}
-                  placeholder="Country code e.g. JP, US, FR"
+                  placeholder="Destination code e.g. JP, US, FR"
                   maxLength={2}
                   className="flex-1 h-9 px-3 border border-blue-300 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
                 <button
                   onClick={() => loadCompareCountry(compareInput)}
                   disabled={compareLoading || compareInput.length !== 2}
-                  className="h-9 px-4 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 disabled:opacity-50 transition-colors"
-                >
+                  className="h-9 px-4 bg-blue-600 text-white text-sm rounded-lg hover:bg-blue-700 disabled:opacity-50 transition-colors">
                   {compareLoading ? '…' : 'Go'}
                 </button>
               </div>
               {compareError && <p className="text-xs text-red-600 mt-1">{compareError}</p>}
               {compareCountry && (
                 <div className="flex gap-3 mt-2 text-[10px] text-gray-500 flex-wrap">
-                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-blue-100 border border-blue-300" /> {country.name}</span>
-                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-orange-100 border border-orange-300" /> {compareCountry.name}</span>
-                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-green-100 border border-green-400" /> Both!</span>
+                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-blue-100 border border-blue-300" />{country.name}</span>
+                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-orange-100 border border-orange-300" />{compareCountry.name}</span>
+                  <span className="flex items-center gap-1"><span className="inline-block w-2.5 h-2.5 rounded bg-green-100 border border-green-400" />Both!</span>
                 </div>
               )}
             </div>
@@ -520,27 +505,24 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
               const cellLabel = primary ? getDisplayName(primary, 'short', holidayById) : '';
               const destLabel = hasDest && cell.date ? (compareByDate.get(cell.date)?.[0]?.name || '') : '';
 
-              // Cell background color logic
               let cellBg = '';
               let cellBorder = '';
               if (hasBoth) { cellBg = 'bg-green-50'; cellBorder = 'border-green-400'; }
-              else if (hasHome) { cellBg = compareMode ? 'bg-blue-50' : 'bg-red-50/70'; cellBorder = compareMode ? 'border-blue-200' : 'border-red-100'; }
+              else if (hasHome) { cellBg = compareMode ? 'bg-blue-50' : 'bg-red-50/70'; cellBorder = compareMode ? 'border-blue-200' : ''; }
               else if (hasDest) { cellBg = 'bg-orange-50'; cellBorder = 'border-orange-200'; }
 
               return (
-                <div
-                  key={idx}
+                <div key={idx}
                   onClick={() => cell.date && !compareMode && handleDayClick(cell.date)}
                   title={cellLabel || destLabel || undefined}
                   className={`
                     relative h-[60px] border rounded-md p-0.5 text-[10px] overflow-hidden
                     ${cell.day === null ? 'border-transparent' : cellBorder || 'border-gray-100'}
                     ${cellBg}
-                    ${(hasHome || hasDest) && !compareMode ? 'cursor-pointer hover:opacity-80' : 'cursor-default'}
-                    ${isToday ? 'ring-2 ring-blue-500 ring-offset-0 border-blue-500' : ''}
+                    ${hasHome && !compareMode ? 'cursor-pointer hover:opacity-80' : 'cursor-default'}
+                    ${isToday ? 'ring-2 ring-blue-500 border-blue-500' : ''}
                     transition-colors
-                  `}
-                >
+                  `}>
                   {cell.day !== null && (
                     <>
                       <div className={`text-xs font-semibold leading-none mb-0.5 ${
@@ -598,51 +580,80 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
         {/* RIGHT: Holiday list */}
         <div>
           <div className="flex items-baseline justify-between mb-3">
-            <h3 className="text-base font-semibold text-gray-900">
-              {compareMode && compareCountry ? 'Holidays this month' : 'Holidays this month'}
-            </h3>
+            <h3 className="text-base font-semibold text-gray-900">Holidays this month</h3>
             <div className="text-xs text-gray-500">{MONTHS_FULL[month - 1]} {year}</div>
           </div>
 
-          {/* Compare mode: merged list */}
+          {/* Compare mode list */}
           {compareMode && compareCountry ? (
             <div className="space-y-2.5">
-              {/* Merge and sort home + dest holidays */}
-              {[
-                ...monthHolidays.map((h) => ({ type: 'home' as const, date: h.date, name: getDisplayName(h, 'full', holidayById), name_local: h.name_local, id: h.id })),
-                ...compareMonthHolidays
-                  .filter((h) => !homeHolidayDates.has(h.date))
-                  .map((h) => ({ type: 'dest' as const, date: h.date, name: h.name, name_local: h.name_local, id: h.id })),
-              ]
-                .sort((a, b) => a.date.localeCompare(b.date))
-                .map((item) => {
-                  const isBoth = item.type === 'home' && destHolidayDates.has(item.date);
-                  const dayNum = Number(item.date.split('-')[2]);
-                  return (
-                    <div key={`${item.type}-${item.id}`}
-                      className={`bg-white border rounded-xl px-4 py-3 ${
-                        isBoth ? 'border-green-300 bg-green-50/30'
-                        : item.type === 'home' ? 'border-blue-200 bg-blue-50/20'
-                        : 'border-orange-200 bg-orange-50/20'
-                      }`}>
-                      <div className="flex items-center gap-3">
-                        <div className={`text-xl font-bold leading-none ${
-                          isBoth ? 'text-green-700' : item.type === 'home' ? 'text-blue-700' : 'text-orange-600'
-                        }`}>{dayNum}</div>
-                        <div className="flex-1 min-w-0">
-                          <div className="text-sm font-semibold text-gray-900" style={{ wordBreak: 'break-word' }}>{item.name}</div>
-                          {item.name_local && <div className="text-xs text-gray-500 mt-0.5">{item.name_local}</div>}
-                          <div className={`text-[10px] font-medium mt-0.5 ${
-                            isBoth ? 'text-green-700' : item.type === 'home' ? 'text-blue-600' : 'text-orange-600'
-                          }`}>
-                            {isBoth ? '🎉 Both countries!' : item.type === 'home' ? country.name : compareCountry.name}
+              {/* Home holidays — date only, no tip */}
+              {monthHolidays.length > 0 && (
+                <div className="mb-1">
+                  <div className="text-[11px] font-semibold text-blue-600 uppercase tracking-wide mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-blue-500 inline-block" /> {country.name} holidays
+                  </div>
+                  <div className="space-y-1.5">
+                    {monthHolidays.map((h) => {
+                      const dayNum = Number(h.date.split('-')[2]);
+                      const isBoth = destHolidayDates.has(h.date);
+                      return (
+                        <div key={h.id} className={`border rounded-xl px-3 py-2 flex items-center gap-2 ${isBoth ? 'bg-green-50 border-green-300' : 'bg-blue-50/30 border-blue-200'}`}>
+                          <div className={`text-lg font-bold leading-none ${isBoth ? 'text-green-700' : 'text-blue-700'}`}>{dayNum}</div>
+                          <div className="flex-1 min-w-0">
+                            <div className="text-xs font-semibold text-gray-900" style={{ wordBreak: 'break-word' }}>{getDisplayName(h, 'full', holidayById)}</div>
+                            {isBoth && <div className="text-[10px] text-green-700 font-medium">🎉 Also a holiday in {compareCountry.name}!</div>}
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  );
-                })
-              }
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Destination holidays — with Travel Tips */}
+              {compareMonthHolidays.length > 0 && (
+                <div>
+                  <div className="text-[11px] font-semibold text-orange-600 uppercase tracking-wide mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-orange-400 inline-block" /> {compareCountry.name} holidays & tips
+                  </div>
+                  <div className="space-y-2">
+                    {compareMonthHolidays.map((h) => {
+                      const dayNum = Number(h.date.split('-')[2]);
+                      const tip = compareTipByHolidayId.get(h.id);
+                      const isExpanded = expandedCompareId === h.id;
+                      return (
+                        <div key={h.id} className="bg-white border border-orange-200 rounded-xl overflow-hidden">
+                          <button
+                            onClick={() => setExpandedCompareId(isExpanded ? null : h.id)}
+                            className="w-full flex items-stretch text-left hover:bg-orange-50/30 transition-colors">
+                            <div className="flex-shrink-0 w-12 flex flex-col items-center justify-center py-2.5 border-r border-orange-100">
+                              <div className="text-xl font-bold text-orange-600 leading-none">{dayNum}</div>
+                            </div>
+                            <div className="flex-1 px-3 py-2.5 min-w-0">
+                              <div className="text-sm font-semibold text-gray-900" style={{ wordBreak: 'break-word' }}>{h.name}</div>
+                              {h.name_local && <div className="text-xs text-gray-500 mt-0.5">{h.name_local}</div>}
+                              {tip && <div className="text-[10px] text-blue-600 mt-0.5 font-medium">Travel tip available</div>}
+                            </div>
+                            <div className="flex-shrink-0 px-3 flex items-center text-gray-400">{isExpanded ? '▴' : '▾'}</div>
+                          </button>
+                          {isExpanded && tip && (
+                            <div className="px-4 pt-3 pb-4 border-t border-orange-100 text-sm text-gray-700 space-y-3">
+                              <CompareTipBody tip={tip} />
+                            </div>
+                          )}
+                          {isExpanded && !tip && (
+                            <div className="px-4 pt-3 pb-4 border-t border-orange-100 text-xs text-gray-400 italic">
+                              No travel tip available for this holiday yet.
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
               {monthHolidays.length === 0 && compareMonthHolidays.length === 0 && (
                 <div className="bg-white border border-dashed border-gray-200 rounded-xl px-4 py-8 text-center text-sm text-gray-500">
                   No public holidays this month in either country.
@@ -650,7 +661,7 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
               )}
             </div>
           ) : (
-            /* Normal mode list */
+            /* Normal mode */
             monthHolidays.length === 0 ? (
               <div className="bg-white border border-dashed border-gray-200 rounded-xl px-4 py-8 text-center text-sm text-gray-500">
                 No public holidays this month.
@@ -720,7 +731,7 @@ function NavArrowButton({ direction, onClick }: { direction: 'prev' | 'next'; on
   return (
     <button onClick={onClick} aria-label={direction === 'prev' ? 'Previous month' : 'Next month'}
       className="h-10 w-10 border border-gray-300 rounded-lg bg-white hover:bg-gray-50 transition-colors flex items-center justify-center">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#374151" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#374151" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
         <path d={path} />
       </svg>
     </button>
@@ -747,9 +758,7 @@ function CategoryBadges({ holiday, hasTip }: { holiday: Holiday; hasTip: boolean
           {b.label}
         </span>
       ))}
-      {holiday.manual_locked && (
-        <span title="Manually locked" className="text-[11px] text-gray-400">🔒</span>
-      )}
+      {holiday.manual_locked && <span title="Manually locked" className="text-[11px] text-gray-400">🔒</span>}
     </>
   );
 }
@@ -757,15 +766,43 @@ function CategoryBadges({ holiday, hasTip }: { holiday: Holiday; hasTip: boolean
 function getVerificationBadge(status: string | null): { label: string; color: string; title: string } | null {
   if (!status) return null;
   switch (status) {
-    case 'verified_high': return { label: 'Confirmed', color: 'bg-green-50 text-green-700 border-green-200', title: 'Confirmed — multiple authoritative sources agree on this date' };
-    case 'verified_mid': return { label: 'Verified', color: 'bg-blue-50 text-blue-700 border-blue-200', title: 'Verified — two sources agree on this date' };
-    case 'single_source': return { label: 'Tentative', color: 'bg-amber-50 text-amber-700 border-amber-200', title: 'Tentative — based on a single source.' };
-    case 'pending': return { label: 'Unverified', color: 'bg-gray-50 text-gray-600 border-gray-200', title: 'Unverified — not yet cross-checked.' };
+    case 'verified_high': return { label: 'Confirmed', color: 'bg-green-50 text-green-700 border-green-200', title: 'Confirmed — multiple authoritative sources agree' };
+    case 'verified_mid': return { label: 'Verified', color: 'bg-blue-50 text-blue-700 border-blue-200', title: 'Verified — two sources agree' };
+    case 'single_source': return { label: 'Tentative', color: 'bg-amber-50 text-amber-700 border-amber-200', title: 'Tentative — based on a single source' };
+    case 'pending': return { label: 'Unverified', color: 'bg-gray-50 text-gray-600 border-gray-200', title: 'Unverified — not yet cross-checked' };
     default: return null;
   }
 }
 
 function TravelTipBody({ tip }: { tip: TravelTip }) {
+  return (
+    <div className="space-y-3">
+      {tip.what_is_it && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">What it is</div><p className="text-sm text-gray-700">{tip.what_is_it}</p></div>}
+      {tip.traveler_impact && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">Traveler impact</div><p className="text-sm text-gray-700">{tip.traveler_impact}</p></div>}
+      {tip.cautions && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">Cautions</div><p className="text-sm text-gray-700">{tip.cautions}</p></div>}
+      {tip.recommendations && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">Recommendations</div><p className="text-sm text-gray-700">{tip.recommendations}</p></div>}
+      {tip.practical_tips && (
+        <div className="bg-amber-50 border border-amber-100 rounded-lg p-3">
+          <div className="text-[11px] uppercase tracking-wide text-amber-800 font-semibold mb-1">Practical tips</div>
+          <p className="text-sm text-amber-900">{tip.practical_tips}</p>
+        </div>
+      )}
+      {tip.tips && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">Tips</div><p className="text-sm text-gray-700">{tip.tips}</p></div>}
+      {tip.source_urls && tip.source_urls.length > 0 && (
+        <div className="pt-2 border-t border-gray-100">
+          <div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1.5">Sources</div>
+          <ul className="space-y-1">
+            {tip.source_urls.map((url, i) => (
+              <li key={i}><a href={url} target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:underline break-all">{url}</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CompareTipBody({ tip }: { tip: CompareTip }) {
   return (
     <div className="space-y-3">
       {tip.what_is_it && <div><div className="text-[11px] uppercase tracking-wide text-gray-500 font-semibold mb-1">What it is</div><p className="text-sm text-gray-700">{tip.what_is_it}</p></div>}
