@@ -2,6 +2,7 @@ import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import CountrySearch from './CountrySearch';
+import DetectedCountryCalendar from './DetectedCountryCalendar';
 
 export const revalidate = 3600;
 
@@ -53,7 +54,7 @@ async function getCountries(): Promise<Country[]> {
 }
 
 async function getUpcomingHolidays(): Promise<
-  { country_name: string; country_code: string; emoji_flag: string | null; date: string; name: string }[]
+  { country_name: string; country_code: string; date: string; name: string }[]
 > {
   const today = new Date().toISOString().slice(0, 10);
   const in30 = new Date(Date.now() + 30 * 864e5).toISOString().slice(0, 10);
@@ -65,52 +66,41 @@ async function getUpcomingHolidays(): Promise<
     .lte('date', in30)
     .eq('holiday_category', 'regular')
     .order('date', { ascending: true })
-    .limit(12);
+    .limit(8);
 
   if (!holidays || holidays.length === 0) return [];
 
   const countryIds = [...new Set((holidays as Holiday[]).map((h) => h.country_id))];
   const { data: countries } = await supabase
     .from('countries')
-    .select('id, name, code, emoji_flag')
+    .select('id, name, code')
     .in('id', countryIds);
 
   const countryMap = new Map(
-    ((countries as { id: number; name: string; code: string; emoji_flag: string | null }[]) || []).map(
-      (c) => [c.id, c]
-    )
+    ((countries as { id: number; name: string; code: string }[]) || []).map((c) => [c.id, c])
   );
 
   return (holidays as Holiday[])
     .map((h) => {
       const c = countryMap.get(h.country_id);
       if (!c) return null;
-      return {
-        country_name: c.name,
-        country_code: c.code,
-        emoji_flag: c.emoji_flag,
-        date: h.date,
-        name: h.name,
-      };
+      return { country_name: c.name, country_code: c.code, date: h.date, name: h.name };
     })
-    .filter(Boolean) as { country_name: string; country_code: string; emoji_flag: string | null; date: string; name: string }[];
+    .filter(Boolean) as { country_name: string; country_code: string; date: string; name: string }[];
 }
 
 function formatDate(iso: string): string {
-  return new Intl.DateTimeFormat('en-US', {
-    month: 'short',
-    day: 'numeric',
-  }).format(new Date(iso + 'T00:00:00'));
+  return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric' }).format(
+    new Date(iso + 'T00:00:00')
+  );
 }
 
-// JSON-LD for the homepage
 const websiteJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'HolidayTrip',
   url: 'https://www.holiday-trip.com',
-  description:
-    'Public holidays, travel tips, local prices, exchange rates, plug types, and what to expect during major holidays in 50+ countries.',
+  description: 'Public holidays, travel tips, local prices, exchange rates, plug types, and what to expect during major holidays in 50+ countries.',
   potentialAction: {
     '@type': 'SearchAction',
     target: 'https://www.holiday-trip.com/country/{country_code}',
@@ -126,88 +116,127 @@ const orgJsonLd = {
   description: 'Global public holiday and travel information service covering 50+ countries.',
 };
 
-// Featured countries — highest travel demand
 const FEATURED = ['JP', 'KR', 'TH', 'US', 'FR', 'GB', 'AU', 'VN', 'SG', 'IT', 'DE', 'ES'];
 
 export default async function HomePage() {
-  const [countries, upcoming] = await Promise.all([
-    getCountries(),
-    getUpcomingHolidays(),
-  ]);
+  const [countries, upcoming] = await Promise.all([getCountries(), getUpcomingHolidays()]);
 
-  const featuredCountries = FEATURED.map((code) =>
-    countries.find((c) => c.code === code)
-  ).filter(Boolean) as Country[];
-
+  const featuredCountries = FEATURED.map((code) => countries.find((c) => c.code === code)).filter(
+    Boolean
+  ) as Country[];
   const otherCountries = countries.filter((c) => !FEATURED.includes(c.code));
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
 
       <div className="min-h-screen bg-[#faf8f5]">
 
-        {/* ── Hero ── */}
-        <section className="max-w-5xl mx-auto px-4 pt-14 pb-10 text-center">
-          <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900 tracking-tight leading-tight mb-4">
-            Public Holidays & Travel Information<br className="hidden sm:block" /> for 50+ Countries
+        {/* ── Hero (dark) ── */}
+        <section className="bg-[#1a1a2e] px-4 pt-14 pb-12 text-center">
+          <h1 className="text-3xl sm:text-4xl font-semibold text-white tracking-tight leading-tight mb-3">
+            Know before you land.
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Planning a trip abroad? HolidayTrip helps you check official public holidays,
-            understand how they affect travel, and see local prices, exchange rates,
-            plug types, and transport costs — all in one place.
+          <p className="text-base text-[#9fa8c7] max-w-xl mx-auto mb-6 leading-relaxed">
+            Public holidays, local prices & travel tips for 50+ countries
           </p>
-          <div className="flex flex-wrap justify-center gap-3 mt-6 text-sm text-gray-500">
-            {['🗓 2025–2027 Calendars', '💡 Travel Tips per Holiday', '💱 Live Exchange Rates',
-              '🔌 Plug & Voltage Info', '🚇 Local Transport Costs', '🛒 Price Comparisons'].map((f) => (
-              <span key={f} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full">{f}</span>
-            ))}
+          {/* Search bar */}
+          <div className="max-w-lg mx-auto mb-6">
+            <Link
+              href="#all-countries"
+              className="flex items-center bg-white rounded-full px-5 py-3 gap-3 hover:shadow-md transition-shadow"
+            >
+              <svg className="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <span className="text-sm text-gray-400 flex-1 text-left">Search a country… Japan, France, Thailand</span>
+            </Link>
+          </div>
+          {/* Quick links */}
+          <div className="flex flex-wrap justify-center gap-2">
+            {['JP', 'KR', 'TH', 'US', 'FR', 'GB'].map((code) => {
+              const c = countries.find((x) => x.code === code);
+              if (!c) return null;
+              return (
+                <Link
+                  key={code}
+                  href={`/country/${code.toLowerCase()}`}
+                  className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-white text-xs px-3 py-1.5 rounded-full transition-colors"
+                >
+                  <img
+                    src={`https://flagcdn.com/w40/${code.toLowerCase()}.png`}
+                    alt={c.name}
+                    width={16}
+                    height={12}
+                    className="rounded-sm"
+                    style={{ width: '16px', height: '12px', objectFit: 'cover' }}
+                  />
+                  {c.name}
+                </Link>
+              );
+            })}
           </div>
         </section>
 
-        {/* ── Why use HolidayTrip ── */}
-        <section className="max-w-5xl mx-auto px-4 pb-12">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Why travelers use HolidayTrip</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        {/* ── Feature cards ── */}
+        <section className="max-w-5xl mx-auto px-4 py-10">
+          <p className="text-xs text-gray-400 text-center uppercase tracking-widest mb-6">
+            What travelers find most useful
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
               {
-                icon: '🏪',
-                title: "Know what's open",
-                body: 'Find out if restaurants, shops, and attractions will be open during your visit. Many countries have widespread closures on major public holidays.',
-              },
-              {
-                icon: '🚆',
-                title: 'Avoid transport chaos',
-                body: 'Major holidays like Chuseok in Korea, Golden Week in Japan, or Tet in Vietnam can make trains and buses impossible to book without advance planning.',
+                icon: '🔌',
+                label: 'Plug & voltage',
+                desc: 'See which adapter you need before you pack.',
+                detail: 'Type A, B, C, G and more',
               },
               {
                 icon: '💰',
-                title: 'Budget accurately',
-                body: 'Check real local prices — subway fares, taxi base rates, bottled water, beer — plus the latest exchange rate, so there are no surprises when you arrive.',
+                label: 'Local prices',
+                desc: 'Real prices — meals, beer, transport, SIM.',
+                detail: 'Big Mac · Subway · Beer',
+              },
+              {
+                icon: '💱',
+                label: 'Exchange rate',
+                desc: 'Live USD rate updated daily.',
+                detail: 'Updated every 24 hours',
+              },
+              {
+                icon: '🗓',
+                label: 'Holiday calendar',
+                desc: '2025–2027 dates with travel impact tips.',
+                detail: 'With traveler tips',
               },
             ].map((card) => (
-              <div key={card.title} className="bg-white border border-gray-200 rounded-2xl p-5">
-                <div className="text-3xl mb-3">{card.icon}</div>
-                <h3 className="text-base font-semibold text-gray-900 mb-2">{card.title}</h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
+              <div
+                key={card.label}
+                className="bg-white border border-gray-200 rounded-2xl p-4 hover:border-gray-300 transition-colors"
+              >
+                <div className="text-2xl mb-3">{card.icon}</div>
+                <div className="text-sm font-semibold text-gray-900 mb-1">{card.label}</div>
+                <div className="text-xs text-gray-500 leading-snug mb-2">{card.desc}</div>
+                <div className="text-[10px] text-gray-400 bg-gray-50 border border-gray-100 rounded-full px-2 py-0.5 inline-block">
+                  {card.detail}
+                </div>
               </div>
             ))}
           </div>
         </section>
 
+        {/* ── IP-detected country calendar ── */}
+        <section className="max-w-5xl mx-auto px-4 pb-10">
+          <DetectedCountryCalendar />
+        </section>
+
         {/* ── Upcoming holidays ── */}
         {upcoming.length > 0 && (
-          <section className="max-w-5xl mx-auto px-4 pb-12">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-2">Upcoming public holidays</h2>
-            <p className="text-sm text-gray-500 mb-5">Public holidays around the world in the next 30 days.</p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+          <section className="max-w-5xl mx-auto px-4 pb-10">
+            <h2 className="text-lg font-semibold text-gray-900 mb-1">Upcoming public holidays</h2>
+            <p className="text-sm text-gray-400 mb-4">Around the world in the next 30 days</p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {upcoming.map((h, i) => (
                 <Link
                   key={i}
@@ -215,17 +244,19 @@ export default async function HomePage() {
                   className="bg-white border border-gray-200 rounded-xl px-4 py-3 hover:border-gray-400 transition-colors"
                 >
                   <div className="text-xs text-gray-400 mb-1">{formatDate(h.date)}</div>
-                  <div className="text-sm font-semibold text-gray-900 truncate">{h.name}</div>
-                  <div className="text-xs text-gray-500 mt-0.5">
+                  <div className="text-sm font-semibold text-gray-900 leading-snug mb-1.5" style={{ wordBreak: 'break-word' }}>
+                    {h.name}
+                  </div>
+                  <div className="flex items-center gap-1.5">
                     <img
                       src={`https://flagcdn.com/w40/${h.country_code.toLowerCase()}.png`}
                       alt={h.country_name}
-                      width={20}
-                      height={15}
-                      className="inline-block rounded-sm mr-1"
-                      style={{ width: '20px', height: '15px', verticalAlign: 'middle' }}
+                      width={18}
+                      height={13}
+                      className="rounded-sm flex-shrink-0"
+                      style={{ width: '18px', height: '13px', objectFit: 'cover' }}
                     />
-                    {h.country_name}
+                    <span className="text-xs text-gray-500">{h.country_name}</span>
                   </div>
                 </Link>
               ))}
@@ -233,11 +264,11 @@ export default async function HomePage() {
           </section>
         )}
 
-        {/* ── Featured countries ── */}
-        <section className="max-w-5xl mx-auto px-4 pb-12">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">Popular travel destinations</h2>
-          <p className="text-sm text-gray-500 mb-5">
-            Click any country to see its public holiday calendar, travel tips, local prices, and essential info.
+        {/* ── Popular destinations ── */}
+        <section className="max-w-5xl mx-auto px-4 pb-10">
+          <h2 className="text-lg font-semibold text-gray-900 mb-1">Popular destinations</h2>
+          <p className="text-sm text-gray-400 mb-4">
+            Click any country to see its holiday calendar, prices, plug types & travel tips.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {featuredCountries.map((c) => (
@@ -254,13 +285,10 @@ export default async function HomePage() {
                   className="rounded-sm mb-2"
                   style={{ width: '48px', height: '36px', objectFit: 'cover' }}
                 />
-                <div className="text-base font-semibold text-gray-900 group-hover:text-gray-700">
+                <div className="text-sm font-semibold text-gray-900 group-hover:text-gray-700 mb-1">
                   {c.name}
                 </div>
-                {c.name_local && c.name_local !== c.name && (
-                  <div className="text-xs text-gray-400 mt-0.5">{c.name_local}</div>
-                )}
-                <div className="flex flex-wrap gap-1 mt-2">
+                <div className="flex flex-wrap gap-1">
                   {c.currency_code && (
                     <span className="text-[10px] text-gray-500 bg-gray-50 border border-gray-100 rounded px-1.5 py-0.5">
                       {c.currency_code}
@@ -277,51 +305,18 @@ export default async function HomePage() {
                     </span>
                   )}
                 </div>
-                {c.description && (
-                  <p className="text-xs text-gray-500 mt-2 leading-snug line-clamp-2">{c.description}</p>
-                )}
               </Link>
             ))}
           </div>
         </section>
 
-        {/* ── What you get per country ── */}
-        <section className="bg-white border-y border-gray-200 py-12 mb-12">
-          <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-2 text-center">
-              What you get for every country
-            </h2>
-            <p className="text-sm text-gray-500 text-center mb-8 max-w-xl mx-auto">
-              Every country page on HolidayTrip is a complete pre-trip checklist — not just a list of dates.
-            </p>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-              {[
-                { icon: '🗓', label: 'Holiday calendar', desc: '2025–2027 dates with official names' },
-                { icon: '💡', label: 'Travel tips', desc: 'What to expect, what to avoid' },
-                { icon: '🏪', label: 'Opening hours', desc: 'Are shops and restaurants open?' },
-                { icon: '🚇', label: 'Transport costs', desc: 'Subway, bus, and taxi base fares' },
-                { icon: '💱', label: 'Exchange rate', desc: 'Live USD rate updated daily' },
-                { icon: '🔌', label: 'Plug & voltage', desc: 'Visual plug type guide' },
-                { icon: '🛒', label: 'Local prices', desc: 'Water, Coke, Big Mac, beer prices' },
-                { icon: '📱', label: 'SIM card info', desc: '7-day tourist SIM cost estimate' },
-              ].map((item) => (
-                <div key={item.label} className="flex gap-3 items-start">
-                  <span className="text-xl flex-shrink-0">{item.icon}</span>
-                  <div>
-                    <div className="text-sm font-medium text-gray-900">{item.label}</div>
-                    <div className="text-xs text-gray-500 mt-0.5 leading-snug">{item.desc}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* ── All countries (with search) ── */}
-        <CountrySearch
-          countries={[...featuredCountries, ...otherCountries]}
-          totalCount={countries.length}
-        />
+        <div id="all-countries">
+          <CountrySearch
+            countries={[...featuredCountries, ...otherCountries]}
+            totalCount={countries.length}
+          />
+        </div>
 
         {/* ── About / SEO text ── */}
         <section className="bg-white border-t border-gray-200 py-12">
