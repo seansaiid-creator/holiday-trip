@@ -116,7 +116,7 @@ const orgJsonLd = {
   description: 'Global public holiday and travel information service covering 50+ countries.',
 };
 
-const FEATURED = ['JP', 'KR', 'TH', 'US', 'FR', 'GB', 'AU', 'VN', 'SG', 'IT', 'DE', 'ES'];
+const FEATURED = ['KR', 'US', 'TH', 'JP', 'FR', 'GB', 'AU', 'VN', 'SG', 'IT', 'DE', 'ES'];
 
 export default async function HomePage() {
   const [countries, upcoming] = await Promise.all([getCountries(), getUpcomingHolidays()]);
@@ -155,7 +155,7 @@ export default async function HomePage() {
           </div>
           {/* Quick links */}
           <div className="flex flex-wrap justify-center gap-2">
-            {['JP', 'KR', 'TH', 'US', 'FR', 'GB'].map((code) => {
+            {['KR', 'TH', 'US', 'JP', 'FR', 'GB'].map((code) => {
               const c = countries.find((x) => x.code === code);
               if (!c) return null;
               return (
