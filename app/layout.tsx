@@ -53,7 +53,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </div>
         </footer>
       </body>
-      <GoogleAnalytics gaId="G-78KBHOBB35" />
+      {process.env.NEXT_PUBLIC_GA_ID && (
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+      )}
     </html>
   );
 }
