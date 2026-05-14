@@ -18,7 +18,7 @@ const supabase = createClient(
   process.env.SUPABASE_SERVICE_ROLE_KEY
 );
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash-latest' });
+const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
 const SYSTEM_INSTRUCTION = `You are a travel information writer for HolidayTrip. Your audience is INTERNATIONAL TRAVELERS visiting Australia. Write in clear, practical English.`;
 
