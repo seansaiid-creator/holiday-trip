@@ -151,7 +151,7 @@ async function main() {
     practical_tips: parsed.practical_tips || null,
     source_urls: parsed.source_urls.length > 0 ? parsed.source_urls : null,
     language: 'en',
-    ai_model: 'gemini-1.5-flash',
+    ai_model: 'gemini-2.5-flash-lite',
     moderation_status: 'approved',
   }));
 

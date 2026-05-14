@@ -7,7 +7,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { createClient } = require('@supabase/supabase-js');
 
 // ========== 설정 ==========
-const AI_MODEL = 'gemini-1.5-flash';
+const AI_MODEL = 'gemini-2.5-flash-lite';
 const LANGUAGE = 'en';
 const TEST_HOLIDAY_ID = 167; // 2026-09-25 추석 당일
 

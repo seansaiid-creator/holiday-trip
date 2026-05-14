@@ -11,7 +11,7 @@
 
 require('dotenv').config({ path: '.env.local' });
 
-const { createClient } = require('@supabase/sgemini-1.5-flashupabase-js');
+const { createClient } = require('@supabase/sgemini-2.5-flash-liteupabase-js');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -25,7 +25,7 @@ if (!SUPABASE_URL || !SUPABASE_KEY || !GEMINI_KEY) {
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 const genAI    = new GoogleGenerativeAI(GEMINI_KEY);
-const model    = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+const model    = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
 const TARGETS_BY_COUNTRY = {
   AR: [
@@ -552,7 +552,7 @@ async function generateTipForTarget(countryRow, target, options) {
       practical_tips: parsed.practical_tips || null,
       source_urls: parsed.source_urls.length > 0 ? parsed.source_urls : null,
       language: 'en',
-      ai_model: 'gemini-1.5-flash',
+      ai_model: 'gemini-2.5-flash-lite',
       moderation_status: 'approved',
     };
   });

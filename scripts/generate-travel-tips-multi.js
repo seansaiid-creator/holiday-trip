@@ -28,7 +28,7 @@ if (!SUPABASE_URL || !SUPABASE_KEY || !GEMINI_KEY) {
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 const genAI    = new GoogleGenerativeAI(GEMINI_KEY);
-const model    = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+const model    = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-lite' });
 
 // ---------- HOLIDAY TARGETS PER COUNTRY ----------
 const TARGETS_BY_COUNTRY = {
@@ -307,7 +307,7 @@ async function generateTipForTarget(countryRow, target, options) {
     practical_tips:    parsed.practical_tips || null,
     source_urls:       parsed.source_urls.length > 0 ? parsed.source_urls : null,
     language:          'en',
-    ai_model:          'gemini-1.5-flash',
+    ai_model:          'gemini-2.5-flash-lite',
     moderation_status: 'pending',
   }));
 
