@@ -31,6 +31,7 @@ type Holiday = {
   verification_note: string | null;
   manual_locked: boolean | null;
   verified_at: string | null;
+  region: string | null;
 };
 
 type TravelTip = {
@@ -692,6 +693,12 @@ export default function CountryHolidayView({ country, holidays, travelTips, meta
                             <div className="text-sm font-semibold text-gray-900" style={{ wordBreak: 'break-word', overflowWrap: 'anywhere' }}>{fullName}</div>
                             {h.name_local && (
                               <div className="text-[13px] text-gray-600 mt-0.5" style={{ wordBreak: 'break-word', overflowWrap: 'anywhere' }}>{h.name_local}</div>
+                            )}
+                            {h.region && (
+                              <div className="text-[10px] text-gray-400 mt-0.5 flex items-center gap-1">
+                                <span>📍</span>
+                                <span>{h.region.split(',').join(' · ')}</span>
+                              </div>
                             )}
                           </div>
                           <div className="flex-shrink-0 flex flex-col items-end gap-1 pt-0.5">
