@@ -56,7 +56,10 @@ function parseOutput(raw) {
     jsonText = text.slice(0, sourcesMatch.index).trim();
   }
   jsonText = jsonText.replace(/,(\s*[}\]])/g, '$1');
-  const obj = JSON.parse(jsonText);
+  // JSON 블록만 추출 (중괄호 기준)
+  const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) throw new Error('No JSON object found in response');
+  const obj = JSON.parse(jsonMatch[0]);
   return {
     what_is_it: (obj.what_is_it || '').trim(),
     traveler_impact: (obj.traveler_impact || '').trim(),
