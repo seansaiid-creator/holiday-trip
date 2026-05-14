@@ -42,6 +42,7 @@ type Holiday = {
   verification_note: string | null;
   manual_locked: boolean | null;
   verified_at: string | null;
+  region: string | null;
 };
 
 type TravelTip = {
