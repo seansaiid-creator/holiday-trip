@@ -11,7 +11,7 @@
 
 require('dotenv').config({ path: '.env.local' });
 
-const { createClient } = require('@supabase/sgemini-2.5-flash-liteupabase-js');
+const { createClient } = require('@supabase/supabase-js');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -421,6 +421,23 @@ const TARGETS_BY_COUNTRY = {
     { key: 'tr_victory',     match_name: 'Victory Day' },
     { key: 'tr_republic',    match_name: 'Republic Day' },
     { key: 'tr_democracy',   match_name: 'Democracy and National Unity Day' },
+  ],
+  MY: [
+    { key: 'my_newyear',      match_name: "New Year's Day" },
+    { key: 'my_chineseny',    match_name: 'Chinese New Year' },
+    { key: 'my_chineseny2',   match_name: 'Chinese New Year (Second Day)' },
+    { key: 'my_eidfitr',      match_name: 'Eid al-Fitr' },
+    { key: 'my_eidfitr2',     match_name: 'Eid al-Fitr (Second Day)' },
+    { key: 'my_labour',       match_name: 'Labour Day' },
+    { key: 'my_wesak',        match_name: 'Wesak Day' },
+    { key: 'my_agong',        match_name: "Yang di-Pertuan Agong's Birthday" },
+    { key: 'my_eidadha',      match_name: 'Eid al-Adha' },
+    { key: 'my_islamicny',    match_name: 'Islamic New Year' },
+    { key: 'my_national',     match_name: 'National Day' },
+    { key: 'my_prophet',      match_name: "Prophet Muhammad's Birthday" },
+    { key: 'my_malaysia',     match_name: 'Malaysia Day' },
+    { key: 'my_deepavali',    match_name: 'Deepavali' },
+    { key: 'my_christmas',    match_name: 'Christmas Day' },
   ],
   ZA: [
     { key: 'za_newyear',     match_name: "New Year's Day" },
